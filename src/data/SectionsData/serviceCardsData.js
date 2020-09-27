@@ -22,7 +22,7 @@ export const serviceCardsData = [
   },
   {
     cardID: "card_04",
-    cardImg: "Appointment-Setting-08@4x.jpg",
+    cardImg: "Appointment-.png",
     cardHeading: "Digital Lead services",
     cardDescription:
       "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
