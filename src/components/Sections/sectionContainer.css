@@ -1,0 +1,50 @@
+.section {
+  display: flex;
+  padding: 2rem 5rem;
+  height: 100%;
+  min-height: 50vh;
+  justify-content: space-between;
+}
+.container {
+}
+.home-sec_one {
+  background: url("../../images/slider-bg-main-2.png");
+  background-size: cover;
+}
+
+.home-sec_two {
+  background: url("../../images/secTwo.png");
+  background-size: cover;
+}
+
+.content-left {
+  max-width: 38vw;
+}
+
+.content-right {
+  max-width: 38vw;
+}
+
+hr {
+  width: 25%;
+  margin: 0;
+  border-top: 2px solid #0e38aa;
+}
+.small_image {
+  height: 8vw;
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .content-left {
+    max-width: 100%;
+  }
+  .section {
+    padding: 2rem 2rem;
+    width: 80vw;
+  }
+  .small_image {
+    height: 20vw;
+    margin: auto 1rem;
+  }
+}

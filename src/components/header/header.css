@@ -1,0 +1,117 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  height: 15vh;
+  box-shadow: 1px 1px 10px 1px #e7e7e7;
+}
+
+.toolbar__navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 4rem;
+}
+.toolbar__logo {
+  margin-left: 1rem;
+  height: 7vw;
+}
+.toolbar__logo img {
+  height: 100%;
+}
+.spacer {
+  flex: 1;
+}
+.toolbar_navgation-items {
+}
+
+.toolbar_navgation-items-up ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+  margin: 1em 0;
+  font-size: 1em;
+  text-shadow: 0px 0px #0e2d92;
+}
+
+.toolbar_navgation-items-up li {
+  padding: 0 1rem;
+}
+.toolbar_navgation-items-up input {
+  width: 15rem;
+  transform: translateY(-0.35em);
+  border: none;
+  border-bottom: 1px solid #000000;
+  height: 3.5vh;
+  color: #000000;
+}
+
+.toolbar_navgation-items-up input:focus-within {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.toolbar_navgation-items-up a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.toolbar_navgation-items-up a:hover,
+.toolbar_navgation-items-up a:active {
+  color: tomato;
+}
+.toolbar_navgation-items-bottom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+  margin: 0em 0em 1em 0em;
+  text-align: right;
+  font-size: 13px;
+  text-shadow: 0px 0px #0e2d92;
+}
+
+.toolbar_navgation-items-bottom li {
+  padding: 0 1rem;
+}
+.toolbar_navgation-items-bottom imput {
+  width: 15rem;
+  height: 2em;
+  transform: translateY(-0.5em);
+}
+
+.toolbar_navgation-items-bottom a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.toolbar_navgation-items-bottom a:hover,
+.toolbar_navgation-items-bottom a:active {
+  color: tomato;
+}
+
+@media (max-width: 768px) {
+  .toolbar_navgation-items-up {
+    display: none;
+  }
+  .toolbar_navgation-items-bottom {
+    display: none;
+  }
+  .toolbar__navigation {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 786px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+  .toolbar__logo {
+    margin-left: 0px;
+  }
+}

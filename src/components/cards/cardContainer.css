@@ -1,0 +1,48 @@
+.findMoreCard {
+  border: none;
+  box-shadow: 0px 0px 4px 0px #808080;
+  padding: 1rem;
+  width: 20vw;
+  margin: 1rem;
+  margin-bottom: 0;
+  background: #ffffff;
+}
+.findMoreCard__button {
+  margin: 0 1rem;
+  box-shadow: 0px 0px 4px 0px #808080;
+  background: #ffffff;
+}
+.card-heading {
+}
+.card__image-div {
+  text-align: center;
+}
+.card__image-div img {
+  height: 100%;
+  width: 6rem;
+}
+.card__button {
+  width: 100%;
+  background: none;
+  border: none;
+  border-top: 1px solid #808080;
+  padding: 1rem;
+}
+.card__button:focus {
+  border: none;
+  border-top: 1px solid #808080;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    margin: 1rem 0px;
+  }
+  .findMoreCard {
+    width: 80vw;
+    margin: 0rem auto;
+  }
+  .findMoreCard__button {
+    margin: auto;
+    width: 100%;
+  }
+}
