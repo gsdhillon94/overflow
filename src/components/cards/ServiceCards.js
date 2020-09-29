@@ -1,6 +1,5 @@
 import React from "react";
 import "./serviceCards.css";
-import { getByTitle } from "@testing-library/react";
 
 export default function ServiceCards(props) {
   const imgSrc = require("../../images/" + props.data.cardImg);

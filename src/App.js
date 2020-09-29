@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
@@ -9,11 +9,14 @@ import Footer from "./components/footer/Footer";
 import SectionContainer from "./components/Sections/SectionContainer";
 import { sectionsData } from "./data/SectionsData/sectionsData";
 import Home from "./Pages/Home";
+import GetStarted from "./Pages/GetStarted";
+import { questionsData } from "./data/Questions/questionsData";
 
 class App extends React.Component {
   state = {
     sideDrawerOpen: false,
     sectionsData: sectionsData,
+    questions: questionsData,
   };
 
   drawertoggleClickHandler = () => {
@@ -32,10 +35,6 @@ class App extends React.Component {
       backDrop = <Backdrop click={this.backDropClickHandler} />;
     }
 
-    const sections = this.state.sectionsData.map((item) => (
-      <SectionContainer key={item.id} sectionsData={item} />
-    ));
-
     return (
       <Router>
         <div style={{ height: "100%" }}>
@@ -49,8 +48,14 @@ class App extends React.Component {
           />
           {backDrop}
           <main>
-            {/* {sections} */}
-            <Home sectionsData={this.state.sectionsData}></Home>
+            <Switch>
+              <Route exact path="/overflow">
+                <Home sectionsData={this.state.sectionsData}></Home>
+              </Route>
+              <Route exact path="/get-started">
+                <GetStarted />
+              </Route>
+            </Switch>
           </main>
           <Footer />
         </div>

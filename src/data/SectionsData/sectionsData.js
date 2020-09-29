@@ -48,6 +48,7 @@ export const sectionsData = [
         classes: ["btn", "primary-blue"],
         tag: "button",
         text: " Get Started",
+        route_to: "/get-started",
       },
       {
         id: "8",

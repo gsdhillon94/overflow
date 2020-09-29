@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import "./sectionContainer.css";
 import "../../data/websiteConsts";
 import { TAGS } from "../../data/websiteConsts";
 import AccordionCard from "../cards/AccordionCard";
+import { Link } from "react-router-dom";
 
 function SectionContainer(props) {
   const data = props.sectionsData.data;
   const sectionClasses = props.sectionsData.sectionClasses.join(" ");
-  const imageSrc = "../../images/";
 
   console.log();
   // const sectionsData = props.sectionsData.data
@@ -24,7 +24,7 @@ function SectionContainer(props) {
       case TAGS.BUTTON:
         return (
           <button key={item.id} className={item.classes.join(" ")}>
-            {item.text}
+            <Link to={item.route_to}>{item.text}</Link>
           </button>
         );
       case TAGS.LIST:
@@ -50,6 +50,8 @@ function SectionContainer(props) {
       case TAGS.ACCORDION: {
         return <AccordionCard data={item} />;
       }
+      default:
+        return null;
     }
   });
 

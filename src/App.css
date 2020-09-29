@@ -15,6 +15,10 @@ main {
   margin: 0px 1rem;
   font-weight: 600;
 }
+.primary-blue a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .primary-blue {
   background: #0e38aa;
   color: #ffffff;
@@ -23,6 +27,10 @@ main {
   border-radius: 50px;
 }
 
+.primary-white a {
+  color: #0e38aa;
+  text-decoration: none;
+}
 .primary-white {
   background: #ffffff;
   color: #0e38aa;
@@ -66,6 +74,7 @@ main {
     height: 100%;
     flex-wrap: wrap;
   }
+
   .home__section-two {
     padding: 1rem 2rem;
   }

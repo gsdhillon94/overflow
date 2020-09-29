@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer__content-wrapper">
         <div className="fd-logo">
           <div className="fd-logo__container">
-            <img src={logo} />
+            <img src={logo} alt={logo} />
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

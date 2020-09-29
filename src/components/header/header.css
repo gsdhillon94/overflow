@@ -96,6 +96,9 @@
 }
 
 @media (max-width: 768px) {
+  .toolbar {
+    height: 10vh;
+  }
   .toolbar_navgation-items-up {
     display: none;
   }
@@ -104,6 +107,9 @@
   }
   .toolbar__navigation {
     padding: 0 1rem;
+  }
+  .toolbar__logo {
+    height: 9vh;
   }
 }
 

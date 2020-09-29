@@ -2,12 +2,11 @@ import React from "react";
 import "./cardContainer.css";
 
 export default function CardContainer() {
-  const imgSrc = require("../../images/" + "girl.jpg");
   return (
     <div className="card-container">
       <div className="findMoreCard">
         <div className="card__image-div">
-          <img src={imgSrc} />
+          <img src={require("../../images/" + "girl.jpg")} />
         </div>
         <h4 className="card-heading">What is Lead Generation?</h4>
         <p>

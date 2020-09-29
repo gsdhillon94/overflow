@@ -1,0 +1,23 @@
+.label-option {
+  margin: 1rem 1rem;
+  box-shadow: 1px 1px 4px 0px #808080;
+  padding: 1rem 2rem;
+}
+.label-option input {
+  margin: 0.5rem;
+}
+.ques-btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  background: blue;
+  border: none;
+  box-shadow: 1px 1px 5px #808080;
+}
+.quiz-form {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+.no-flex {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.buttons-container {
+  margin: 3rem 2rem;
+  justify-content: flex-end;
+}
+
+.buttons-container button {
+  background: #0e38aa;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  box-shadow: 1px 1px 4px #0e38aa;
+}
+
+.buttons-container button:disabled {
+  background-color: #cbcbcc;
+  box-shadow: none;
+}
