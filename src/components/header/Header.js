@@ -33,6 +33,11 @@ function Header(props) {
               <li>
                 <button className="button-contact"> Contact</button>
               </li>
+              <li>
+                <Link to="/login">
+                  <i className="fas fa-sign-in-alt login-icon"></i>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="toolbar_navgation-items-bottom">

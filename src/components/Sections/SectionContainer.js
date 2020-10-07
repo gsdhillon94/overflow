@@ -9,7 +9,6 @@ function SectionContainer(props) {
   const data = props.sectionsData.data;
   const sectionClasses = props.sectionsData.sectionClasses.join(" ");
 
-  console.log();
   // const sectionsData = props.sectionsData.data
   const sectiondata = data.map((item) => {
     switch (item.tag) {
@@ -18,7 +17,11 @@ function SectionContainer(props) {
       case TAGS.HR:
         return <hr key={item.id} />;
       case TAGS.H2:
-        return <h2 key={item.id}>{item.text}</h2>;
+        return (
+          <h2 className={item.class !== null ? item.class : ""} key={item.id}>
+            {item.text}
+          </h2>
+        );
       case TAGS.BR:
         return <br key={item.id} />;
       case TAGS.BUTTON:
@@ -29,7 +32,7 @@ function SectionContainer(props) {
         );
       case TAGS.LIST:
         return (
-          <ul key={item.id}>
+          <ul key={item.id} className={item.classes.join(" ")}>
             {item.list.map((item) => (
               <li>{item}</li>
             ))}
@@ -50,10 +53,68 @@ function SectionContainer(props) {
       case TAGS.ACCORDION: {
         return <AccordionCard data={item} />;
       }
+      case TAGS.INPUT: {
+        return (
+          <input
+            key={item.inputId}
+            type={item.inputType}
+            placeholder={item.inputPlaceholder}
+            id={item.inputId}
+            pattern={item.pattern !== null ? item.pattern : null}
+          />
+        );
+      }
+
+      case TAGS.FORM: {
+        const inputs = item.inputs;
+        // console.log(inputs);
+        return (
+          <form onSubmit={(e) => onSubmit(e)} className={item.class}>
+            {inputs &&
+              inputs.map((item) => {
+                console.log(item);
+                if (item.contentType === TAGS.INPUT) {
+                  return (
+                    <>
+                      <label htmlFor={item.inputId} className="input-label">
+                        {item.inputPlaceholder}
+                      </label>
+                      <input
+                        className={item.classes.join(" ")}
+                        key={item.inputId}
+                        type={item.inputType}
+                        id={item.inputId}
+                        pattern={item.pattern !== null ? item.pattern : null}
+                      />
+                    </>
+                  );
+                }
+                if (item.contentType === TAGS.BUTTON) {
+                  return (
+                    <>
+                      <button className={item.classes.join(" ")} type="submit">
+                        {item.text}
+                      </button>
+                    </>
+                  );
+                }
+              })}
+          </form>
+        );
+      }
       default:
         return null;
     }
   });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    console.log("check 1");
+  };
+
+  const requestFreeQuote = (event) => {
+    console.log(event.target);
+  };
 
   return (
     <div className={sectionClasses}>

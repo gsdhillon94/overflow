@@ -11,7 +11,7 @@ export default class Home extends Component {
   //     <SectionContainer key={item.id} sectionsData={item} />
   //   ));
   constructor(props) {
-    super(props);
+    super();
     this.state = {
       props: props,
       serviceCardsData: serviceCardsData,

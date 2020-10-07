@@ -94,6 +94,11 @@
 .toolbar_navgation-items-bottom a:active {
   color: tomato;
 }
+.login-icon {
+  color: #080896;
+  font-size: 0.85rem;
+  margin: 0.35rem;
+}
 
 @media (max-width: 768px) {
   .toolbar {

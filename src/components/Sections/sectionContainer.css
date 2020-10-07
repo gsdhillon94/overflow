@@ -47,4 +47,7 @@ hr {
     height: 20vw;
     margin: auto 1rem;
   }
+  .content-right {
+    max-width: 100%;
+  }
 }

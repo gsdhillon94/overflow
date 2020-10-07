@@ -11,6 +11,11 @@ import { sectionsData } from "./data/SectionsData/sectionsData";
 import Home from "./Pages/Home";
 import GetStarted from "./Pages/GetStarted";
 import { questionsData } from "./data/Questions/questionsData";
+import Blogs from "./Pages/Blogs";
+import AddBlogs from "./Pages/AddBlogs";
+import Login from "./Pages/Login";
+import { Provider } from "react-redux";
+import store from "./store";
 
 class App extends React.Component {
   state = {
@@ -36,30 +41,41 @@ class App extends React.Component {
     }
 
     return (
-      <Router>
-        <div style={{ height: "100%" }}>
-          <Header
-            drawerClickHandeler={this.drawertoggleClickHandler}
-            headerData={headerData}
-          ></Header>
-          <SideDrawer
-            show={this.state.sideDrawerOpen}
-            headerData={headerData}
-          />
-          {backDrop}
-          <main>
-            <Switch>
-              <Route exact path="/overflow">
-                <Home sectionsData={this.state.sectionsData}></Home>
-              </Route>
-              <Route exact path="/get-started">
-                <GetStarted />
-              </Route>
-            </Switch>
-          </main>
-          <Footer />
-        </div>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <div style={{ height: "100%" }}>
+            <Header
+              drawerClickHandeler={this.drawertoggleClickHandler}
+              headerData={headerData}
+            ></Header>
+            <SideDrawer
+              show={this.state.sideDrawerOpen}
+              headerData={headerData}
+            />
+            {backDrop}
+            <main>
+              <Switch>
+                <Route exact path="/overflow">
+                  <Home sectionsData={this.state.sectionsData}></Home>
+                </Route>
+                <Route exact path="/get-started">
+                  <GetStarted />
+                </Route>
+                <Route path="/blogs">
+                  <Blogs></Blogs>
+                </Route>
+                <Route path="/addblogs">
+                  <AddBlogs></AddBlogs>
+                </Route>
+                <Route path="/login">
+                  <Login />
+                </Route>
+              </Switch>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </Provider>
     );
   }
 }

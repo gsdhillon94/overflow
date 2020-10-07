@@ -7,4 +7,6 @@ export const TAGS = {
   LIST: "ul",
   IMG: "img",
   ACCORDION: "accordion",
+  INPUT: "input",
+  FORM: "form",
 };
