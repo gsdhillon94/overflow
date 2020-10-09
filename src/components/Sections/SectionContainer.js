@@ -75,10 +75,11 @@ function SectionContainer(props) {
                 console.log(item);
                 if (item.contentType === TAGS.INPUT) {
                   return (
-                    <>
+                    <div>
                       <label htmlFor={item.inputId} className="input-label">
                         {item.inputPlaceholder}
                       </label>
+                      <br />
                       <input
                         className={item.classes.join(" ")}
                         key={item.inputId}
@@ -86,7 +87,7 @@ function SectionContainer(props) {
                         id={item.inputId}
                         pattern={item.pattern !== null ? item.pattern : null}
                       />
-                    </>
+                    </div>
                   );
                 }
                 if (item.contentType === TAGS.BUTTON) {

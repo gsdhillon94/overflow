@@ -56,7 +56,11 @@ function Login(props) {
             />
           </div>
           <div className="input-container">
-            <button type="submit" className="btn" disabled={btnDisabled}>
+            <button
+              type="submit"
+              className="btn primary-blue"
+              disabled={btnDisabled}
+            >
               Login
             </button>
           </div>

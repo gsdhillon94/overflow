@@ -26,7 +26,7 @@ main {
 .primary-blue {
   background: #0e38aa;
   color: #ffffff;
-  padding: 1em 2em;
+  padding: 1em 4em;
   border: 1px solid #0b6ae8;
   border-radius: 50px;
 }
@@ -38,7 +38,7 @@ main {
 .primary-white {
   background: #ffffff;
   color: #0e38aa;
-  padding: 1em 2em;
+  padding: 1em 4em;
   border: 1px solid #0e38aa;
   border-radius: 50px;
 }
@@ -84,14 +84,7 @@ main {
 .input-label {
   font-size: 0.72rem;
 }
-.btn {
-  background-color: #0e38aa;
-  border: 1px solid #0b6ae8;
-  font-size: 12px;
-  color: #ffffff;
-  padding: 0.5rem 2rem;
-  margin: 0px;
-}
+
 .blogs-card-container {
   height: 100%;
   width: 18vw;
@@ -135,6 +128,33 @@ main {
 .loading {
   justify-content: center;
   display: flex;
+}
+.section-heading {
+}
+.blog-head-image {
+}
+.blog-head-image img {
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+.no-flex {
+  display: block;
+}
+.hidden {
+  visibility: hidden;
+}
+.button-container {
+  margin: 1rem 0rem;
+}
+.nopad-t {
+  padding-top: 0 !important;
+}
+.nopad-b {
+  padding-bottom: 0 !important;
+}
+.no-min-height {
+  min-height: 0 !important;
 }
 @media (max-width: 768px) {
   .home__section-two {

@@ -12,7 +12,9 @@ function Header(props) {
           <DrawerToggleButton click={props.drawerClickHandeler} />
         </div>
         <div className="toolbar__logo">
-          <img src={logo} alt={logo} />
+          <Link to="/overflow">
+            <img src={logo} alt={logo} />
+          </Link>
         </div>
         <div className="spacer" />
         <div className="toolbar_navgation-items">

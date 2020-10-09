@@ -16,6 +16,7 @@ import AddBlogs from "./Pages/AddBlogs";
 import Login from "./Pages/Login";
 import { Provider } from "react-redux";
 import store from "./store";
+import AddBlog from "./Pages/AddBlog";
 
 class App extends React.Component {
   state = {
@@ -64,7 +65,10 @@ class App extends React.Component {
                 <Route path="/blogs">
                   <Blogs></Blogs>
                 </Route>
-                <Route path="/addblogs">
+                <Route path="/addblog">
+                  <AddBlog></AddBlog>
+                </Route>
+                <Route path="/addblog-test">
                   <AddBlogs></AddBlogs>
                 </Route>
                 <Route path="/login">

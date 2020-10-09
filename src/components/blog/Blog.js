@@ -7,7 +7,7 @@ export default function Blog(props) {
       onClick={(e) => props.blogClick(e)}
       id="blog"
     >
-      <button className="btn round-border blog-read">Read</button>
+      <button className="btn round-border blog-read primary-blue">Read</button>
       <img src={require("../../images/Turbocharge-1-1.jpg")} />
       <h4>Blog Title</h4>
       <p className="author-name">Written by</p>
