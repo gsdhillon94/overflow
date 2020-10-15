@@ -7,8 +7,14 @@ export default function TwoPartSection(props) {
 
   return (
     <div className="section">
-      <SectionContainer key={contentLeft.id} sectionsData={contentLeft} />
-      <SectionContainer key={contentRight.id} sectionsData={contentRight} />
+      <SectionContainer
+        key={contentLeft.id + "one"}
+        sectionsData={contentLeft}
+      />
+      <SectionContainer
+        key={contentRight.id + "two"}
+        sectionsData={contentRight}
+      />
     </div>
   );
 }

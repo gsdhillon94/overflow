@@ -1,33 +1,85 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Link, Route } from "react-router-dom";
+import Blog from "../components/blog/Blog";
 import BlogList from "../components/blog/BlogList";
 import SectionContainer from "../components/Sections/SectionContainer";
 import TwoPartSection from "../components/Sections/TwoPartSection";
 import { blogsData } from "../data/SectionsData/blogsData";
+import { ACTIONS } from "../data/websiteConsts";
+import { db } from "../firebase/firebaseConfig";
+import { getBlogs } from "../store/reducers/blogReducer";
 
-export default class Blogs extends Component {
+class Blogs extends Component {
   constructor() {
     super();
     this.state = {
       blogsSection: blogsData,
+      data: [],
     };
   }
-  handleFormSubmit = (e) => {
-    console.log("check 2");
+
+  componentDidMount() {
+    this.getBlogsData();
+  }
+
+  getBlogsData = () => {
+    this.props.sendRequest();
+    let blogData = [];
+    let that = this;
+    db.collection("blogs")
+      .get()
+      .then(function (querySnapshot) {
+        querySnapshot.forEach(function (doc) {
+          blogData.push(doc.data());
+          that.setState({
+            ...that.state,
+            data: [...blogData],
+          });
+        });
+      });
+
+    this.props.blogFetchSuccess(this.state.data);
   };
-  handleBlogClick = (e) => {
-    console.log(e.target.id, "blog");
-  };
+
   render() {
-    const id = 0;
-    const data = "";
     return (
       <div>
         <TwoPartSection
           content={this.state.blogsSection}
           formSubmit={this.handleFormSubmit}
         ></TwoPartSection>
-        <BlogList blogClick={(e) => this.handleBlogClick(e)} />
+        {this.props.user !== "" ? (
+          <div className="admin buttons">
+            <Link to="/addblog">
+              <button className="btn">Add Blog</button>
+            </Link>
+          </div>
+        ) : null}
+        {this.state.data.length < 1 ? (
+          <div style={{ "text-align": "center" }}>
+            <img src={require("../images/loading.gif")} />
+          </div>
+        ) : (
+          <BlogList data={this.state.data} />
+        )}
       </div>
     );
   }
 }
+const mapStateToProps = (state) => {
+  return {
+    loading: state.blog.loading,
+    data: state.blog.data,
+    user: state.login.user,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    // getBlogs: () => dispatch(getBlogs()),
+    sendRequest: () => dispatch({ type: ACTIONS.SEND }),
+    blogFetchSuccess: (data) =>
+      dispatch({ type: ACTIONS.GET_BLOG_SUCCESS, payload: data }),
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(Blogs);

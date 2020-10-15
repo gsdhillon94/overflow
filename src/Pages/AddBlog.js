@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
-import { addBlog, getBlogs, saveImage } from "../store/reducers/blogReducer";
+import { addBlog, getBlogs, sendImage } from "../store/reducers/blogReducer";
+import { BLOG_CATEGORIES } from "../data/websiteConsts";
 import "./addblog.css";
 function AddBlog(props) {
   const [addNewDataDisabled, setAddNewDataDisabled] = useState(false);
@@ -8,11 +9,14 @@ function AddBlog(props) {
   const [counter, setCounter] = useState(0);
   const [blogImg, setBlogImg] = useState({
     image: require("../images/image.png"),
+    name: "",
   });
 
   const [blogData, setBlogData] = useState({
     bTitle: "",
     bContent: [],
+    bCat: "",
+    bImg: require("../images/image.png"),
   });
 
   const selectImage = () => {
@@ -39,7 +43,11 @@ function AddBlog(props) {
         }
       } else {
         if (item.key === e.target.id) {
-          item.value = URL.createObjectURL(e.target.files[0]);
+          // item.value = URL.createObjectURL(e.target.files[0]);
+
+          fileToDataUri(e.target.files[0]).then((dataUri) => {
+            item.value = dataUri;
+          });
         }
       }
     });
@@ -60,14 +68,27 @@ function AddBlog(props) {
     });
 
   const handleImageChange = (e) => {
+    var name;
+    var file;
+    var type;
+
     if (e.target.files[0]) {
-      fileToDataUri(e.target.files[0]).then((dataUri) => {
-        props.saveImage(dataUri);
-        setBlogImg({
-          image: dataUri,
+      file = e.target.files[0];
+      name = e.target.files[0].name;
+      type = e.target.files[0].type;
+      console.log(file);
+      fileToDataUri(file).then((dataUri) => {
+        setBlogData({
+          ...blogData,
+          bImg: dataUri,
         });
       });
+      // saveImage(blogImg, name);
     }
+  };
+
+  const saveImage = (file, name) => {
+    props.sendImage(file, name);
   };
 
   const addBlogData = (e) => {
@@ -97,15 +118,28 @@ function AddBlog(props) {
     setAddNewDataDisabled(false);
   };
 
-  useEffect(() => {
-    console.log(blogData, "blog Data");
-  }, [blogData]);
-  return (
+  const submitBlog = () => {
+    props.addBlog(blogData);
+  };
+
+  const handleCategoryChange = (e) => {
+    let value = e.target.value;
+    setBlogData({
+      ...blogData,
+      bCat: value,
+    });
+  };
+  // useEffect(() => {}, [blogData]);
+  return props.loading ? (
+    <div className="loading">
+      <img src={require("../images/loading.gif")} />
+    </div>
+  ) : (
     <div className="section no-flex">
       <h2>Add a Blog</h2>
 
       <div className="blog-head-image">
-        <img src={blogImg.image} />
+        <img src={blogData.bImg} />
       </div>
 
       <div className="button-container">
@@ -129,9 +163,23 @@ function AddBlog(props) {
           name="bTitle"
           onChange={handleChange}
         />
+
+        <select
+          className="no-border blog-select"
+          value={blogData.bCat}
+          onChange={handleCategoryChange}
+        >
+          <option value="">Select Blog Category</option>
+          {BLOG_CATEGORIES.map((item) => {
+            return (
+              <option key={item} value={item}>
+                {item}
+              </option>
+            );
+          })}
+        </select>
       </div>
       {blogData.bContent.map((item, index) => {
-        console.log(item);
         if (item.inputType === "heading") {
           return (
             <div key={item.key}>
@@ -217,23 +265,37 @@ function AddBlog(props) {
         </button>
       </div>
       <div>
-        <button className="btn post">Post Blog</button>
+        <button
+          className="btn post"
+          onClick={submitBlog}
+          disabled={blogData.bTitle == "" && blogData.bCat == "" ? true : false}
+        >
+          Post Blog
+        </button>
+        {props.message != "" ? (
+          <p className="success-message">{props.message}</p>
+        ) : (
+          ""
+        )}
       </div>
+      <button onClick={props.getBlogs}>Get Blogs</button>
     </div>
   );
 }
 
 const mapStateToProps = (state) => {
   return {
-    numberOfBlogs: state,
+    loading: state.blog.loading,
+    message: state.blog.message,
+    data: state.blog.data,
   };
 };
 const mapDispatchToProps = (dispatch) => {
   return {
     // addBlog: (state) => dispatch({ type: "ADD_BLOG", payload: state }),
-    addBlog: (state) => dispatch(addBlog()),
+    addBlog: (data) => dispatch(addBlog(data)),
+    sendImage: (image, name) => dispatch(sendImage(image, name)),
     getBlogs: () => dispatch(getBlogs()),
-    saveImage: (img) => dispatch(saveImage(img)),
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(AddBlog);

@@ -10,31 +10,34 @@ function SectionContainer(props) {
   const sectionClasses = props.sectionsData.sectionClasses.join(" ");
 
   // const sectionsData = props.sectionsData.data
-  const sectiondata = data.map((item) => {
+  const sectiondata = data.map((item, index) => {
     switch (item.tag) {
       case TAGS.P:
-        return <p key={item.id}>{item.text}</p>;
+        return <p key={item.id + index}>{item.text}</p>;
       case TAGS.HR:
-        return <hr key={item.id} />;
+        return <hr key={item.id + index} />;
       case TAGS.H2:
         return (
-          <h2 className={item.class !== null ? item.class : ""} key={item.id}>
+          <h2
+            className={item.class !== null ? item.class : ""}
+            key={item.id + index}
+          >
             {item.text}
           </h2>
         );
       case TAGS.BR:
-        return <br key={item.id} />;
+        return <br key={item.id + index} />;
       case TAGS.BUTTON:
         return (
-          <button key={item.id} className={item.classes.join(" ")}>
+          <button key={item.id + index} className={item.classes.join(" ")}>
             <Link to={item.route_to}>{item.text}</Link>
           </button>
         );
       case TAGS.LIST:
         return (
-          <ul key={item.id} className={item.classes.join(" ")}>
-            {item.list.map((item) => (
-              <li>{item}</li>
+          <ul key={item.id + index} className={item.classes.join(" ")}>
+            {item.list.map((item, index) => (
+              <li key={item + index}>{item}</li>
             ))}
           </ul>
         );
@@ -42,7 +45,7 @@ function SectionContainer(props) {
         const image = require("../../images/" + item.src);
         return (
           <img
-            key={item.id}
+            key={item.id + index}
             src={image}
             alt={item.alt}
             className={item.classes.join(" ")}
@@ -51,12 +54,12 @@ function SectionContainer(props) {
       }
 
       case TAGS.ACCORDION: {
-        return <AccordionCard data={item} />;
+        return <AccordionCard key={item + index} data={item} />;
       }
       case TAGS.INPUT: {
         return (
           <input
-            key={item.inputId}
+            key={item.inputId + index}
             type={item.inputType}
             placeholder={item.inputPlaceholder}
             id={item.inputId}
@@ -69,13 +72,16 @@ function SectionContainer(props) {
         const inputs = item.inputs;
         // console.log(inputs);
         return (
-          <form onSubmit={(e) => onSubmit(e)} className={item.class}>
+          <form
+            key={item + index}
+            onSubmit={(e) => onSubmit(e)}
+            className={item.class}
+          >
             {inputs &&
-              inputs.map((item) => {
-                console.log(item);
+              inputs.map((item, i) => {
                 if (item.contentType === TAGS.INPUT) {
                   return (
-                    <div>
+                    <div key={item + i}>
                       <label htmlFor={item.inputId} className="input-label">
                         {item.inputPlaceholder}
                       </label>
@@ -92,11 +98,11 @@ function SectionContainer(props) {
                 }
                 if (item.contentType === TAGS.BUTTON) {
                   return (
-                    <>
+                    <div key={item + index}>
                       <button className={item.classes.join(" ")} type="submit">
                         {item.text}
                       </button>
-                    </>
+                    </div>
                   );
                 }
               })}

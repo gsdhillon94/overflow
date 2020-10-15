@@ -1,3 +1,5 @@
+a {
+}
 .button-contact {
   background-color: #0e38aa;
   border: 1px solid #0b6ae8;
@@ -155,6 +157,9 @@ main {
 }
 .no-min-height {
   min-height: 0 !important;
+}
+.no-border {
+  border: none;
 }
 @media (max-width: 768px) {
   .home__section-two {

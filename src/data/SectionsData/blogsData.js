@@ -1,6 +1,6 @@
 export const blogsData = {
   content_left: {
-    id: "blogs-s1",
+    id: "blogs-s1-left",
     sectionAlign: "content-left",
     sectionClasses: [""],
     data: [
@@ -34,7 +34,7 @@ export const blogsData = {
     ],
   },
   content_right: {
-    id: "blogs-s2",
+    id: "blogs-s2-right",
     sectionAlign: "content-right",
     sectionClasses: ["form-card-container"],
     data: [
