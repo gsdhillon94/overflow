@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/overflow/static/css/main.26ef7c5c.chunk.css",
-    "main.js": "/overflow/static/js/main.f16f0ff9.chunk.js",
-    "main.js.map": "/overflow/static/js/main.f16f0ff9.chunk.js.map",
+    "main.css": "/overflow/static/css/main.4c94d473.chunk.css",
+    "main.js": "/overflow/static/js/main.3bcc48b1.chunk.js",
+    "main.js.map": "/overflow/static/js/main.3bcc48b1.chunk.js.map",
     "runtime-main.js": "/overflow/static/js/runtime-main.2482a5e4.js",
     "runtime-main.js.map": "/overflow/static/js/runtime-main.2482a5e4.js.map",
-    "static/js/2.dde50b96.chunk.js": "/overflow/static/js/2.dde50b96.chunk.js",
-    "static/js/2.dde50b96.chunk.js.map": "/overflow/static/js/2.dde50b96.chunk.js.map",
+    "static/js/2.35c43a33.chunk.js": "/overflow/static/js/2.35c43a33.chunk.js",
+    "static/js/2.35c43a33.chunk.js.map": "/overflow/static/js/2.35c43a33.chunk.js.map",
     "index.html": "/overflow/index.html",
-    "precache-manifest.7b1fbd32f33de1c8937f3ce44d37fd0a.js": "/overflow/precache-manifest.7b1fbd32f33de1c8937f3ce44d37fd0a.js",
+    "precache-manifest.19e5b9f52d97b8f365d68a2edeff8e46.js": "/overflow/precache-manifest.19e5b9f52d97b8f365d68a2edeff8e46.js",
     "service-worker.js": "/overflow/service-worker.js",
-    "static/css/main.26ef7c5c.chunk.css.map": "/overflow/static/css/main.26ef7c5c.chunk.css.map",
-    "static/js/2.dde50b96.chunk.js.LICENSE.txt": "/overflow/static/js/2.dde50b96.chunk.js.LICENSE.txt",
+    "static/css/main.4c94d473.chunk.css.map": "/overflow/static/css/main.4c94d473.chunk.css.map",
+    "static/js/2.35c43a33.chunk.js.LICENSE.txt": "/overflow/static/js/2.35c43a33.chunk.js.LICENSE.txt",
     "static/media/About-Appointment-Setting.jpg": "/overflow/static/media/About-Appointment-Setting.54aad318.jpg",
     "static/media/Appointment-Setting-1.jpg": "/overflow/static/media/Appointment-Setting-1.77ff1295.jpg",
     "static/media/Appointment-Setting.jpg": "/overflow/static/media/Appointment-Setting.9b2021db.jpg",
+    "static/media/Business-telephone-2000.jpg": "/overflow/static/media/Business-telephone-2000.c422bd9f.jpg",
     "static/media/CRM-1.jpg": "/overflow/static/media/CRM-1.06a25cd8.jpg",
     "static/media/Cover.png": "/overflow/static/media/Cover.a34ee8d1.png",
     "static/media/Grow-you-sales.jpg": "/overflow/static/media/Grow-you-sales.bb69d549.jpg",
@@ -38,14 +39,16 @@
     "static/media/layered-image-iPhone.png": "/overflow/static/media/layered-image-iPhone.f2267ea4.png",
     "static/media/logo.png": "/overflow/static/media/logo.48a19d03.png",
     "static/media/meeting.jpg": "/overflow/static/media/meeting.5db48583.jpg",
+    "static/media/oqC2JQvSkBWHQuXuvgJc9i-768-80.jpg": "/overflow/static/media/oqC2JQvSkBWHQuXuvgJc9i-768-80.93771e9a.jpg",
+    "static/media/project.PNG": "/overflow/static/media/project.151c4cf8.PNG",
     "static/media/sales funnel.PNG": "/overflow/static/media/sales funnel.4adc8beb.PNG",
     "static/media/secTwo.png": "/overflow/static/media/secTwo.d260bc5f.png",
     "static/media/slider-bg-main-2.png": "/overflow/static/media/slider-bg-main-2.5b76cb66.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2482a5e4.js",
-    "static/js/2.dde50b96.chunk.js",
-    "static/css/main.26ef7c5c.chunk.css",
-    "static/js/main.f16f0ff9.chunk.js"
+    "static/js/2.35c43a33.chunk.js",
+    "static/css/main.4c94d473.chunk.css",
+    "static/js/main.3bcc48b1.chunk.js"
   ]
 }
