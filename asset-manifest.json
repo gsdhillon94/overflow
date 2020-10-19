@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/overflow/static/css/main.4c94d473.chunk.css",
-    "main.js": "/overflow/static/js/main.9c1873e7.chunk.js",
-    "main.js.map": "/overflow/static/js/main.9c1873e7.chunk.js.map",
+    "main.css": "/overflow/static/css/main.4b7a8baf.chunk.css",
+    "main.js": "/overflow/static/js/main.79ab3fbe.chunk.js",
+    "main.js.map": "/overflow/static/js/main.79ab3fbe.chunk.js.map",
     "runtime-main.js": "/overflow/static/js/runtime-main.2482a5e4.js",
     "runtime-main.js.map": "/overflow/static/js/runtime-main.2482a5e4.js.map",
-    "static/js/2.a9c31f5a.chunk.js": "/overflow/static/js/2.a9c31f5a.chunk.js",
-    "static/js/2.a9c31f5a.chunk.js.map": "/overflow/static/js/2.a9c31f5a.chunk.js.map",
+    "static/js/2.60694ded.chunk.js": "/overflow/static/js/2.60694ded.chunk.js",
+    "static/js/2.60694ded.chunk.js.map": "/overflow/static/js/2.60694ded.chunk.js.map",
     "index.html": "/overflow/index.html",
-    "precache-manifest.1253eadae6f49e3e85cbf5cd0d2747f7.js": "/overflow/precache-manifest.1253eadae6f49e3e85cbf5cd0d2747f7.js",
+    "precache-manifest.78af5295ee92445799ca048c4c1b4823.js": "/overflow/precache-manifest.78af5295ee92445799ca048c4c1b4823.js",
     "service-worker.js": "/overflow/service-worker.js",
-    "static/css/main.4c94d473.chunk.css.map": "/overflow/static/css/main.4c94d473.chunk.css.map",
-    "static/js/2.a9c31f5a.chunk.js.LICENSE.txt": "/overflow/static/js/2.a9c31f5a.chunk.js.LICENSE.txt",
+    "static/css/main.4b7a8baf.chunk.css.map": "/overflow/static/css/main.4b7a8baf.chunk.css.map",
+    "static/js/2.60694ded.chunk.js.LICENSE.txt": "/overflow/static/js/2.60694ded.chunk.js.LICENSE.txt",
+    "static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.jpg": "/overflow/static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.f728f6db.jpg",
+    "static/media/1_XDTp0k3nS8d7aEfPJsZScw.png": "/overflow/static/media/1_XDTp0k3nS8d7aEfPJsZScw.45eeab30.png",
     "static/media/About-Appointment-Setting.jpg": "/overflow/static/media/About-Appointment-Setting.54aad318.jpg",
+    "static/media/services.css": "/overflow/static/media/quality_control.8082a28e.png",
     "static/media/Appointment-Setting-1.jpg": "/overflow/static/media/Appointment-Setting-1.77ff1295.jpg",
     "static/media/Appointment-Setting.jpg": "/overflow/static/media/Appointment-Setting.9b2021db.jpg",
     "static/media/Business-telephone-2000.jpg": "/overflow/static/media/Business-telephone-2000.c422bd9f.jpg",
@@ -31,6 +34,7 @@
     "static/media/computer.png": "/overflow/static/media/computer.beeca8be.png",
     "static/media/des_01.jpg": "/overflow/static/media/des_01.98792f3b.jpg",
     "static/media/digital marketing.PNG": "/overflow/static/media/digital marketing.b230b4f8.PNG",
+    "static/media/iphone-cameras.jpg": "/overflow/static/media/iphone-cameras.d38c50a8.jpg",
     "static/media/layered-image-box1.png": "/overflow/static/media/layered-image-box1.e70ee6ad.png",
     "static/media/layered-image-box2.png": "/overflow/static/media/layered-image-box2.a0248ed8.png",
     "static/media/layered-image-box3 (1).png": "/overflow/static/media/layered-image-box3 (1).fe71f87e.png",
@@ -47,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2482a5e4.js",
-    "static/js/2.a9c31f5a.chunk.js",
-    "static/css/main.4c94d473.chunk.css",
-    "static/js/main.9c1873e7.chunk.js"
+    "static/js/2.60694ded.chunk.js",
+    "static/css/main.4b7a8baf.chunk.css",
+    "static/js/main.79ab3fbe.chunk.js"
   ]
 }
