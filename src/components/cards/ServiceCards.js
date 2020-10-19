@@ -2,12 +2,15 @@ import React from "react";
 import "./serviceCards.css";
 
 export default function ServiceCards(props) {
-  const imgSrc = require("../../images/" + props.data.cardImg);
+  const data = props.data;
+  console.log(data);
+  const imgSrc = require("../../images/" + data.cardImg);
+  //
   return (
     <div className="serice-card-container">
-      <img src={imgSrc} alt={props.data.cardHeading}></img>
-      <h4>{props.data.cardHeading}</h4>
-      <p>{props.data.cardDescription}</p>
+      <img src={imgSrc} alt={data.cardHeading}></img>
+      <h4>{data.cardHeading}</h4>
+      <p>{data.cardDescription}</p>
     </div>
   );
 }

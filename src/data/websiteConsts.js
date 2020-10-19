@@ -2,6 +2,7 @@ export const TAGS = {
   P: "p",
   HR: "hr",
   H2: "h2",
+  H1: "h1",
   BR: "br",
   BUTTON: "button",
   LIST: "ul",
@@ -9,6 +10,13 @@ export const TAGS = {
   ACCORDION: "accordion",
   INPUT: "input",
   FORM: "form",
+  SERVICE_CARDS: "ServiceCards",
+};
+
+export const BLOGS = {
+  CONTENT: "content",
+  HEADING: "heading",
+  IMAGE: "image",
 };
 export const ACTIONS = {
   SEND: "BLOG_SENDING",

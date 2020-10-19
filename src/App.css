@@ -1,4 +1,9 @@
 a {
+  text-decoration: none;
+  color: inherit;
+}
+.bg-light-blue {
+  background: #e1fff9;
 }
 .button-contact {
   background-color: #0e38aa;
@@ -18,8 +23,9 @@ main {
   border: 1px solid #ffffff;
 }
 .btn {
-  margin: 0px 1rem;
-  font-weight: 600;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  border: none;
 }
 .primary-blue a {
   color: #ffffff;
@@ -32,7 +38,12 @@ main {
   border: 1px solid #0b6ae8;
   border-radius: 50px;
 }
-
+.transparent-white {
+  background: none;
+  color: #ffffff;
+  padding: 1em 4em;
+  border: 1px solid #ffffff;
+}
 .primary-white a {
   color: #0e38aa;
   text-decoration: none;
@@ -87,14 +98,21 @@ main {
   font-size: 0.72rem;
 }
 
-.blogs-card-container {
-  height: 100%;
-  width: 18vw;
-  box-shadow: 0px 0px 4px 4px #80808080;
-  padding: 1rem 2rem;
-  margin: 1rem;
+.card-container-center {
+  width: 25vw;
+  box-shadow: 0px 0px 5px #000000;
+  overflow: hidden;
+  height: 60vh;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.5rem;
 }
-.blogs-card-container img {
+
+a .blogs-card-container {
+  height: auto;
+}
+.blogs-card-container img,
+a .blogs-card-container img {
   height: 100%;
   width: 100%;
 }
@@ -132,6 +150,11 @@ main {
   display: flex;
 }
 .section-heading {
+  padding: 2rem 0px 0px 0px;
+}
+.sec-dark-blue {
+  background: #7366ff;
+  color: #ffffff;
 }
 .blog-head-image {
 }
@@ -161,6 +184,36 @@ main {
 .no-border {
   border: none;
 }
+.blog-image-container {
+  height: 50vh;
+  width: 100%;
+}
+.card__image-container {
+  height: 50%;
+}
+.height-50 {
+  height: 50vh;
+  width: 100%;
+}
+.large-blue {
+  background: #0e2d92;
+  color: #ffffff;
+}
+.large-white {
+  background: #ffffff;
+  color: #0e2d92;
+  border: 1px solid #0e2d92;
+}
+.content-center {
+  justify-content: center !important;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.justify-right {
+  justify-content: flex-end !important;
+}
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;
@@ -187,7 +240,8 @@ main {
   .form-card-container {
     width: 100%;
   }
-  .blogs-card-container {
+  .blogs-card-container,
+  a .blogs-card-container {
     width: 100%;
   }
 }

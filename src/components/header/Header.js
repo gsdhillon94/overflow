@@ -45,7 +45,7 @@ function Header(props) {
           <div className="toolbar_navgation-items-bottom">
             <ul>
               <li>
-                <Link to="/">Appointment Setting</Link>
+                <Link to="/appointmentSetting">Appointment Setting</Link>
               </li>
               <li>
                 <Link to="/">Telemarketing</Link>

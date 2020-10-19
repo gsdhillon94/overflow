@@ -4,6 +4,8 @@ import "../../data/websiteConsts";
 import { TAGS } from "../../data/websiteConsts";
 import AccordionCard from "../cards/AccordionCard";
 import { Link } from "react-router-dom";
+import { sectionsData } from "../../data/SectionsData/sectionsData";
+import ServiceCards from "../cards/ServiceCards";
 
 function SectionContainer(props) {
   const data = props.sectionsData.data;
@@ -24,6 +26,15 @@ function SectionContainer(props) {
           >
             {item.text}
           </h2>
+        );
+      case TAGS.H1:
+        return (
+          <h1
+            className={item.class !== null ? item.class : ""}
+            key={item.id + index}
+          >
+            {item.text}
+          </h1>
         );
       case TAGS.BR:
         return <br key={item.id + index} />;
@@ -109,8 +120,11 @@ function SectionContainer(props) {
           </form>
         );
       }
-      default:
-        return null;
+      case TAGS.SERVICE_CARDS:
+        const crdData = item.cardData;
+        return crdData.map((crd) => {
+          return <ServiceCards key={crd.cardID} data={crd} />;
+        });
     }
   });
 
@@ -126,7 +140,7 @@ function SectionContainer(props) {
   return (
     <div className={sectionClasses}>
       <div className={props.sectionsData.sectionAlign}>
-        {sectiondata}
+        {/* {sectiondata} */}
         {/* <div className="content-left">
           <p>Connecting people with Technology</p>
           <hr />
@@ -141,8 +155,8 @@ function SectionContainer(props) {
           <button className="btn primary-blue">Get Started</button>
           <button className="btn primary-white">Learn More</button>
         </div>*/}
-        {/* <div className="spacer"></div>
-        <div className="content-right"></div> */}
+
+        {sectiondata}
       </div>
     </div>
   );

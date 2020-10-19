@@ -76,7 +76,6 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => {
   return {
-    // getBlogs: () => dispatch(getBlogs()),
     sendRequest: () => dispatch({ type: ACTIONS.SEND }),
     blogFetchSuccess: (data) =>
       dispatch({ type: ACTIONS.GET_BLOG_SUCCESS, payload: data }),

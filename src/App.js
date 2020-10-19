@@ -12,11 +12,12 @@ import Home from "./Pages/Home";
 import GetStarted from "./Pages/GetStarted";
 import { questionsData } from "./data/Questions/questionsData";
 import Blogs from "./Pages/Blogs";
-import AddBlogs from "./Pages/AddBlogs";
 import Login from "./Pages/Login";
 import { Provider } from "react-redux";
 import store from "./store";
 import AddBlog from "./Pages/AddBlog";
+import Blog from "./Pages/Blog";
+import AppintmentSetting from "./Pages/services/AppintmentSetting";
 
 class App extends React.Component {
   state = {
@@ -59,6 +60,9 @@ class App extends React.Component {
                 <Route exact path="/overflow">
                   <Home sectionsData={this.state.sectionsData}></Home>
                 </Route>
+                <Route path="/blogs/:title">
+                  <Blog />
+                </Route>
                 <Route exact path="/get-started">
                   <GetStarted />
                 </Route>
@@ -68,11 +72,11 @@ class App extends React.Component {
                 <Route path="/addblog">
                   <AddBlog></AddBlog>
                 </Route>
-                <Route path="/addblog-test">
-                  <AddBlogs></AddBlogs>
-                </Route>
                 <Route path="/login">
                   <Login />
+                </Route>
+                <Route path="/appointmentSetting">
+                  <AppintmentSetting />
                 </Route>
               </Switch>
             </main>

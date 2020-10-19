@@ -57,24 +57,22 @@ export const addBlog = (data) => {
         });
       })
       .catch(function (error) {
-        console.error("Error adding document: ", error);
         dispatch({ type: ACTIONS.ERROR, payload: error });
       });
   };
 };
 
-export const getBlogs = () => {
+export const getBlogs = (key, value) => {
   var data = [];
-  console.log("object check");
   return (dispatch) => {
     dispatch({ type: ACTIONS.SEND });
     db.collection("blogs")
+      .where(key, "==", value)
       .get()
       .then(function (querySnapshot) {
         querySnapshot.forEach(function (doc) {
           // doc.data() is never undefined for query doc snapshots
           // console.log(doc.id, " => ", doc.data());
-          console.log(doc.data());
           data.push(doc.data());
         });
       });
@@ -82,7 +80,6 @@ export const getBlogs = () => {
   };
 };
 export const sendImage = (imageFile, name) => {
-  console.log(imageFile, "file");
   return (dispatch) => {
     var storageRef = storage.ref();
     var imgRef = storageRef.child(name);
