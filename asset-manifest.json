@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/overflow/static/css/main.4b7a8baf.chunk.css",
-    "main.js": "/overflow/static/js/main.79ab3fbe.chunk.js",
-    "main.js.map": "/overflow/static/js/main.79ab3fbe.chunk.js.map",
+    "main.css": "/overflow/static/css/main.37d1af6b.chunk.css",
+    "main.js": "/overflow/static/js/main.a33e28d8.chunk.js",
+    "main.js.map": "/overflow/static/js/main.a33e28d8.chunk.js.map",
     "runtime-main.js": "/overflow/static/js/runtime-main.2482a5e4.js",
     "runtime-main.js.map": "/overflow/static/js/runtime-main.2482a5e4.js.map",
     "static/js/2.60694ded.chunk.js": "/overflow/static/js/2.60694ded.chunk.js",
     "static/js/2.60694ded.chunk.js.map": "/overflow/static/js/2.60694ded.chunk.js.map",
     "index.html": "/overflow/index.html",
-    "precache-manifest.78af5295ee92445799ca048c4c1b4823.js": "/overflow/precache-manifest.78af5295ee92445799ca048c4c1b4823.js",
+    "precache-manifest.4054b5c84b93e7f8d35a63275106956f.js": "/overflow/precache-manifest.4054b5c84b93e7f8d35a63275106956f.js",
     "service-worker.js": "/overflow/service-worker.js",
-    "static/css/main.4b7a8baf.chunk.css.map": "/overflow/static/css/main.4b7a8baf.chunk.css.map",
+    "static/css/main.37d1af6b.chunk.css.map": "/overflow/static/css/main.37d1af6b.chunk.css.map",
     "static/js/2.60694ded.chunk.js.LICENSE.txt": "/overflow/static/js/2.60694ded.chunk.js.LICENSE.txt",
     "static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.jpg": "/overflow/static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.f728f6db.jpg",
     "static/media/1_XDTp0k3nS8d7aEfPJsZScw.png": "/overflow/static/media/1_XDTp0k3nS8d7aEfPJsZScw.45eeab30.png",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.2482a5e4.js",
     "static/js/2.60694ded.chunk.js",
-    "static/css/main.4b7a8baf.chunk.css",
-    "static/js/main.79ab3fbe.chunk.js"
+    "static/css/main.37d1af6b.chunk.css",
+    "static/js/main.a33e28d8.chunk.js"
   ]
 }
