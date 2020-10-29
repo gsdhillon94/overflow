@@ -100,6 +100,11 @@
   margin: 0.35rem;
 }
 
+.search-button {
+  background: none;
+  border: none;
+}
+
 @media (max-width: 768px) {
   .toolbar {
     height: 10vh;
