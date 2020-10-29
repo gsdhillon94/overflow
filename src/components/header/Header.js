@@ -68,28 +68,28 @@ function Header(props) {
                 <Link to="/appointmentSetting">Appointment Setting</Link>
               </li>
               <li>
-                <Link to="/">Telemarketing</Link>
+                <Link to="/telemarketing">Telemarketing</Link>
               </li>
               <li>
-                <Link to="/">Data Cleaning</Link>
+                <Link to="/datacleaning">Data Cleaning</Link>
               </li>
               <li>
-                <Link to="/">Digital Lead Services</Link>
+                <Link to="/digitalLead">Digital Lead Services</Link>
               </li>
               <li>
-                <Link to="/">Mobile & Web apps</Link>
+                <Link to="/applicationDevelopment">Mobile & Web apps</Link>
               </li>
               <li>
-                <Link to="/">Reataurant-App</Link>
+                <Link to="/restaurantApp">Reataurant-App</Link>
               </li>
               <li>
-                <Link to="/">Business Events</Link>
+                <Link to="/businessEvents">Business Events</Link>
               </li>
               <li>
-                <Link to="/">Sales Training</Link>
+                <Link to="/salesTraining">Sales Training</Link>
               </li>
               <li>
-                <Link to="/">Marketing Automation</Link>
+                <Link to="/marketingAutomation">Marketing Automation</Link>
               </li>
             </ul>
           </div>

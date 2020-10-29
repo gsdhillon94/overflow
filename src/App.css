@@ -229,6 +229,7 @@ a .blogs-card-container img {
     padding: 1rem 2rem;
     height: 100%;
     flex-wrap: wrap;
+    overflow: hidden;
   }
 
   .home__section-two {
@@ -243,5 +244,19 @@ a .blogs-card-container img {
   .blogs-card-container,
   a .blogs-card-container {
     width: 100%;
+  }
+  .card-container-center {
+    width: 70vw;
+    height: 35vh;
+  }
+  .blog-image-container {
+    height: auto;
+  }
+  .blog-image-container img {
+    height: 100%;
+    width: 100%;
+  }
+  .height-50 {
+    height: auto;
   }
 }

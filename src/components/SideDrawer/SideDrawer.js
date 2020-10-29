@@ -1,7 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./SideDrawer.css";
 const SideDrawer = (props) => {
+  let searchParam = "";
+  let history = useHistory();
+  const search = (e) => {
+    e.preventDefault();
+    let redirectUrl = "/search/" + searchParam;
+    history.push(redirectUrl);
+  };
+  const updateQuery = (e) => {
+    searchParam = e.target.value.toUpperCase();
+  };
   let drawerClasses = ["side-drawer"];
 
   if (props.show) {
@@ -14,7 +24,18 @@ const SideDrawer = (props) => {
           <Link to="/login">
             <i className="fas fa-sign-in-alt login-icon"></i>
           </Link>
+          <form onSubmit={(e) => search(e)}>
+            <input
+              type="search"
+              placeholder="Search here..."
+              onChange={(e) => updateQuery(e)}
+            />
+            <button className="search-button" type="submit">
+              <i className="fas fa-search"></i>
+            </button>
+          </form>
         </li>
+
         <li>
           <Link to="/overflow">Home</Link>
         </li>
@@ -25,35 +46,31 @@ const SideDrawer = (props) => {
           <Link to="/blogs">Blogs</Link>
         </li>
         <li>
-          <button className="button-contact"> Contact</button>
-        </li>
-
-        <li>
-          <Link to="/">Appointment Setting</Link>
+          <Link to="/appointmentSetting">Appointment Setting</Link>
         </li>
         <li>
-          <Link to="/">Telemarketing</Link>
+          <Link to="/telemarketing">Telemarketing</Link>
         </li>
         <li>
-          <Link to="/">Data Cleaning</Link>
+          <Link to="/datacleaning">Data Cleaning</Link>
         </li>
         <li>
-          <Link to="/">Digital Lead Services</Link>
+          <Link to="/digitalLead">Digital Lead Services</Link>
         </li>
         <li>
-          <Link to="/">Mobile & Web apps</Link>
+          <Link to="/applicationDevelopment">Mobile & Web apps</Link>
         </li>
         <li>
-          <Link to="/">Reataurant-App</Link>
+          <Link to="/restaurantApp">Reataurant-App</Link>
         </li>
         <li>
-          <Link to="/">Business Events</Link>
+          <Link to="/businessEvents">Business Events</Link>
         </li>
         <li>
-          <Link to="/">Sales Training</Link>
+          <Link to="/salesTraining">Sales Training</Link>
         </li>
         <li>
-          <Link to="/">Marketing Automation</Link>
+          <Link to="/marketingAutomation">Marketing Automation</Link>
         </li>
       </ul>
     </nav>
