@@ -33,7 +33,7 @@ function SearchResults() {
     getBlogsData();
   }, [params]);
   return (
-    <div className="section">
+    <div className="">
       {state.loading ? (
         <img className="center" src={require("../images/loading.gif")}></img>
       ) : (
