@@ -2,9 +2,20 @@ import React from "react";
 import "./header.css";
 import logo from "../../images/logo.png";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Header(props) {
+  let searchParam = "";
+  let history = useHistory();
+  const search = (e) => {
+    e.preventDefault();
+    let redirectUrl = "/search/" + searchParam;
+    history.push(redirectUrl);
+  };
+  const updateQuery = (e) => {
+    searchParam = e.target.value.toUpperCase();
+  };
   return (
     <header className="toolbar">
       <nav className="toolbar__navigation">
@@ -30,7 +41,16 @@ function Header(props) {
                 <Link to="/blogs">Blogs</Link>
               </li>
               <li>
-                <input type="text" placeholder="Search here..." />
+                <form onSubmit={(e) => search(e)}>
+                  <input
+                    type="search"
+                    placeholder="Search here..."
+                    onChange={(e) => updateQuery(e)}
+                  />
+                  <button type="submit">
+                    <i className="fas fa-search"></i>
+                  </button>
+                </form>
               </li>
               <li>
                 <button className="button-contact"> Contact</button>

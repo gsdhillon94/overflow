@@ -63,6 +63,7 @@ class Blogs extends Component {
         ) : (
           <BlogList data={this.state.data} />
         )}
+        {console.log(this.state.data)}
       </div>
     );
   }

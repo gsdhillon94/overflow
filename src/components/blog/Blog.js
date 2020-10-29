@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 function Blog(props) {
   const data = props.data;
   const content = data.bContent;
-  console.log(data);
   return (
     <Link
       style={{ textDecoration: "none", color: "inherit" }}
-      to={"blogs/" + data.bTitle}
+      to={"/blogs/" + data.bTitle}
     >
       <div className="card-container-center" id={data.bTitle}>
         <div className="card__image-container">

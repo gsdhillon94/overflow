@@ -18,6 +18,7 @@ import store from "./store";
 import AddBlog from "./Pages/AddBlog";
 import Blog from "./Pages/Blog";
 import AppintmentSetting from "./Pages/services/AppintmentSetting";
+import SearchResults from "./Pages/SearchResults";
 
 class App extends React.Component {
   state = {
@@ -77,6 +78,9 @@ class App extends React.Component {
                 </Route>
                 <Route path="/appointmentSetting">
                   <AppintmentSetting />
+                </Route>
+                <Route path="/search/:searchQuery">
+                  <SearchResults />
                 </Route>
               </Switch>
             </main>
