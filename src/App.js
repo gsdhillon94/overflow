@@ -19,6 +19,15 @@ import AddBlog from "./Pages/AddBlog";
 import Blog from "./Pages/Blog";
 import AppintmentSetting from "./Pages/services/AppintmentSetting";
 import SearchResults from "./Pages/SearchResults";
+import AboutUs from "./Pages/services/AboutUs";
+import Telemarketing from "./Pages/services/Telemarketing";
+import DataCleaning from "./Pages/services/DataCleaning";
+import RestaurantApp from "./Pages/services/RestaurantApp";
+import SalesTraining from "./Pages/services/SalesTraining";
+import MarketingAutomation from "./Pages/services/MarketingAutomation";
+import BusinessEvents from "./Pages/services/BusinessEvents";
+import DigitalLeadServices from "./Pages/services/DigitalLeadServices";
+import MobileWebApps from "./Pages/services/MobileWebApps";
 
 class App extends React.Component {
   state = {
@@ -78,6 +87,33 @@ class App extends React.Component {
                 </Route>
                 <Route path="/appointmentSetting">
                   <AppintmentSetting />
+                </Route>
+                <Route path="/about">
+                  <AboutUs />
+                </Route>
+                <Route path="/telemarketing">
+                  <Telemarketing />
+                </Route>
+                <Route path="/datacleaning">
+                  <DataCleaning />
+                </Route>
+                <Route path="/digitalLead">
+                  <DigitalLeadServices />
+                </Route>
+                <Route path="/applicationDevelopment">
+                  <MobileWebApps />
+                </Route>
+                <Route path="/restaurantApp">
+                  <RestaurantApp />
+                </Route>
+                <Route path="/businessEvents">
+                  <BusinessEvents />
+                </Route>
+                <Route path="/salesTraining">
+                  <SalesTraining />
+                </Route>
+                <Route path="/marketingAutomation">
+                  <MarketingAutomation />
                 </Route>
                 <Route path="/search/:searchQuery">
                   <SearchResults />

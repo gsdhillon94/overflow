@@ -8,6 +8,9 @@ function Blog(props) {
   let { title } = useParams();
   let blogData = [];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const getBlogs = (key, value) => {
     var data = [];
     props.sendRequest();
