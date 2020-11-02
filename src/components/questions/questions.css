@@ -1,7 +1,8 @@
 .label-option {
   margin: 1rem 1rem;
   box-shadow: 1px 1px 4px 0px #808080;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  height: 5rem;
 }
 .label-option input {
   margin: 0.5rem;
