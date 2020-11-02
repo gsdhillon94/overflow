@@ -11,6 +11,7 @@ export default class GetStarted extends Component {
       questions: questionsData,
       questionIndex: 0,
       questionDisplayed: questionsData[0],
+      loading: false,
     };
   }
 
@@ -81,6 +82,11 @@ export default class GetStarted extends Component {
   };
   submitQuiz = () => {
     // this.state.questions.map((ques) => {
+    this.setState({
+      ...this.state,
+      loading: true,
+    });
+    let that = this;
     db.collection("Quiz-Results")
       .doc("Quiz-" + new Date())
       .set(this.state, { merge: true })
@@ -90,6 +96,7 @@ export default class GetStarted extends Component {
       .catch(function (error) {
         console.error("Error writing document: ", error);
       });
+
     // });
   };
 

@@ -1,8 +1,10 @@
 .label-option {
   margin: 1rem 1rem;
   box-shadow: 1px 1px 4px 0px #808080;
-  padding: 1rem 1rem;
-  height: 5rem;
+  padding: 2rem 2rem;
+  font-size: 0.75rem;
+  width: 15%;
+  text-align: center;
 }
 .label-option input {
   margin: 0.5rem;

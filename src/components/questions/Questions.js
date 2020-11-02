@@ -30,7 +30,7 @@ export default function Questions(props) {
             props.click(event, resp);
           }}
         />
-        <img src={require("../../images/" + data.image)} alt={data.image} />
+        {/* <img src={require("../../images/" + data.image)} alt={data.image} /> */}
         {option}
       </label>
     );
