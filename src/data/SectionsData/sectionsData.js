@@ -5,43 +5,25 @@ export const sectionsData = [
     sectionClasses: ["section", "home-sec_one"],
     data: [
       {
-        id: "1",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text: "Connecting People with technology",
-      },
-      {
-        id: "2",
-        contentType: "horizontal Line",
-        width: "25%",
-        tag: "hr",
-        margin: "0",
-        border: "2px solid #0e38aa",
-      },
-      {
         id: "3",
         contentType: "text",
         tag: "h2",
         text: "Creativity meets technology & modern web design ideas",
       },
+
       {
-        id: "4",
-        contentType: "break",
-        tag: "br",
+        id: "s1_05",
+        contentType: "list",
+        classes: [],
+        tag: "ul",
+        list_style_image: "",
+        list: [
+          "Advanced IT solutions",
+          "High Quality digital, social, email, and B2B campaigns",
+          "Help you understand implement and manage technology",
+        ],
       },
-      {
-        id: "5",
-        contentType: "text",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "6",
-        contentType: "break",
-        tag: "br",
-      },
+
       {
         id: "7",
         contentType: "button",
@@ -83,50 +65,21 @@ export const sectionsData = [
         id: "s3_03",
         contentType: "text",
         tag: "h2",
-        text: "Overflow is a platform for scaling frontier technologies",
-      },
-      {
-        id: "s3_04",
-        contentType: "break",
-        tag: "br",
+        text: "About Overflow",
       },
       {
         id: "s3_05",
         contentType: "text",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "With the changing landscape in business, we bring our expertise in information technology. We seek to understand our clients’ business objectives and processes and strive to find great technology tools to help their business. We will help you identify, implement and manage technology.",
       },
-      {
-        id: "s3_06",
-        contentType: "break",
-        tag: "br",
-      },
-      {
-        id: "s3_07",
-        contentType: "list",
-        classes: [],
-        tag: "ul",
-        list_style_image: "",
-        list: [
-          "Global IT services and Solutions leader",
-          "Generating Leads",
-          "Automated SEO",
-        ],
-      },
-
-      {
-        id: "s3_08",
-        contentType: "break",
-        tag: "br",
-      },
-
       {
         id: "s3_09",
         contentType: "button",
         classes: ["btn", "primary-blue"],
         tag: "button",
-        text: "Learn More",
+        text: "Enquire for a Free Consultation",
       },
     ],
   },

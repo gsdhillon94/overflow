@@ -1,22 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./cardContainer.css";
 
 export default function CardContainer() {
+  const [sectionData, setsectionData] = useState([
+    {
+      id: "crd-cont-01",
+      heading: "What is Lead Generation?",
+      content:
+        "The first step of lead generation is identifying your target audience and implement methods that will engage customers within your target market.",
+      image: "lead-generation.png",
+      link_to: "/digitalLead",
+    },
+    {
+      id: "crd-cont-02",
+      heading: "Advance IT Solutions",
+      content:
+        "With the changing landscape in business, we bring our expertise in information technology.",
+      image: "advanced-it-solutions.jpg",
+      link_to: "/applicationDevelopment",
+    },
+    {
+      id: "crd-cont-03",
+      heading: "How we can help",
+      content:
+        "We are a certified IT Solutions. We offer our services to businesses across different industries and sectors to build them from.",
+      image: "we-help.jpeg",
+      link_to: "/about",
+    },
+  ]);
   return (
     <div className="card-container">
-      <div className="findMoreCard">
-        <div className="card__image-div">
-          <img src={require("../../images/" + "girl.jpg")} />
-        </div>
-        <h4 className="card-heading">What is Lead Generation?</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-      <div className="findMoreCard__button">
-        <button className="card__button">Find out more</button>
-      </div>
+      {sectionData.map((data, index) => {
+        console.log(data, index);
+        return (
+          <div key={data.id}>
+            <div className="findMoreCard">
+              <div className="card__image-div">
+                <img src={require("../../images/" + data.image)} />
+              </div>
+              <h4 className="card-heading">{data.heading}</h4>
+              <p>{data.content}</p>
+            </div>
+            <div className="findMoreCard__button">
+              <Link to={data.link_to}>
+                <button className="card__button">Find out more</button>
+              </Link>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

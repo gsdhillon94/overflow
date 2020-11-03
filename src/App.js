@@ -28,6 +28,7 @@ import MarketingAutomation from "./Pages/services/MarketingAutomation";
 import BusinessEvents from "./Pages/services/BusinessEvents";
 import DigitalLeadServices from "./Pages/services/DigitalLeadServices";
 import MobileWebApps from "./Pages/services/MobileWebApps";
+import QuizResults from "./Pages/QuizResults";
 
 class App extends React.Component {
   state = {
@@ -117,6 +118,9 @@ class App extends React.Component {
                 </Route>
                 <Route path="/search/:searchQuery">
                   <SearchResults />
+                </Route>
+                <Route path="/suggestions">
+                  <QuizResults />
                 </Route>
               </Switch>
             </main>

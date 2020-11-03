@@ -1,23 +1,24 @@
 .serice-card-container {
   border: 0px solid #000000;
-  box-shadow: 1px 1px 1px 1px #808080;
-  margin: 1rem 3rem;
+  box-shadow: 1px 1px 10px 0px #808080;
+  margin: 0.5rem 0rem;
   padding: 1rem 1rem;
-  width: 14rem;
-  height: 15rem;
+  width: 22vw;
+  height: auto;
   background-color: #ffffff;
+  min-height: 20vw;
 }
 
 .serice-card-container h4 {
-  margin: 1rem 0px;
+  margin: 0.5rem 0px;
 }
 .serice-card-container p {
   margin: 5px 0px;
   font-size: 0.75rem;
 }
 .serice-card-container img {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 
 @media (max-width: 768px) {

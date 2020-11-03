@@ -3,7 +3,10 @@ import { questionsData } from "../data/Questions/questionsData";
 import Questions from "../components/questions/Questions";
 import "./getStarted.css";
 import { db } from "../firebase/firebaseConfig";
-export default class GetStarted extends Component {
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+
+class GetStarted extends Component {
   constructor() {
     super();
     let tempQuestions = null;
@@ -44,20 +47,13 @@ export default class GetStarted extends Component {
   updateAnswer = (event, resp) => {
     let questions = [...this.state.questions];
     questions[this.state.questionIndex].question.answer = resp.value;
-    // let question = questions.find((question) => {
-    //   if (question.question.index === resp.index) {
-    //     question.question.answer = resp.value;
-    //   }
-    //   return question;
-    // });
-    // questions[resp.index - 1] = question;
-
     this.setState({
       questions: questions,
       questionDisplayed: questions[this.state.questionIndex],
       questionIndex: this.state.questionIndex,
     });
   };
+
   setNextQuestion = () => {
     let nextIndex = this.state.questionIndex + 1;
     let prevAnswer = this.state.questionDisplayed.question.answer;
@@ -81,23 +77,19 @@ export default class GetStarted extends Component {
     }
   };
   submitQuiz = () => {
-    // this.state.questions.map((ques) => {
     this.setState({
       ...this.state,
       loading: true,
     });
+
     let that = this;
     db.collection("Quiz-Results")
       .doc("Quiz-" + new Date())
       .set(this.state, { merge: true })
       .then(function () {
-        console.log("Document successfully written!");
+        that.props.submitQuiz(that.state.questions);
       })
-      .catch(function (error) {
-        console.error("Error writing document: ", error);
-      });
-
-    // });
+      .catch(function (error) {});
   };
 
   goBack = (e) => {
@@ -110,7 +102,6 @@ export default class GetStarted extends Component {
   };
   goNext = (e) => {
     this.setNextQuestion();
-    console.log(this.state);
   };
 
   render() {
@@ -134,19 +125,20 @@ export default class GetStarted extends Component {
           >
             Go back
           </button>
-
-          <button
-            style={{ float: "right" }}
-            onClick={this.submitQuiz}
-            disabled={
-              this.state.questionIndex != this.state.questions.length - 1
-                ? true
-                : false
-            }
-          >
-            {" "}
-            Submit
-          </button>
+          <Link to="/suggestions">
+            <button
+              style={{ float: "right" }}
+              onClick={this.submitQuiz}
+              disabled={
+                this.state.questionIndex != this.state.questions.length - 1
+                  ? true
+                  : false
+              }
+            >
+              {" "}
+              Submit
+            </button>
+          </Link>
           <button
             style={{ float: "right" }}
             onClick={(event) => {
@@ -165,3 +157,9 @@ export default class GetStarted extends Component {
     );
   }
 }
+const mapDiapatchToProps = (dispatch) => {
+  return {
+    submitQuiz: (data) => dispatch({ type: "QUIZ_SUBMIT", payload: data }),
+  };
+};
+export default connect(null, mapDiapatchToProps)(GetStarted);

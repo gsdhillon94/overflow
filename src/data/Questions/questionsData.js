@@ -132,9 +132,9 @@ export const questionsData = [
       name: "our_services",
       q: "What services do youneed int he next 12 months??",
       options: [
-        "Increase Sales",
+        "Build Mobile and Web applications",
         "Branding and Marketing",
-        "Build Mobile & Web applications",
+        "Increase Sales",
         "Build Virtual Team",
       ],
       answer: null,

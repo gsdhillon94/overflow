@@ -32,11 +32,13 @@ main {
   text-decoration: none;
 }
 .primary-blue {
-  background: #0e38aa;
+  background: #3f48cc;
   color: #ffffff;
-  padding: 1em 4em;
+  padding: 1em 2em;
   border: 1px solid #0b6ae8;
   border-radius: 50px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 .transparent-white {
   background: none;
@@ -51,16 +53,18 @@ main {
 .primary-white {
   background: #ffffff;
   color: #0e38aa;
-  padding: 1em 4em;
+  padding: 1em 2em;
   border: 1px solid #0e38aa;
   border-radius: 50px;
+  font-size: 0.75rem;
 }
 .home__section-two {
   display: flex;
   justify-content: space-around;
   padding: 1rem 7rem;
   flex-wrap: wrap;
-  background: rgba(93, 188, 210, 17%);
+  background: #ffffff;
+  font-size: 0.75rem;
 }
 
 .home__section-three {

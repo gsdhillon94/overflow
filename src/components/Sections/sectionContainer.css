@@ -8,17 +8,28 @@
 .container {
 }
 .home-sec_one {
-  background: url("../../images/slider-bg-main-2.png");
+  background: url("../../images/home-sec-one.PNG");
   background-size: cover;
+  padding: 6rem;
 }
 
 .home-sec_two {
   background: url("../../images/secTwo.png");
   background-size: cover;
+  font-size: 0.75rem;
 }
 
 .content-left {
-  max-width: 38vw;
+  max-width: 40%;
+}
+
+.content-left ul {
+  line-height: 1.75rem;
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.content-left ul li {
 }
 
 .content-right {

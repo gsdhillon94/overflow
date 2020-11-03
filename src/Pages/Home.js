@@ -31,8 +31,6 @@ export default class Home extends Component {
         />
         <div className="home__section-two">
           <CardContainer />
-          <CardContainer />
-          <CardContainer />
         </div>
         <SectionContainer
           key={this.state.props.sectionsData.id}
@@ -42,7 +40,7 @@ export default class Home extends Component {
           <h1>Our Services</h1>
           <div className="home__section-three__cards">{serviceCards}</div>
         </div>
-        <TwoPartSection content={this.state.section_five_Data}></TwoPartSection>
+        {/* <TwoPartSection content={this.state.section_five_Data}></TwoPartSection> */}
       </div>
     );
   }

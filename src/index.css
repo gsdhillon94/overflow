@@ -1,9 +1,13 @@
+@font-face {
+  font-family: "muli";
+  src: local("muli"), url(./fonts/Muli/Muli.ttf) format("truetype");
+}
 html {
   height: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: muli, sans-serif;
   height: 100%;
 }
