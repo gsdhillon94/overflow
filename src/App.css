@@ -278,6 +278,7 @@ a .blogs-card-container img {
   }
   .btn {
     margin: 1rem 1rem;
+    min-width: 70vw;
   }
   .form-card-container {
     width: 100%;
@@ -299,5 +300,8 @@ a .blogs-card-container img {
   }
   .height-50 {
     height: auto;
+  }
+  .testimonials {
+    flex-wrap: wrap;
   }
 }

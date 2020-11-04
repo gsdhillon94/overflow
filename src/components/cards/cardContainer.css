@@ -46,6 +46,7 @@
 @media (max-width: 768px) {
   .card-container {
     margin: 1rem 0px;
+    flex-wrap: wrap;
   }
   .findMoreCard {
     width: 80vw;
