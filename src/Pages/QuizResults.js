@@ -9,28 +9,28 @@ import ServiceOptions from "../components/serviceOptions";
 
 function QuizResults(props) {
   const increaseSales = {
-    heading: "Increase your sales here",
+    heading: "Increase your sales",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     img: "Appointment-.png",
     link_to: "/salesTraining",
   };
   const appDev = {
-    heading: "Build Mobile and Web applications heading",
+    heading: "Build Mobile and Web applications",
     content:
       "Build Mobile and Web applications content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     img: "Appointment-.png",
     link_to: "/applicationDevelopment",
   };
   const virtualTeam = {
-    heading: "Build Virtual Team heading",
+    heading: "Build Virtual Team",
     content:
       "Build Virtual Team content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     img: "Appointment-.png",
     link_to: "/businessEvents",
   };
   const marketing = {
-    heading: "Branding and Marketing heading",
+    heading: "Branding and Marketing",
     content:
       "Branding and Marketing content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     img: "Appointment-.png",
