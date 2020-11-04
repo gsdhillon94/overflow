@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/overflow/static/css/main.5068c764.chunk.css",
+    "main.css": "/overflow/static/css/main.93917629.chunk.css",
     "main.js": "/overflow/static/js/main.2e708bd7.chunk.js",
     "main.js.map": "/overflow/static/js/main.2e708bd7.chunk.js.map",
     "runtime-main.js": "/overflow/static/js/runtime-main.2482a5e4.js",
@@ -8,9 +8,9 @@
     "static/js/2.c5a5f080.chunk.js": "/overflow/static/js/2.c5a5f080.chunk.js",
     "static/js/2.c5a5f080.chunk.js.map": "/overflow/static/js/2.c5a5f080.chunk.js.map",
     "index.html": "/overflow/index.html",
-    "precache-manifest.efb2e70aa7c9b5d07cde23bc2ab1a123.js": "/overflow/precache-manifest.efb2e70aa7c9b5d07cde23bc2ab1a123.js",
+    "precache-manifest.cd65d1c93a5317e75bf50a74cf255b83.js": "/overflow/precache-manifest.cd65d1c93a5317e75bf50a74cf255b83.js",
     "service-worker.js": "/overflow/service-worker.js",
-    "static/css/main.5068c764.chunk.css.map": "/overflow/static/css/main.5068c764.chunk.css.map",
+    "static/css/main.93917629.chunk.css.map": "/overflow/static/css/main.93917629.chunk.css.map",
     "static/js/2.c5a5f080.chunk.js.LICENSE.txt": "/overflow/static/js/2.c5a5f080.chunk.js.LICENSE.txt",
     "static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.jpg": "/overflow/static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.f728f6db.jpg",
     "static/media/1_XDTp0k3nS8d7aEfPJsZScw.png": "/overflow/static/media/1_XDTp0k3nS8d7aEfPJsZScw.45eeab30.png",
@@ -69,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.2482a5e4.js",
     "static/js/2.c5a5f080.chunk.js",
-    "static/css/main.5068c764.chunk.css",
+    "static/css/main.93917629.chunk.css",
     "static/js/main.2e708bd7.chunk.js"
   ]
 }
