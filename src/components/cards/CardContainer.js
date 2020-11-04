@@ -14,9 +14,9 @@ export default function CardContainer() {
     },
     {
       id: "crd-cont-02",
-      heading: "Advance IT Solutions",
+      heading: "Mobile and Web App Solutions",
       content:
-        "With the changing landscape in business, we bring our expertise in information technology.",
+        "With the changing landscape in business, we bring our expertise in Mobile and Web app Technology.",
       image: "advanced-it-solutions.jpg",
       link_to: "/applicationDevelopment",
     },
@@ -24,7 +24,7 @@ export default function CardContainer() {
       id: "crd-cont-03",
       heading: "How we can help",
       content:
-        "We are a certified IT Solutions. We offer our services to businesses across different industries and sectors to build them from.",
+        "We provide Digital Solutions. We offer our services to businesses across different industries and sectors to build them tailored solutions.",
       image: "we-help.jpeg",
       link_to: "/about",
     },

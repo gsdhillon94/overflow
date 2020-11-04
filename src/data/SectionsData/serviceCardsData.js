@@ -2,7 +2,7 @@ export const serviceCardsData = [
   {
     cardID: "card_01",
     cardImg: "IT.jpg",
-    cardHeading: "Information Technology",
+    cardHeading: "IT Support",
     cardDescription:
       "We want you and your staff to completely rely on us for any issue. Our professional touch on IT combined with our years of technical experience allows us to serve you high-quality services",
     link_to: "/about",
@@ -37,7 +37,7 @@ export const serviceCardsData = [
     cardHeading: "Data Cleansing",
     cardDescription:
       "We build the best customer experience in business, e-commerce, and personal websites. Our web design skills focused on responsiveness, attractive content, and conversion. We don't just create a website for nothing, our aim is to make a website that sells.",
-    link_to: "/about",
+    link_to: "/datacleaning",
   },
   {
     cardID: "card_06",

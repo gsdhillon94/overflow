@@ -218,6 +218,43 @@ a .blogs-card-container img {
 .justify-right {
   justify-content: flex-end !important;
 }
+.bg-testimonial-blue {
+  background-color: #7366ff;
+  color: #ffffff;
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-style: italic;
+}
+.display-block {
+  display: block !important;
+}
+.testimonial-content {
+  margin: 0 2rem;
+}
+.cust-review {
+  font-weight: 600;
+  font-style: normal;
+}
+.cust-review p {
+  margin-top: 0px;
+}
+.cust-review > .fa-star {
+  color: yellow;
+  margin-top: 1rem;
+}
+.testimonial-hr {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #ffffff;
+  margin-bottom: 1rem;
+}
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;

@@ -10,6 +10,7 @@ class GetStarted extends Component {
   constructor() {
     super();
     let tempQuestions = null;
+
     this.state = {
       questions: questionsData,
       questionIndex: 0,
@@ -17,6 +18,8 @@ class GetStarted extends Component {
       loading: false,
     };
   }
+
+  conponentDidMount = () => {};
 
   getQuestionDisplayed = () => {
     this.state.questions.find((question, index) => {
@@ -77,12 +80,11 @@ class GetStarted extends Component {
     }
   };
   submitQuiz = () => {
+    let that = this;
     this.setState({
       ...this.state,
       loading: true,
     });
-
-    let that = this;
     db.collection("Quiz-Results")
       .doc("Quiz-" + new Date())
       .set(this.state, { merge: true })
@@ -139,6 +141,7 @@ class GetStarted extends Component {
               Submit
             </button>
           </Link>
+
           <button
             style={{ float: "right" }}
             onClick={(event) => {

@@ -22,15 +22,18 @@ function QuizResults(props) {
     for (let i = 0; i < serviceIndex; i++) {
       otherServices.push(servicesNeeded.shift());
     }
+    console.log(servicesNeeded, "services needed");
     setServices(servicesNeeded);
+    console.log(otherServices, "other services");
     setShowServices(otherServices);
   };
   useEffect(() => {
+    console.log(props.quizData);
     if (props.quizData) {
       adjustServices();
     }
   }, [props.quizData]);
-  return (
+  return props.quizData ? (
     <div className="section">
       <div>
         Services you need
@@ -48,6 +51,10 @@ function QuizResults(props) {
           })}
         </ul>
       </div>
+    </div>
+  ) : (
+    <div className="loading">
+      <img src={require("../images/loading.gif")} />
     </div>
   );
 }
