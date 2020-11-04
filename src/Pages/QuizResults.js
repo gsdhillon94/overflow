@@ -1,7 +1,42 @@
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
+import { mobileWebAppsData } from "../data/servicesData/mobileWebAppsData";
+import SectionContainer from "../components/Sections/SectionContainer";
+import { digitalLeadServicesData } from "../data/servicesData/digitalLeadServicesData";
+import { salesTrainingData } from "../data/servicesData/salesTrainingData";
+import { marketingAutomationData } from "../data/servicesData/marketingAutomation";
+import ServiceOptions from "../components/serviceOptions";
 
 function QuizResults(props) {
+  const increaseSales = {
+    heading: "Increase your sales here",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    img: "Appointment-.png",
+    link_to: "/salesTraining",
+  };
+  const appDev = {
+    heading: "Build Mobile and Web applications heading",
+    content:
+      "Build Mobile and Web applications content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    img: "Appointment-.png",
+    link_to: "/applicationDevelopment",
+  };
+  const virtualTeam = {
+    heading: "Build Virtual Team heading",
+    content:
+      "Build Virtual Team content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    img: "Appointment-.png",
+    link_to: "/businessEvents",
+  };
+  const marketing = {
+    heading: "Branding and Marketing heading",
+    content:
+      "Branding and Marketing content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    img: "Appointment-.png",
+    link_to: "/digitalLead",
+  };
+
   const [services, setServices] = useState([
     "Build Mobile and Web applications",
     "Branding and Marketing",
@@ -33,24 +68,30 @@ function QuizResults(props) {
       adjustServices();
     }
   }, [props.quizData]);
+
+  const getServiceInfo = (service, i) => {
+    switch (service) {
+      case "Build Mobile and Web applications":
+        return <ServiceOptions key={service + i} data={appDev} />;
+      case "Branding and Marketing":
+        return <ServiceOptions key={service + i} data={marketing} />;
+      case "Increase Sales":
+        return <ServiceOptions key={service + i} data={increaseSales} />;
+      case "Build Virtual Team":
+        return <ServiceOptions key={service + i} data={virtualTeam} />;
+    }
+  };
   return props.quizData ? (
-    <div className="section">
-      <div>
-        Services you need
-        <ul>
-          {services.map((service, i) => {
-            return <li key={service + i}>{service}</li>;
-          })}
-        </ul>
-      </div>
-      <div>
-        Other services available
-        <ul>
-          {showServices.map((service, i) => {
-            return <li key={service + i}>{service}</li>;
-          })}
-        </ul>
-      </div>
+    <div className="section wrap-content">
+      <h2>Recommended Services</h2>
+      {services.map((service, i) => {
+        return getServiceInfo(service, i);
+      })}
+      {showServices.length > 0 ? <h2>Our Other Services</h2> : null}
+
+      {showServices.map((service, i) => {
+        return getServiceInfo(service, i);
+      })}
     </div>
   ) : (
     <div className="loading">

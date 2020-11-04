@@ -255,6 +255,32 @@ a .blogs-card-container img {
   border: 1px solid #ffffff;
   margin-bottom: 1rem;
 }
+.result-option-container {
+  box-shadow: 1px 1px 10px #808080;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5rem 0px;
+  height: 20vh;
+  width: 100%;
+}
+
+.result-content {
+  width: 45%;
+}
+.result-content h2 {
+  color: #0e38aa;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.result-content p {
+  width: 55vw;
+}
+.result-image {
+  max-height: 100%;
+  text-align: right;
+}
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;
@@ -303,5 +329,20 @@ a .blogs-card-container img {
   }
   .testimonials {
     flex-wrap: wrap;
+  }
+  .result-option-container {
+    width: 75vw;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .result-content {
+    width: 100%;
+  }
+  .result-content p {
+    width: 100%;
+  }
+  .result-image {
+    height: 15vh;
   }
 }
