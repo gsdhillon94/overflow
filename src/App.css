@@ -380,4 +380,10 @@ a .blogs-card-container img {
   .result-image {
     height: 15vh;
   }
+  .about-setting-1,
+  .about-setting-2,
+  .about-setting-3,
+  .about-setting-4 {
+    background-size: 20vw;
+  }
 }
