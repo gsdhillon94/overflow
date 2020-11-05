@@ -1,29 +1,67 @@
 .appointment-setting-1 {
-  background: url("../../images/appointment-setting-s01.png");
-  background-size: cover;
+  background: url("../../images/AS-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .appointment-setting-2 {
-  background: url("../../images/Appointment-Setting-02.jpg.png");
-  background-size: cover;
+  background: url("../../images/AS-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
 }
 
 .appointment-setting-3 {
-  background: url("../../images/Appointment-Setting-03.png");
-  background-size: cover;
+  background: url("../../images/AS-03.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.appointment-setting-4 {
+  background: url("../../images/AS-04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
 }
 .appointment-setting-5 {
-  background: url("../../images/quality_control.png");
-  background-size: cover;
+  background: url("../../images/AS-05.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .appointment-setting-6 {
-  background: url("../../images/lead-generation.png");
-  background-size: cover;
+  background: url("../../images/AS-06.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
 }
 .appointment-setting-7 {
-  background: url("../../images/grow_sales.png");
-  background-size: cover;
+  background: url("../../images/about-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .appointment-setting-8 {
-  background: url("../../images/qualified_callers.png");
-  background-size: cover;
+  background: url("../../images/AS-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+@media (max-width: 768px) {
+  .appointment-setting-1,
+  .appointment-setting-2,
+  .appointment-setting-3,
+  .appointment-setting-4,
+  .appointment-setting-5,
+  .appointment-setting-6,
+  .appointment-setting-7,
+  .appointment-setting-8 {
+    background-size: 30vh;
+    background-position-x: 100%;
+    background-position-y: 0%;
+  }
 }

@@ -1,7 +1,7 @@
 .section {
   display: flex;
   padding: 2rem 5rem;
-
+  min-height: 35vh;
   justify-content: space-between;
 }
 .container {
@@ -17,7 +17,9 @@
   background-size: cover;
   font-size: 0.75rem;
 }
-
+.blog .content-left {
+  max-width: none;
+}
 .content-left {
   max-width: 40%;
 }
@@ -52,6 +54,7 @@ hr {
   .section {
     padding: 2rem 2rem;
     width: 80vw;
+    flex-wrap: wrap;
   }
   .small_image {
     height: 20vw;

@@ -2,7 +2,7 @@ export const blogsData = {
   content_left: {
     id: "blogs-s1-left",
     sectionAlign: "content-left",
-    sectionClasses: [""],
+    sectionClasses: ["blog"],
     data: [
       {
         id: "1",

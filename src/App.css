@@ -81,6 +81,7 @@ main {
 .form-card-container {
   box-shadow: 0px 0px 5px 1px #000000;
   padding: 1rem;
+  width: 45%;
 }
 .center {
   padding: 0 2rem;
@@ -202,11 +203,13 @@ a .blogs-card-container img {
 .large-blue {
   background: #0e2d92;
   color: #ffffff;
+  padding: 1rem 2.5rem;
 }
 .large-white {
   background: #ffffff;
   color: #0e2d92;
   border: 1px solid #0e2d92;
+  padding: 1rem 2.5rem;
 }
 .content-center {
   justify-content: space-evenly !important;
@@ -339,10 +342,10 @@ a .blogs-card-container img {
   }
   .btn {
     margin: 1rem 1rem;
-    min-width: 70vw;
+    min-width: 80%;
   }
   .form-card-container {
-    width: 100%;
+    width: 90%;
   }
   .blogs-card-container,
   a .blogs-card-container {
