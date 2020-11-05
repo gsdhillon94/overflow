@@ -1,8 +1,7 @@
 .section {
   display: flex;
   padding: 2rem 5rem;
-  height: 100%;
-  min-height: 50vh;
+
   justify-content: space-between;
 }
 .container {

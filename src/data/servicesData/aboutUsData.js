@@ -8,7 +8,7 @@ export const aboutUsData = [
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "About Us",
+        text: "Let us overflow your business.",
       },
       {
         id: "02",
@@ -24,38 +24,31 @@ export const aboutUsData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Overflow Digital Solutions takes great pride in having the ability of problem-solving mindset.",
       },
       {
         id: "04",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We specialize in end-to-end IT & Telecommunication services, lead generation services and Digital Marketing Services.",
+      },
+      {
+        id: "05",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We use our professional skills to generate guaranteed, qualified leads for businesses of all sizes.",
+      },
+      {
+        id: "06",
         contentType: "button",
         classes: ["btn", "large-blue", "round-border"],
         tag: "button",
         text: "Enquire for Free consultation",
         route_to: "/enquire-a-consultation",
-      },
-      {
-        id: "05",
-        contentType: "button",
-        classes: ["btn", "large-white", "round-border"],
-        tag: "button",
-        text: "Learn about our gurantee",
-        route_to: "/our-gurantee",
-      },
-      {
-        id: "06",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "07",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       },
     ],
   },
@@ -68,29 +61,22 @@ export const aboutUsData = [
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "About Us",
+        text: "Our Unique Approach",
       },
       {
         id: "02",
         contentType: "text",
         size: "14px",
         tag: "p",
-        text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+        text: "We will help you identify, implement and manage technology.",
       },
       {
         id: "03",
-        contentType: "list",
-        classes: [],
-        tag: "ul",
-        list_style_image: "",
-        list: [
-          "Appointment SetterQualified scheduled appointments are ideal when it comes to filling your sales pipeline. However, many sales organizations will tell you that though about setting is a vital part of the lead generation process, it is also one of the hardest. It requires a significant amount of time, research, and gumption",
-          "There are several mission-critical reasons to consider reversing the common marketing strategy of first emailing a list of prospects that have never heard of you before, and second, calling them to follow up",
-          "Marketing has conducted a lead generation program and developed a number of qualified leads for the sales team to follow-up on.  Some of the leads seem very “Hot” and need immediate action",
-          "When an organization outsources sales lead generation, it is handing off a controlled process of qualifying sales opportunities to a team of specialists. ",
-          "As most customer service and sales professionals know, setting an about is a key step to selling your service or product. While an initial cold call may land you an opportunity to pitch your offering",
-        ],
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Our process is very client-focused where we adapt the procedures that the client wants to employ for the agreed project.",
       },
       {
         id: "04",
@@ -98,7 +84,28 @@ export const aboutUsData = [
         size: "14px",
         tag: "p",
         text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
+          "Overflow has completed hundreds of campaigns for clients big and small. We know how to get results. We have implemented a unique lead generation process that we put guarantee will deliver on the mutually agreed KPI's that we put in place before the commencement of any campaign.",
+      },
+      {
+        id: "05",
+        contentType: "list",
+        classes: [],
+        tag: "ul",
+        list_style_image: "",
+        list: [
+          "Guaranteed Performance",
+          "Sales Volume",
+          "Executive-level technical consulting service",
+          "Every client receives the same high level of attention and care",
+        ],
+      },
+      {
+        id: "06",
+        contentType: "button",
+        classes: ["btn", "large-blue", "round-border"],
+        tag: "button",
+        text: "Enquire for Free consultation",
+        route_to: "/enquire-a-consultation",
       },
     ],
   },
@@ -112,7 +119,7 @@ export const aboutUsData = [
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Our Appointment Seting Gurantee",
+        text: "Our Mission ",
       },
       {
         id: "02",
@@ -120,290 +127,94 @@ export const aboutUsData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
-      },
-      {
-        id: "04",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.",
-      },
-      {
-        id: "05",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+          "To provide solutions to small to large businesses to have a high-quality team to look after their leads, sales, information technologies needs and digital marketing and all the way through business solutions. So, they can overflow their business as we can solve their problems through our best team and to provide the best customer results possible through our services.",
       },
     ],
   },
 
   {
     id: "aboutUs-sec-04",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center"],
+    sectionAlign: "content-right",
+    sectionClasses: ["section", "about-setting-4", "justify-right"],
     data: [
       {
         id: "01",
-        contentType: "service-cards",
-        tag: "ServiceCards",
-        cardData: [
-          {
-            cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "About Us",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Telemarketing",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Data List Services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Digital Lead services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_05",
-            cardImg: "CRM-1.jpg",
-            cardHeading: "Business Events",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_06",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Sales Training",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-        ],
+        contentType: "text",
+        tag: "h2",
+        text: "Our Vision",
+      },
+      {
+        id: "02",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text: "To create a business world full of success.",
+      },
+      {
+        id: "03",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "To help clients create wonderful relationships with their customers and build better brands through connected digital experiences and to provide the best customer results possible and deliver high-quality services.",
       },
     ],
   },
-
   {
     id: "aboutUs-sec-05",
-    sectionAlign: "content-left",
-    sectionClasses: ["section", "about-setting-5"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Appointment setters provide quality control",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-    ],
-  },
-  {
-    id: "aboutUs-sec-06",
-    sectionAlign: "content-right",
-    sectionClasses: ["section", "about-setting-6", "justify-right"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Ability to manage your enitre lead genration requirements",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-
-      {
-        id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
-      },
-    ],
-  },
-  {
-    id: "aboutUs-sec-07",
-    sectionAlign: "content-left",
-    sectionClasses: ["section", "about-setting-7"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Let Overflow Digital solutions help you grow your sales",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-    ],
-  },
-  {
-    id: "aboutUs-sec-08",
-    sectionAlign: "content-right",
-    sectionClasses: ["section", "about-setting-8", "justify-right"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Highly trained executive callers for your sales team",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your about setting campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-
-      {
-        id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
-      },
-    ],
-  },
-  {
-    id: "aboutUs-sec-09",
     sectionAlign: "content-center",
-    sectionClasses: ["section-heading", "content-center", "bg-light-blue"],
-    sectionBackground: "quality_control.png",
+    sectionClasses: [""],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h1",
-        text: "B2B About Us Process",
+        text: "Meet Our Team",
       },
     ],
   },
+
   {
-    id: "aboutUs-sec-10",
+    id: "aboutUs-sec-06",
     sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "bg-light-blue"],
+    sectionClasses: ["content-center"],
     data: [
       {
         id: "01",
         contentType: "service-cards",
         tag: "ServiceCards",
+
         cardData: [
           {
             cardID: "card_01",
             cardImg: "girl.jpg",
-            cardHeading: "Know our client",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+            cardHeading: "Phil Jackson",
+            cardDescription: "C.T.O.",
+            classes: ["serice-card-container", "no-card"],
           },
           {
             cardID: "card_02",
             cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Choosing the right target audience",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+            cardHeading: "Janartan",
+            cardDescription: "C.E.O",
+            classes: ["serice-card-container", "no-card"],
           },
           {
             cardID: "card_03",
             cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Decision maker conversations",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Appointment Scheduling",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+            cardHeading: "Sam Smith",
+            cardDescription: "C.F.O",
+            classes: ["serice-card-container", "no-card"],
           },
         ],
       },
     ],
   },
+
   {
     id: "aboutUs-sec-11",
     sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "sec-dark-blue"],
+    sectionClasses: ["content-center", "sec-dark-blue"],
     sectionBackground: "quality_control.png",
     data: [
       {
@@ -426,14 +237,6 @@ export const aboutUsData = [
         classes: ["btn", "primary-white", "round-border"],
         tag: "button",
         text: "Start generating leads",
-        route_to: "/enquire-a-consultation",
-      },
-      {
-        id: "03",
-        contentType: "button",
-        classes: ["btn", "transparent-white", "round-border"],
-        tag: "button",
-        text: "Our lead Gurantee",
         route_to: "/enquire-a-consultation",
       },
     ],

@@ -8,7 +8,7 @@ export default function ServiceCards(props) {
   //
   return (
     <Link to={data.link_to}>
-      <div className="serice-card-container">
+      <div className={data.classes.join(" ")}>
         <img src={imgSrc} alt={data.cardHeading}></img>
         <h4>{data.cardHeading}</h4>
         <p>{data.cardDescription}</p>
