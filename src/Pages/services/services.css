@@ -51,6 +51,19 @@
   background-position: left;
   background-color: #deeefb;
 }
+.data-cleaning-2 {
+  background: url("../../images/data-cleaning-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.data-cleaning-3 {
+  background: url("../../images/data-cleaning-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
 @media (max-width: 768px) {
   .appointment-setting-1,
   .appointment-setting-2,
