@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/overflow/static/css/main.587de59d.chunk.css",
-    "main.js": "/overflow/static/js/main.2e5fbcd9.chunk.js",
-    "main.js.map": "/overflow/static/js/main.2e5fbcd9.chunk.js.map",
+    "main.css": "/overflow/static/css/main.eb462853.chunk.css",
+    "main.js": "/overflow/static/js/main.01d4a616.chunk.js",
+    "main.js.map": "/overflow/static/js/main.01d4a616.chunk.js.map",
     "runtime-main.js": "/overflow/static/js/runtime-main.2482a5e4.js",
     "runtime-main.js.map": "/overflow/static/js/runtime-main.2482a5e4.js.map",
-    "static/js/2.fbcc99b1.chunk.js": "/overflow/static/js/2.fbcc99b1.chunk.js",
-    "static/js/2.fbcc99b1.chunk.js.map": "/overflow/static/js/2.fbcc99b1.chunk.js.map",
+    "static/js/2.3ada8168.chunk.js": "/overflow/static/js/2.3ada8168.chunk.js",
+    "static/js/2.3ada8168.chunk.js.map": "/overflow/static/js/2.3ada8168.chunk.js.map",
     "index.html": "/overflow/index.html",
-    "precache-manifest.d7bcb8a024d721ccbb8f3db886e0b812.js": "/overflow/precache-manifest.d7bcb8a024d721ccbb8f3db886e0b812.js",
+    "precache-manifest.52bf12dd3f8a1a69debaf6f0b98e92b2.js": "/overflow/precache-manifest.52bf12dd3f8a1a69debaf6f0b98e92b2.js",
     "service-worker.js": "/overflow/service-worker.js",
-    "static/css/main.587de59d.chunk.css.map": "/overflow/static/css/main.587de59d.chunk.css.map",
-    "static/js/2.fbcc99b1.chunk.js.LICENSE.txt": "/overflow/static/js/2.fbcc99b1.chunk.js.LICENSE.txt",
+    "static/css/main.eb462853.chunk.css.map": "/overflow/static/css/main.eb462853.chunk.css.map",
+    "static/js/2.3ada8168.chunk.js.LICENSE.txt": "/overflow/static/js/2.3ada8168.chunk.js.LICENSE.txt",
     "static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.jpg": "/overflow/static/media/134419-phones-buyer-s-guide-which-is-the-best-iphone.f728f6db.jpg",
     "static/media/1_XDTp0k3nS8d7aEfPJsZScw.png": "/overflow/static/media/1_XDTp0k3nS8d7aEfPJsZScw.45eeab30.png",
     "static/media/AS-01.png": "/overflow/static/media/AS-01.f8343fe8.png",
@@ -51,6 +51,8 @@
     "static/media/bullets.png": "/overflow/static/media/bullets.8ed9a5ee.png",
     "static/media/business development.PNG": "/overflow/static/media/business development.5c3ed27f.PNG",
     "static/media/computer.png": "/overflow/static/media/computer.beeca8be.png",
+    "static/media/data-cleaning-2.png": "/overflow/static/media/data-cleaning-2.92f62ca3.png",
+    "static/media/data-cleaning-3.png": "/overflow/static/media/data-cleaning-3.3b81eda2.png",
     "static/media/des_01.jpg": "/overflow/static/media/des_01.98792f3b.jpg",
     "static/media/digital marketing.PNG": "/overflow/static/media/digital marketing.b230b4f8.PNG",
     "static/media/grow_sales.png": "/overflow/static/media/grow_sales.d51b043b.png",
@@ -78,8 +80,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2482a5e4.js",
-    "static/js/2.fbcc99b1.chunk.js",
-    "static/css/main.587de59d.chunk.css",
-    "static/js/main.2e5fbcd9.chunk.js"
+    "static/js/2.3ada8168.chunk.js",
+    "static/css/main.eb462853.chunk.css",
+    "static/js/main.01d4a616.chunk.js"
   ]
 }
