@@ -1,6 +1,7 @@
 export const TAGS = {
   P: "p",
   HR: "hr",
+  H4: "h4",
   H2: "h2",
   H1: "h1",
   BR: "br",

@@ -2,7 +2,7 @@ export const mobileWebAppsData = [
   {
     id: "mobileandweb-sec-1",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-1"],
+    sectionClasses: ["section", "appDev-sec-01"],
     data: [
       {
         id: "01",
@@ -37,7 +37,7 @@ export const mobileWebAppsData = [
   {
     id: "mobileandweb-sec-02",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-2", "justify-right"],
+    sectionClasses: ["section", "appDev-sec-02", "justify-right"],
     data: [
       {
         id: "01",
@@ -67,7 +67,7 @@ export const mobileWebAppsData = [
   {
     id: "mobileandweb-sec-03",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-3"],
+    sectionClasses: ["section", "appDev-sec-03"],
     data: [
       {
         id: "01",
@@ -89,7 +89,7 @@ export const mobileWebAppsData = [
   {
     id: "mobileandweb-sec-04",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-6", "justify-right"],
+    sectionClasses: ["section", "appDev-sec-04", "justify-right"],
     sectionBackground: "quality_control.png",
     data: [
       {
@@ -120,7 +120,7 @@ export const mobileWebAppsData = [
   {
     id: "appointmentSetting-sec-05",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-7"],
+    sectionClasses: ["section", "appDev-sec-05"],
     sectionBackground: "quality_control.png",
     data: [
       {

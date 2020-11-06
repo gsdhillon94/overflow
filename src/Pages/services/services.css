@@ -64,6 +64,97 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+.appDev-sec-01 {
+  background: url("../../images/appDev-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.appDev-sec-02 {
+  background: url("../../images/appDev-sec-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.appDev-sec-03 {
+  background: url("../../images/about-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.appDev-sec-04 {
+  background: url("../../images/appDev-sec-04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.appDev-sec-05 {
+  background: url("../../images/appDev-sec-05.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.digitalLead-sec-1 {
+  background: url("../../images/digitalLead-sec-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.digitalLead-sec-2 {
+  background: url("../../images/data-cleaning-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.digitalLead-sec-3 {
+  background: url("../../images/digitalLead-sec-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.digitalLead-sec-4 {
+  background: url("../../images/digitalLead-sec-4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.digitalLead-sec-5 {
+  background: url("../../images/digitalLead-sec-5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.digitalLead-sec-6 {
+  background: url("../../images/digitalLead-sec-6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.digitalLead-sec-7 {
+  background: url("../../images/appDev-sec-05.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.digitalLead-sec-8 {
+  background: url("../../images/digitalLead-sec-8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #deeefb;
+}
+.digitalLead-sec-9 {
+  background: url("../../images/about-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 @media (max-width: 768px) {
   .appointment-setting-1,
   .appointment-setting-2,
@@ -72,7 +163,21 @@
   .appointment-setting-5,
   .appointment-setting-6,
   .appointment-setting-7,
-  .appointment-setting-8 {
+  .appointment-setting-8,
+  .appDev-sec-01,
+  .appDev-sec-02,
+  .appDev-sec-03,
+  .appDev-sec-04,
+  .appDev-sec-05,
+  .digitalLead-sec-1,
+  .digitalLead-sec-2,
+  .digitalLead-sec-3,
+  .digitalLead-sec-4,
+  .digitalLead-sec-5,
+  .digitalLead-sec-6,
+  .digitalLead-sec-7,
+  .digitalLead-sec-8,
+  .digitalLead-sec-9 {
     background-size: 30vh;
     background-position-x: 100%;
     background-position-y: 0%;

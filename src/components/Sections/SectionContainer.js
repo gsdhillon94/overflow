@@ -18,6 +18,15 @@ function SectionContainer(props) {
         return <p key={item.id + index}>{item.text}</p>;
       case TAGS.HR:
         return <hr key={item.id + index} />;
+      case TAGS.H4:
+        return (
+          <h4
+            className={item.class !== null ? item.class : ""}
+            key={item.id + index}
+          >
+            {item.text}
+          </h4>
+        );
       case TAGS.H2:
         return (
           <h2

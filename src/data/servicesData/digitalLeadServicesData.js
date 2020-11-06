@@ -1,14 +1,14 @@
 export const digitalLeadServicesData = [
   {
-    id: "appointmentSetting-sec",
+    id: "digitalLead-sec",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-1"],
+    sectionClasses: ["section", "digitalLead-sec-1"],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Digital Lead Services",
+        text: "Digital Marketing Services ",
       },
       {
         id: "02",
@@ -24,23 +24,61 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Result-driven Digital Marketing Services tailored to your unique business needs. Improve ROI with stronger digital footprint, more traffic, and better quality leads. Stand out from the competition with a tailored strategy that fits your business.",
       },
       {
         id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        contentType: "list",
+        classes: [],
+        tag: "ul",
+        list_style_image: "",
+        list: [
+          "Reasonable Pricing",
+          "Guranteed Results",
+          "Effective Strategies",
+          "Creative Graphic Designs",
+        ],
+      },
+    ],
+  },
+  {
+    id: "digitalLead-sec-02",
+    sectionAlign: "content-right",
+    sectionClasses: ["section", "digitalLead-sec-2", "justify-right"],
+    data: [
+      {
+        id: "01",
+        contentType: "text",
+        tag: "h2",
+        text: "SEO (Search Engine Optimization)",
+      },
+      {
+        id: "02",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Empower Your SEO Strategies & Significantly Improve Search Rankings. Website Audit. Looking For Best SEO Services ? Certified Partner with years of experience.",
+      },
+      {
+        id: "03",
+        contentType: "text",
+        tag: "h4",
+        text: "Know Your Clients",
+      },
+      {
+        id: "04",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We used the power of online marketing and advertising to generate consistent traffic, setting up and optimize your site to generate quality traffic on search engines, building your social media credibility and reputation, generating your leads or sales through paid advertising or grow your email leads through lead generation channel and many more. Our team has the expertise and capabilities to help your business grow from offline and online activities.",
       },
       {
         id: "05",
-        contentType: "button",
-        classes: ["btn", "large-white", "round-border"],
-        tag: "button",
-        text: "Learn about our gurantee",
-        route_to: "/our-gurantee",
+        contentType: "text",
+        tag: "h4",
+        text: "Building",
       },
       {
         id: "06",
@@ -48,71 +86,29 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "We can help increase your bottom line with an SEO campaign that is specifically designed for your unique business. Start earning more qualified search traffic to your website today with our search engine optimization services.",
       },
       {
         id: "07",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-02",
-    sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-2", "justify-right"],
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Digital Lead Services",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "list",
-        classes: [],
-        tag: "ul",
-        list_style_image: "",
-        list: [
-          "Appointment SetterQualified scheduled appointments are ideal when it comes to filling your sales pipeline. However, many sales organizations will tell you that though Digital Lead Services is a vital part of the lead generation process, it is also one of the hardest. It requires a significant amount of time, research, and gumption",
-          "There are several mission-critical reasons to consider reversing the common marketing strategy of first emailing a list of prospects that have never heard of you before, and second, calling them to follow up",
-          "Marketing has conducted a lead generation program and developed a number of qualified leads for the sales team to follow-up on.  Some of the leads seem very “Hot” and need immediate action",
-          "When an organization outsources sales lead generation, it is handing off a controlled process of qualifying sales opportunities to a team of specialists. ",
-          "As most customer service and sales professionals know, setting an appointment is a key step to selling your service or product. While an initial cold call may land you an opportunity to pitch your offering",
-        ],
-      },
-      {
-        id: "04",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
+        contentType: "button",
+        classes: ["btn", "large-blue", "round-border"],
+        tag: "button",
+        text: "Enquire for Free consultation",
+        route_to: "/enquire-a-consultation",
       },
     ],
   },
 
   {
-    id: "appointmentSetting-sec-03",
+    id: "digitalLead-sec-03",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-3"],
+    sectionClasses: ["section", "digitalLead-sec-3"],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Our Appointment Seting Gurantee",
+        text: "Pay Per Click Advertising Services ",
       },
       {
         id: "02",
@@ -120,7 +116,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+          "We have impressive Pay Per Click Advertising experience and proud Google Certified with Analytics, Search and Display Ads Certification for Google Ads Management. We managed multiple Ads campaigns in both Google, Bing, Facebook and Media Buy Ads. Helping clients reach their target audience in real-time and generate quality traffic and help them improve their leads, conversion and sales.",
       },
       {
         id: "03",
@@ -128,7 +124,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
+          "Get more traffic and conversions with our premium PPC campaign management services. Our PPC agency gets results, and we can prove it to you.",
       },
       {
         id: "04",
@@ -136,7 +132,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.",
+          "We can help! we have the tools, skills, experience and proud Google and Facebook certified to manage and handle pay per click advertising across all platforms.",
       },
       {
         id: "05",
@@ -150,111 +146,22 @@ export const digitalLeadServicesData = [
   },
 
   {
-    id: "appointmentSetting-sec-04",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center"],
-    data: [
-      {
-        id: "01",
-        contentType: "service-cards",
-        tag: "ServiceCards",
-        cardData: [
-          {
-            cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "Digital Lead Servicess",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Telemarketing",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Data List Services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Digital Lead services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_05",
-            cardImg: "CRM-1.jpg",
-            cardHeading: "Business Events",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_06",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Sales Training",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-        ],
-      },
-    ],
-  },
-
-  {
-    id: "appointmentSetting-sec-05",
-    sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-5"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Appointment setters provide quality control",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-06",
+    id: "digitalLead-sec-04",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-6", "justify-right"],
+    sectionClasses: ["section", "digitalLead-sec-4", "justify-right"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Ability to manage your enitre lead genration requirements",
+        text: "Social Media Marketing",
       },
       {
         id: "02",
         contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+        tag: "h4",
+        text: "Drive results with social media",
       },
       {
         id: "03",
@@ -262,7 +169,97 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+          "Over the past few years, social media channels like Facebook, Twitter, and Instagram have become standard components of an effective digital marketing strategy.",
+      },
+      {
+        id: "04",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Getting the results you want can be challenging, but the resources on this page can help you accomplish your social media marketing goals.",
+      },
+      {
+        id: "05",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We provide new account setups, account management, posting services, and paid advertising options that will help spread online presence and drive engagement.",
+      },
+      {
+        id: "06",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "These efforts will develop a following of social media users who are interested in your product and services or what you can offer them.",
+      },
+    ],
+  },
+  {
+    id: "digitalLead-sec-05",
+    sectionAlign: "content-left",
+    sectionClasses: ["section", "digitalLead-sec-5"],
+    sectionBackground: "quality_control.png",
+    data: [
+      {
+        id: "01",
+        contentType: "text",
+        tag: "h2",
+        text: "Email Marketing ",
+      },
+      {
+        id: "02",
+        contentType: "text",
+        tag: "h4",
+        text: "High Quality Email Marketing Management Services",
+      },
+      {
+        id: "03",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We will manage your campaigns, and ensure that your email content is top-level and that it encourages users to visit your site and purchase your products and services that you offer.",
+      },
+      {
+        id: "04",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Our email marketing management services include responsive design email, content creation, and personalization, and we will help you choose the campaign that matches your business needs.",
+      },
+    ],
+  },
+  {
+    id: "digitalLead-sec-06",
+    sectionAlign: "content-right",
+    sectionClasses: ["section", "digitalLead-sec-6", "justify-right"],
+    sectionBackground: "quality_control.png",
+    data: [
+      {
+        id: "01",
+        contentType: "text",
+        tag: "h2",
+        text: "Content Marketing Strategy",
+      },
+      {
+        id: "02",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Overflow Digital Marketing Solutions incorporated Graphic Design services to help our clients succeed online by utilizing and implementing good user content experience as a priority in our marketing strategy.",
+      },
+      {
+        id: "03",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Content marketing is much more than creating, distributing and sharing content in order to engage audiences, generate leads, improve branding, and other marketing goals you can serve with content marketing.",
       },
 
       {
@@ -275,17 +272,18 @@ export const digitalLeadServicesData = [
       },
     ],
   },
+
   {
-    id: "appointmentSetting-sec-07",
+    id: "digitalLead-sec-07",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-7"],
+    sectionClasses: ["section", "digitalLead-sec-7"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Let Overflow Digital solutions help you grow your sales",
+        text: "Mobile Marketing Strategy",
       },
       {
         id: "02",
@@ -293,37 +291,44 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Mobile device usage continues to surpass that of laptops and desktops. To stay relevant, your company needs to be where your consumers are going.",
       },
       {
         id: "03",
+        contentType: "button",
+        classes: ["btn", "large-blue", "round-border"],
+        tag: "button",
+        text: "Enquire for Free consultation",
+        route_to: "/enquire-a-consultation",
+      },
+      {
+        id: "04",
         contentType: "text",
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "We can help make your site mobile friendly that translates across every device and creates mobile-friendly content.",
       },
     ],
   },
   {
-    id: "appointmentSetting-sec-08",
+    id: "digitalLead-sec-08",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-8", "justify-right"],
+    sectionClasses: ["section", "digitalLead-sec-8", "justify-right"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Highly trained executive callers for your sales team",
+        text: "Digital Consultancy",
       },
       {
         id: "02",
         contentType: "text",
-        size: "14px",
-        tag: "p",
+        tag: "h2",
         text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+          "Take advantage of our extensive experience in putting clients on page one.",
       },
       {
         id: "03",
@@ -331,9 +336,8 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+          "We help businesses shape and transforms their digital strategies with our industry-leading experience and knowledge.",
       },
-
       {
         id: "04",
         contentType: "button",
@@ -342,75 +346,35 @@ export const digitalLeadServicesData = [
         text: "Enquire for Free consultation",
         route_to: "/enquire-a-consultation",
       },
+      {
+        id: "05",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Competition analysis – Why are your competitors outranking you? ",
+      },
+      {
+        id: "06",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "We’ll uncover their tactics and formulate counter strategies to increase your website’s fighting chance.",
+      },
     ],
   },
   {
-    id: "appointmentSetting-sec-09",
-    sectionAlign: "content-center",
-    sectionClasses: ["section-heading", "content-center", "bg-light-blue"],
+    id: "digitalLead-sec-09",
+    sectionAlign: "content-left",
+    sectionClasses: ["section", "digitalLead-sec-9"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h1",
-        text: "B2B Digital Lead Services Process",
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-10",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "bg-light-blue"],
-    data: [
-      {
-        id: "01",
-        contentType: "service-cards",
-        tag: "ServiceCards",
-        cardData: [
-          {
-            cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "Know our client",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Choosing the right target audience",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Decision maker conversations",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Appointment Scheduling",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-11",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "sec-dark-blue"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h1",
-        text: "Lets get Talking",
+        text: "Lead Conversion Optimization",
       },
       {
         id: "02",
@@ -418,22 +382,22 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your Digital Lead Services campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+          "We offer innovative and cost-effective Online Lead Generation services to all businesses and industries online. We used the power of Search Engine Marketing, Social Media Marketing, and Sponsored Advertising through Google Ads and Facebook Ads.",
       },
       {
         id: "03",
-        contentType: "button",
-        classes: ["btn", "primary-white", "round-border"],
-        tag: "button",
-        text: "Start generating leads",
-        route_to: "/enquire-a-consultation",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Convert more of your traffic into sales with our website conversion optimization services. Learn more about what conversion optimization can do for you.",
       },
       {
-        id: "03",
+        id: "04",
         contentType: "button",
-        classes: ["btn", "transparent-white", "round-border"],
+        classes: ["btn", "large-blue", "round-border"],
         tag: "button",
-        text: "Our lead Gurantee",
+        text: "Enquire for Free Consultation",
         route_to: "/enquire-a-consultation",
       },
     ],
