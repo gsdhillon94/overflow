@@ -48,66 +48,60 @@ export default class Home extends Component {
           <hr className="testimonial-hr" />
           <div className="testimonials">
             <div className="testimonial-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+              Overflow Did an excellent job handling the design of our web site.
+              I would highly recommend Overflow if you are in need of web
+              design.
               <div className="cust-review">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <p>Customer Name</p>
+                <p className="cust-name">Jay Smith</p>
+                <p className="cust-title">CEO</p>
               </div>
             </div>
             <div className="testimonial-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+              <div>
+                We were very pleased with all the work and expertise provided
+              </div>
+              <br />
               <div className="cust-review">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <p>Customer Name</p>
+
+                <p className="cust-name">Rene Johnson</p>
+                <p className="cust-title">Director of Marketing</p>
               </div>
             </div>
             <div className="testimonial-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+              Their team is knowledgeable, responsive and committed to
+              supporting our initiatives, making them invaluable partners.
               <div className="cust-review">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <p>Customer Name</p>
+                <p className="cust-name">Maria Lopez</p>
+                <p className="cust-title">Operations Manager</p>
+              </div>
+            </div>
+            <div className="testimonial-content">
+              Your Team Rocks! Just a short note to thank you for the help on my
+              social media. Your team is superb, and they were very helpful!
+              Kudos to all, and I want to express my gratitude to you.
+              <div className="cust-review">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <p className="cust-name">Eugene Scott-President</p>
+                <p className="cust-title">(Social Media Service)</p>
               </div>
             </div>
           </div>

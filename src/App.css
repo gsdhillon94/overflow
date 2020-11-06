@@ -243,14 +243,26 @@ a .blogs-card-container img {
   display: block !important;
 }
 .testimonial-content {
-  margin: 0 2rem;
+  margin: 0 0.5rem;
+  min-width: 10vw;
+  max-width: 20vw;
 }
+
 .cust-review {
+  margin-top: 0px;
   font-weight: 600;
   font-style: normal;
 }
-.cust-review p {
+.cust-name {
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+}
+.cust-title {
   margin-top: 0px;
+  font-weight: 100;
 }
 .cust-review > .fa-star {
   color: yellow;
@@ -318,6 +330,9 @@ a .blogs-card-container img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 15%;
+}
+.center-item {
+  margin: auto;
 }
 @media (max-width: 768px) {
   .home__section-two {
