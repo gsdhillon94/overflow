@@ -21,7 +21,7 @@ export const mobileWebAppsData = [
       {
         id: "03",
         contentType: "text",
-        tag: "h2",
+        tag: "h4",
         text: "Custom Web Designs",
       },
       {
