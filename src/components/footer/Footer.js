@@ -11,12 +11,11 @@ function Footer() {
             <img src={logo} alt={logo} />
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur
+            Overflow Digital Solutions takes great pride in having the ability
+            of problem-solving mindset. We specialize in end-to-end IT &
+            Telecommunication services, lead generation services and Digital
+            Marketing Services. We use our professional skills to generate
+            guaranteed, qualified leads for businesses of all sizes.
           </p>
         </div>
         <div className="spacer"></div>

@@ -10,6 +10,9 @@ export default class DataCleaning extends Component {
       data: dataCleaningData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

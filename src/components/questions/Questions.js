@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./questions.css";
 
 export default function Questions(props) {
@@ -12,6 +12,10 @@ export default function Questions(props) {
     resp.value = val;
     resp.index = i;
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [props]);
 
   let question_style = null;
   const data = props.data.question;

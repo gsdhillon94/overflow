@@ -19,7 +19,9 @@ class GetStarted extends Component {
     };
   }
 
-  conponentDidMount = () => {};
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   getQuestionDisplayed = () => {
     this.state.questions.find((question, index) => {
@@ -131,7 +133,7 @@ class GetStarted extends Component {
             <button
               style={{ float: "right" }}
               onClick={this.submitQuiz}
-              disabled={
+              hidden={
                 this.state.questionIndex != this.state.questions.length - 1
                   ? true
                   : false
@@ -147,7 +149,7 @@ class GetStarted extends Component {
             onClick={(event) => {
               this.goNext(event);
             }}
-            disabled={
+            hidden={
               this.state.questionIndex != this.state.questions.length - 1
                 ? false
                 : true

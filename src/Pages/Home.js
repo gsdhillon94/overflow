@@ -19,6 +19,10 @@ export default class Home extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const serviceCards = this.state.serviceCardsData.map((item) => {
       return <ServiceCards key={item.cardID} data={item} />;

@@ -10,6 +10,9 @@ export default class AppintmentSetting extends Component {
       data: appointmentSettingData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

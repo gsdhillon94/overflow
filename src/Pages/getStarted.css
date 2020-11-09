@@ -21,3 +21,8 @@
   background-color: #cbcbcc;
   box-shadow: none;
 }
+@media (max-width: 768px) {
+  .buttons-container {
+    margin: 1rem;
+  }
+}

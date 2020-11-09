@@ -65,4 +65,7 @@ img {
     text-align: center;
     width: 100%;
   }
+  .footer__content-wrapper {
+    padding: 1rem;
+  }
 }

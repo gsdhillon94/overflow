@@ -85,6 +85,7 @@ main {
 }
 .center {
   padding: 0 2rem;
+  margin: auto;
 }
 .quote-input {
   width: 100%;
@@ -104,7 +105,7 @@ main {
 }
 
 .card-container-center {
-  width: 22vw;
+  width: 18vw;
   box-shadow: 0px 0px 5px #000000;
   overflow: hidden;
   height: 60vh;
@@ -403,5 +404,8 @@ a .blogs-card-container img {
   .about-setting-3,
   .about-setting-4 {
     background-size: 20vw;
+  }
+  .testimonial-content {
+    min-width: 100%;
   }
 }

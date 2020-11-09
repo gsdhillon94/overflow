@@ -10,6 +10,9 @@ export default class Telemarketing extends Component {
       data: teleMarketingData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

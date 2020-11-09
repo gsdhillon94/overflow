@@ -10,6 +10,9 @@ export default class DigitalLeadServices extends Component {
       data: digitalLeadServicesData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

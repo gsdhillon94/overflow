@@ -10,6 +10,9 @@ export default class AboutUs extends Component {
       data: aboutUsData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

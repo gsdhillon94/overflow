@@ -10,6 +10,9 @@ export default class RestaurantApp extends Component {
       data: restaurantAppData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

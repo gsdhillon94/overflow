@@ -10,6 +10,9 @@ export default class MarketingAutomation extends Component {
       data: marketingAutomationData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

@@ -148,25 +148,7 @@ function SectionContainer(props) {
 
   return (
     <div className={sectionClasses}>
-      <div className={props.sectionsData.sectionAlign}>
-        {/* {sectiondata} */}
-        {/* <div className="content-left">
-          <p>Connecting people with Technology</p>
-          <hr />
-          <h2>Creativity meets technology & modern web design ideas</h2>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris.
-          </p>
-          <br />
-          <button className="btn primary-blue">Get Started</button>
-          <button className="btn primary-white">Learn More</button>
-        </div>*/}
-
-        {sectiondata}
-      </div>
+      <div className={props.sectionsData.sectionAlign}>{sectiondata}</div>
     </div>
   );
 }

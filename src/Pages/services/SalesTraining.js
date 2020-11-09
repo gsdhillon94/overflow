@@ -10,6 +10,9 @@ export default class SalesTraining extends Component {
       data: salesTrainingData,
     };
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
