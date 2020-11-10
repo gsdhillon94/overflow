@@ -1,13 +1,20 @@
 .label-option {
-  margin: 1rem 1rem;
+  margin: 1rem;
   box-shadow: 1px 1px 4px 0px #808080;
-  padding: 2rem 2rem;
-  font-size: 0.75rem;
+  padding: 3rem 2rem;
   width: 15%;
   text-align: center;
+  height: 10vh;
 }
 .label-option input {
   margin: 0.5rem;
+}
+.label-option img {
+  height: 100%;
+}
+
+.label-option > input:checked + .label-option {
+  box-shadow: 1px 1px 4px 0px #ff0000;
 }
 .ques-btn {
   position: relative;

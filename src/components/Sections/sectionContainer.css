@@ -14,8 +14,9 @@
 
 .home-sec_two {
   background: url("../../images/secTwo.png");
-  background-size: cover;
-  font-size: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .blog .content-left {
   max-width: none;

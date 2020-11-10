@@ -27,15 +27,15 @@ export default function Questions(props) {
       <label key={index + "op" + data.id} className="label-option">
         <input
           type="radio"
-          value={option}
+          value={option.value}
           name={data.name}
           onClick={(event) => {
             setResp(event.target.value, data.index);
             props.click(event, resp);
           }}
         />
-        {/* <img src={require("../../images/" + data.image)} alt={data.image} /> */}
-        {option}
+        <img src={require("../../images/" + option.image)} alt={option.image} />
+        <p>{option.value}</p>
       </label>
     );
   });

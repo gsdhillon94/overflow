@@ -17,7 +17,7 @@ export default function CardContainer() {
       heading: "Mobile and Web App Solutions",
       content:
         "With the changing landscape in business, we bring our expertise in Mobile and Web app Technology.",
-      image: "advanced-it-solutions.jpg",
+      image: "appDev-sec-05.png",
       link_to: "/applicationDevelopment",
     },
     {
@@ -25,7 +25,7 @@ export default function CardContainer() {
       heading: "How we can help",
       content:
         "We provide Digital Solutions. We offer our services to businesses across different industries and sectors to build them tailored solutions.",
-      image: "we-help.jpeg",
+      image: "CRM-1.jpg",
       link_to: "/about",
     },
   ]);
