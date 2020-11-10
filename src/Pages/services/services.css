@@ -154,6 +154,32 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+.tele-marketing-sec-1 {
+  background: url("../../images/tele-marketing-sec-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 55vw;
+}
+.tele-marketing-sec-2 {
+  background: url("../../images/tele-marketing-sec-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10vw;
+  background-color: #deeefb;
+}
+.business-event-sec-1 {
+  background: url("../../images/business-event-sec-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 55vw;
+}
+.business-event-sec-2 {
+  background: url("../../images/business-event-sec-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10vw;
+  background-color: #deeefb;
+}
 
 @media (max-width: 768px) {
   .appointment-setting-1,

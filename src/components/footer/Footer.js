@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -11,11 +12,31 @@ function Footer() {
             <img src={logo} alt={logo} />
           </div>
           <p>
-            Overflow Digital Solutions takes great pride in having the ability
-            of problem-solving mindset. We specialize in end-to-end IT &
-            Telecommunication services, lead generation services and Digital
-            Marketing Services. We use our professional skills to generate
-            guaranteed, qualified leads for businesses of all sizes.
+            We range of business services from Business Development, Marketing,
+            Consultancy requirements across Melbourne, Sydney, Brisbane, Perth
+            and Adelaide
+            <br />
+            <br />
+            <b>Head Office</b>
+            <br /> Melbourne: Level 23,
+            <br />
+            Collins Square Tower Five,
+            <br />
+            727 Collins Street,
+            <br />
+            VIC 3008
+            <br />
+            <br />
+            <b>ABN:</b> 76 954 889 494
+            <div className="social-icons">
+              <a href="https://www.linkedin.com/company/overflow-digital-solutions/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/overflowdigitalsolutions/">
+                <i className="fab fa-facebook-square"></i>
+              </a>
+              {/* <i className="fab fa-twitter-square"></i> */}
+            </div>
           </p>
         </div>
         <div className="spacer"></div>

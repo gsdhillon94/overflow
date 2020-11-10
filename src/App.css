@@ -335,6 +335,12 @@ a .blogs-card-container img {
 .center-item {
   margin: auto;
 }
+.social-icons {
+  font-size: 2rem;
+}
+.social-icons i {
+  margin: 0rem 1rem;
+}
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;
