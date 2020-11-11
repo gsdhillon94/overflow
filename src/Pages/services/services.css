@@ -180,6 +180,119 @@
   background-position: 10vw;
   background-color: #deeefb;
 }
+.restaurant-app-sec-01 {
+  background: url("../../images/restaurant-app-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
+.restaurant-app-sec-02 {
+  background: url("../../images/restaurant-app-sec-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+
+.restaurant-app-sec-03 {
+  background: url("../../images/restaurant-app-sec-03.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
+.restaurant-app-sec-04 {
+  background: url("../../images/restaurant-app-sec-04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+.restaurant-app-sec-05 {
+  background: url("../../images/restaurant-app-sec-05.png");
+  background-size: contain;
+  background-position: 50vw center;
+  background-repeat: no-repeat;
+}
+.restaurant-app-sec-06 {
+  background: url("../../images/restaurant-app-sec-06.png");
+  background-size: contain;
+  background-position: 5vw;
+  background-color: #deeefb;
+  background-repeat: no-repeat;
+}
+.sales-training-sec-01 {
+  background: url("../../images/sales-training-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
+.sales-training-sec-02 {
+  background: url("../../images/sales-training-sec-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+
+.sales-training-sec-03 {
+  background: url("../../images/sales-training-sec-03.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 38vw;
+}
+.marketing-automation-sec-01 {
+  background: url("../../images/marketing-automation-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 60vw;
+}
+.marketing-automation-sec-02 {
+  background: url("../../images/marketing-automation-sec-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+.advanced-digital-sec-01 {
+  background: url("../../images/advanced-digital-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
+.advanced-digital-sec-02 {
+  background: url("../../images/advanced-digital-sec-02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+
+.advanced-digital-sec-03 {
+  background: url("../../images/advanced-digital-sec-03.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
+.advanced-digital-sec-04 {
+  background: url("../../images/advanced-digital-sec-04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw;
+  background-color: #deeefb;
+}
+.advanced-digital-sec-05 {
+  background: url("../../images/advanced-digital-sec-05.png");
+  background-size: contain;
+  background-position: 50vw center;
+  background-repeat: no-repeat;
+}
+.advanced-digital-sec-06 {
+  background: url("../../images/advanced-digital-sec-06.png");
+  background-size: contain;
+  background-position: 5vw;
+  background-color: #deeefb;
+  background-repeat: no-repeat;
+}
 
 @media (max-width: 768px) {
   .appointment-setting-1,
@@ -203,7 +316,22 @@
   .digitalLead-sec-6,
   .digitalLead-sec-7,
   .digitalLead-sec-8,
-  .digitalLead-sec-9 {
+  .digitalLead-sec-9,
+  .restaurant-app-sec-01,
+  .restaurant-app-sec-02,
+  .restaurant-app-sec-03,
+  .restaurant-app-sec-04,
+  .restaurant-app-sec-05,
+  .restaurant-app-sec-06,
+  .sales-training-sec-01,
+  .sales-training-sec-02,
+  .sales-training-sec-03,
+  .advanced-digital-sec-01,
+  .advanced-digital-sec-02,
+  .advanced-digital-sec-03,
+  .advanced-digital-sec-04,
+  .advanced-digital-sec-05,
+  .advanced-digital-sec-06 {
     background-size: 30vh;
     background-position-x: 100%;
     background-position-y: 0%;

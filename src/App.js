@@ -29,6 +29,8 @@ import BusinessEvents from "./Pages/services/BusinessEvents";
 import DigitalLeadServices from "./Pages/services/DigitalLeadServices";
 import MobileWebApps from "./Pages/services/MobileWebApps";
 import QuizResults from "./Pages/QuizResults";
+import AdvancedDigital from "./Pages/services/AdvancedDigital";
+import VideoAnimation from "./Pages/services/VideoAnimation";
 
 class App extends React.Component {
   state = {
@@ -121,6 +123,12 @@ class App extends React.Component {
                 </Route>
                 <Route path="/suggestions">
                   <QuizResults />
+                </Route>
+                <Route path="/advancedDigital">
+                  <AdvancedDigital />
+                </Route>
+                <Route path="/videoAnimation">
+                  <VideoAnimation />
                 </Route>
               </Switch>
             </main>

@@ -219,6 +219,9 @@ a .blogs-card-container img {
   text-align: center;
   padding: 1rem 2rem;
 }
+.content-center h1 {
+  width: 100%;
+}
 .content-center p {
   margin: 0 2rem;
 }

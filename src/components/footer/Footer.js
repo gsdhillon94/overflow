@@ -30,7 +30,7 @@ function Footer() {
             <b>ABN:</b> 76 954 889 494
             <div className="social-icons">
               <a href="https://www.linkedin.com/company/overflow-digital-solutions/">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
               <a href="https://www.facebook.com/overflowdigitalsolutions/">
                 <i className="fab fa-facebook-square"></i>
@@ -40,36 +40,75 @@ function Footer() {
           </p>
         </div>
         <div className="spacer"></div>
+
         <div className="fd-1rem">
           <p>Company</p>
           <ul>
-            <li>Services</li>
-            <li>About</li>
-            <li>Careers</li>
+            <Link to="/overflow">
+              <li>Home</li>
+            </Link>
+            <Link to="/about">
+              <li>About Us</li>
+            </Link>
+            <Link to="/blogs">
+              <li>Blogs</li>
+            </Link>
           </ul>
         </div>
         <div className="fd-1rem">
-          <p>Products</p>
+          <p>Sales</p>
           <ul>
-            <li>Services</li>
-            <li>About</li>
-            <li>Careers</li>
+            <Link to="/appointmentSetting">
+              <li>Appointment Setting</li>
+            </Link>
+            <Link to="/datacleaning">
+              <li>Data Cleaning</li>
+            </Link>
+            <Link to="/salesTraining">
+              <li>Sales Training</li>
+            </Link>
           </ul>
         </div>
         <div className="fd-1rem">
-          <p>Services</p>
+          <p>Marketing</p>
           <ul>
-            <li>Services</li>
-            <li>About</li>
-            <li>Careers</li>
+            <Link to="/digitalLead">
+              <li>Digital Lead Services</li>
+            </Link>
+            <Link to="/marketingAutomation">
+              <li>Marketing Automation</li>
+            </Link>
+            <Link to="/telemarketing">
+              <li>Telemarketing</li>
+            </Link>
           </ul>
         </div>
         <div className="fd-1rem">
-          <p>Social</p>
+          <p>Development</p>
           <ul>
-            <li>Services</li>
-            <li>About</li>
-            <li>Careers</li>
+            <Link to="/applicationDevelopment">
+              <li>Web Development</li>
+            </Link>
+            <Link to="/applicationDevelopment">
+              <li>Add Development</li>
+            </Link>
+            <Link to="/restaurantApp">
+              <li>Restaurant App Development </li>
+            </Link>
+          </ul>
+        </div>
+        <div className="fd-1rem">
+          <p>Virtual Assistance</p>
+          <ul>
+            <Link to="/salesTraining">
+              <li>Build Sales Team</li>
+            </Link>
+            <Link to="/businessEvents">
+              <li>Business Events</li>
+            </Link>
+            <Link to="/appointmentSetting">
+              <li>Appointment Setting</li>
+            </Link>
           </ul>
         </div>
       </div>

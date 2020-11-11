@@ -1,14 +1,14 @@
 export const restaurantAppData = [
   {
-    id: "appointmentSetting-sec",
+    id: "restaurant-app-sec-01",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-1"],
+    sectionClasses: ["section", "restaurant-app-sec-01"],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Restaurant App",
+        text: "With the restaurant app, you can reach new customers",
       },
       {
         id: "02",
@@ -24,103 +24,86 @@ export const restaurantAppData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Mobile applications are easier as compared to websites –giving customers the ability to pick their favorite items from a menu and place an order with the restaurant in just a few steps anywhere and anytime!",
       },
-      {
-        id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
-      },
+
       {
         id: "05",
         contentType: "button",
         classes: ["btn", "large-white", "round-border"],
         tag: "button",
-        text: "Learn about our gurantee",
-        route_to: "/our-gurantee",
-      },
-      {
-        id: "06",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "07",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        text: "Free Live Demo",
+        route_to: "/free-live-Demo",
       },
     ],
   },
   {
-    id: "appointmentSetting-sec-02",
+    id: "restaurant-app-sec-02",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-2", "justify-right"],
+    sectionClasses: ["section", "restaurant-app-sec-02", "justify-right"],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Restaurant App",
+        text: "Admin Dashboard",
       },
       {
         id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
         contentType: "list",
         classes: [],
         tag: "ul",
         list_style_image: "",
         list: [
-          "Appointment SetterQualified scheduled appointments are ideal when it comes to filling your sales pipeline. However, many sales organizations will tell you that though Restaurant App is a vital part of the lead generation process, it is also one of the hardest. It requires a significant amount of time, research, and gumption",
-          "There are several mission-critical reasons to consider reversing the common marketing strategy of first emailing a list of prospects that have never heard of you before, and second, calling them to follow up",
-          "Marketing has conducted a lead generation program and developed a number of qualified leads for the sales team to follow-up on.  Some of the leads seem very “Hot” and need immediate action",
-          "When an organization outsources sales lead generation, it is handing off a controlled process of qualifying sales opportunities to a team of specialists. ",
-          "As most customer service and sales professionals know, setting an appointment is a key step to selling your service or product. While an initial cold call may land you an opportunity to pitch your offering",
+          "Restore and back up function that allows the business to keep its database secure ",
+          "Location management feature that informs management about real-time movements of all their delivery personnel",
+          "Category management system that helps management analyze various processes of their business to improve its efficiency",
+          "System that manages ad campaigns and promotions",
+          "Message feature that updates customers about the exact time of delivery and payment required",
         ],
-      },
-      {
-        id: "04",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
       },
     ],
   },
 
   {
-    id: "appointmentSetting-sec-03",
+    id: "restaurant-app-sec-03",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-3"],
+    sectionClasses: ["section", "restaurant-app-sec-03"],
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Our Appointment Seting Gurantee",
+        text: "Live Chat Support",
       },
       {
         id: "02",
         contentType: "text",
         size: "14px",
         tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
+        text: "Get expert support, whenever you need it.",
+      },
+    ],
+  },
+
+  {
+    id: "restaurant-app-sec-04",
+    sectionAlign: "content-right",
+    sectionClasses: ["section", "restaurant-app-sec-04", "justify-right"],
+    sectionBackground: "quality_control.png",
+    data: [
+      {
+        id: "01",
+        contentType: "text",
+        tag: "h2",
+        text: "Online Takeaway Ordering System",
+      },
+      {
+        id: "02",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text: "More customers want to pick up their food & enjoy it at home.",
       },
       {
         id: "03",
@@ -128,95 +111,37 @@ export const restaurantAppData = [
         size: "14px",
         tag: "p",
         text:
-          "One of the hardest things that will keep a salesperson up at night is getting past the gatekeeper and getting in contact with the decision maker. We have all been there, and it is a struggle that is all too familiar in the sales industry.",
+          "Our system enables you to create a great customer experience, by allowing them to choose the time and day when they want to pick up their orders.",
       },
       {
         id: "04",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.When it comes to social media reach with a human touch, your organization’s biggest opportunities may be unlocked when your employees are involved, so improving employee advocacy and company culture is something all marketing departments should have a hand in.",
+        contentType: "button",
+        classes: ["btn", "large-white", "round-border"],
+        tag: "button",
+        text: "Free Live Demo",
+        route_to: "/free-live-Demo",
       },
       {
         id: "05",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        contentType: "text",
+        size: "14px",
+        tag: "p",
+        text:
+          "Get the best Food Ordering App for your Restaurant with highly designed and features.",
       },
     ],
   },
-
   {
-    id: "appointmentSetting-sec-04",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center"],
-    data: [
-      {
-        id: "01",
-        contentType: "service-cards",
-        tag: "ServiceCards",
-        cardData: [
-          {
-            cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "Restaurant Apps",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Telemarketing",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Data List Services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Digital Lead services",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_05",
-            cardImg: "CRM-1.jpg",
-            cardHeading: "Business Events",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_06",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Sales Training",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-        ],
-      },
-    ],
-  },
-
-  {
-    id: "appointmentSetting-sec-05",
+    id: "restaurant-app-sec-05",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-5"],
+    sectionClasses: ["section", "restaurant-app-sec-05"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Appointment setters provide quality control",
+        text: "Food Delivery App ",
       },
       {
         id: "02",
@@ -224,7 +149,7 @@ export const restaurantAppData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Get the best Food Ordering App with Food Pick Up and Delivery Apps",
       },
       {
         id: "03",
@@ -232,21 +157,21 @@ export const restaurantAppData = [
         size: "14px",
         tag: "p",
         text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+          "Create Restaurant App Delivery Partner Sign Up Page Content- Different Page ",
       },
     ],
   },
   {
-    id: "appointmentSetting-sec-06",
+    id: "restaurant-app-sec-06",
     sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-6", "justify-right"],
+    sectionClasses: ["section", "restaurant-app-sec-06", "justify-right"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h2",
-        text: "Ability to manage your enitre lead genration requirements",
+        text: "Why your businesses need a restaurant app?",
       },
       {
         id: "02",
@@ -254,186 +179,29 @@ export const restaurantAppData = [
         size: "14px",
         tag: "p",
         text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-
-      {
-        id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+          "We can order food from restaurants of our choice without having to interact with anyone at any point throughout the whole process. Apps are simple, fast, and efficient, which is why more customers are happy using them.",
       },
     ],
   },
   {
-    id: "appointmentSetting-sec-07",
-    sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-7"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Let Overflow Digital solutions help you grow your sales",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-08",
-    sectionAlign: "content-right",
-    sectionClasses: ["section", "appointment-setting-8", "justify-right"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h2",
-        text: "Highly trained executive callers for your sales team",
-      },
-      {
-        id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-
-      {
-        id: "04",
-        contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
-        tag: "button",
-        text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-09",
+    id: "restaurant-app-sec-07",
     sectionAlign: "content-center",
-    sectionClasses: ["section-heading", "content-center", "bg-light-blue"],
+    sectionClasses: ["content-center", "sec-dark-blue"],
     sectionBackground: "quality_control.png",
     data: [
       {
         id: "01",
         contentType: "text",
         tag: "h1",
-        text: "B2B Restaurant App Process",
+        text: "Get your Customizable Overflow Restaurant Solution App Today !",
       },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-10",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "bg-light-blue"],
-    data: [
-      {
-        id: "01",
-        contentType: "service-cards",
-        tag: "ServiceCards",
-        cardData: [
-          {
-            cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "Know our client",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Choosing the right target audience",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Decision maker conversations",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-          {
-            cardID: "card_04",
-            cardImg: "Appointment-.png",
-            cardHeading: "Appointment Scheduling",
-            cardDescription:
-              "Lorem Ipsum dolor sit ameit consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "appointmentSetting-sec-11",
-    sectionAlign: "content-center",
-    sectionClasses: ["section", "content-center", "sec-dark-blue"],
-    sectionBackground: "quality_control.png",
-    data: [
-      {
-        id: "01",
-        contentType: "text",
-        tag: "h1",
-        text: "Lets get Talking",
-      },
+
       {
         id: "02",
-        contentType: "text",
-        size: "14px",
-        tag: "p",
-        text:
-          "You’ve made the decision to outsource your Restaurant App campaign. You’ve looked around and found a few candidates for your BPO. Now it’s time to choose. Have you asked the right questions? Have all of your qualifications been addressed",
-      },
-      {
-        id: "03",
         contentType: "button",
         classes: ["btn", "primary-white", "round-border"],
         tag: "button",
-        text: "Start generating leads",
-        route_to: "/enquire-a-consultation",
-      },
-      {
-        id: "03",
-        contentType: "button",
-        classes: ["btn", "transparent-white", "round-border"],
-        tag: "button",
-        text: "Our lead Gurantee",
+        text: "Get Started",
         route_to: "/enquire-a-consultation",
       },
     ],

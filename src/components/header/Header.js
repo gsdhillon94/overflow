@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import logo from "../../images/logo.png";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
@@ -15,6 +15,14 @@ function Header(props) {
   };
   const updateQuery = (e) => {
     searchParam = e.target.value.toUpperCase();
+  };
+  const [state, setState] = useState({
+    showSubMenu: false,
+  });
+  const toggleMenu = (val) => {
+    setState({
+      showSubMenu: val,
+    });
   };
   return (
     <header className="toolbar">
@@ -37,10 +45,18 @@ function Header(props) {
               <li>
                 <Link to="/about">About US</Link>
               </li>
-              <li>
+              <li onMouseEnter={() => toggleMenu(false)}>
                 <Link to="/blogs">Blogs</Link>
               </li>
-              <li>
+              <li
+                className="services-menu"
+                onMouseEnter={() => toggleMenu(true)}
+              >
+                <Link to="">
+                  Services <i className="fas fa-chevron-down"></i>
+                </Link>
+              </li>
+              <li onMouseEnter={() => toggleMenu(false)}>
                 <form onSubmit={(e) => search(e)}>
                   <input
                     type="search"
@@ -62,7 +78,7 @@ function Header(props) {
               </li>
             </ul>
           </div>
-          <div className="toolbar_navgation-items-bottom">
+          {/* <div className="toolbar_navgation-items-bottom">
             <ul>
               <li>
                 <Link to="/appointmentSetting">Appointment Setting</Link>
@@ -92,9 +108,51 @@ function Header(props) {
                 <Link to="/marketingAutomation">Marketing Automation</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
+      {state.showSubMenu ? (
+        <div
+          className="toolbar_navgation-items-bottom"
+          onMouseLeave={() => toggleMenu(false)}
+        >
+          <ul>
+            <li>
+              <Link to="/appointmentSetting">Appointment Setting</Link>
+            </li>
+            <li>
+              <Link to="/telemarketing">Telemarketing</Link>
+            </li>
+            <li>
+              <Link to="/datacleaning">Data Cleaning</Link>
+            </li>
+            <li>
+              <Link to="/digitalLead">Digital Lead Services</Link>
+            </li>
+            <li>
+              <Link to="/applicationDevelopment">Mobile & Web apps</Link>
+            </li>
+            <li>
+              <Link to="/restaurantApp">Reataurant-App</Link>
+            </li>
+            <li>
+              <Link to="/businessEvents">Business Events</Link>
+            </li>
+            <li>
+              <Link to="/salesTraining">Sales Training</Link>
+            </li>
+            <li>
+              <Link to="/marketingAutomation">Marketing Automation</Link>
+            </li>
+            <li>
+              <Link to="/advancedDigital">Advanced Digital Solutions</Link>
+            </li>
+            <li>
+              <Link to="/videoAnimation">Video and Animation</Link>
+            </li>
+          </ul>
+        </div>
+      ) : null}
     </header>
   );
 }
