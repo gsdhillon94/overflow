@@ -29,10 +29,10 @@ export const dataCleaningData = [
       {
         id: "04",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },
@@ -66,10 +66,10 @@ export const dataCleaningData = [
       {
         id: "04",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },
@@ -96,10 +96,10 @@ export const dataCleaningData = [
       {
         id: "03",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
       {
         id: "04",

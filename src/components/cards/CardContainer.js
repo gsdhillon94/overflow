@@ -34,7 +34,7 @@ export default function CardContainer() {
       {sectionData.map((data, index) => {
         console.log(data, index);
         return (
-          <div key={data.id}>
+          <div key={data.id} className="findMoreCard-container">
             <div className="findMoreCard">
               <div className="card__image-div">
                 <img src={require("../../images/" + data.image)} />

@@ -70,13 +70,16 @@ function Header(props) {
               </li>
               <li>
                 <Link to="/contact">
-                  <button className="button-contact"> Contact</button>
+                  <button className="button-contact-white"> Contact</button>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/login">
                   <i className="fas fa-sign-in-alt login-icon"></i>
                 </Link>
+              </li> */}
+              <li>
+                <button className="button-contact">1800 505 929 </button>
               </li>
             </ul>
           </div>

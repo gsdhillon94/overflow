@@ -5,7 +5,7 @@ export const serviceCardsData = [
     cardHeading: "IT Support",
     cardDescription:
       "We want you and your staff to completely rely on us for any issue. Our professional touch on IT combined with our years of technical experience allows us to serve you high-quality services",
-    link_to: "/about",
+    link_to: "/applicationDevelopment",
   },
   {
     cardID: "card_02",

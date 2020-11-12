@@ -35,10 +35,10 @@ export const businessEventsData = [
       {
         id: "05",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
       {
         id: "06",
@@ -87,7 +87,7 @@ export const businessEventsData = [
         classes: ["btn", "primary-white"],
         tag: "button",
         text: "Get help for Your Events",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },

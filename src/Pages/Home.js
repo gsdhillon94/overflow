@@ -61,8 +61,8 @@ export default class Home extends Component {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <p className="cust-name">Jay Smith</p>
-                <p className="cust-title">CEO</p>
+                <p className="cust-name">Jay Smith-CEO</p>
+                <p className="cust-title">(Website Design Service)</p>
               </div>
             </div>
             <div className="testimonial-content">
@@ -77,8 +77,8 @@ export default class Home extends Component {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
 
-                <p className="cust-name">Rene Johnson</p>
-                <p className="cust-title">Director of Marketing</p>
+                <p className="cust-name">Rene Johnson-Director of Marketing</p>
+                <p className="cust-title">(Data Cleansing Service)</p>
               </div>
             </div>
             <div className="testimonial-content">
@@ -90,8 +90,8 @@ export default class Home extends Component {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <p className="cust-name">Maria Lopez</p>
-                <p className="cust-title">Operations Manager</p>
+                <p className="cust-name">Maria Lopez-Operations Manager</p>
+                <p className="cust-title">(Appointment Setting Service)</p>
               </div>
             </div>
             <div className="testimonial-content">

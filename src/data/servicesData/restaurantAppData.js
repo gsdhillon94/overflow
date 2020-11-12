@@ -30,7 +30,7 @@ export const restaurantAppData = [
       {
         id: "05",
         contentType: "button",
-        classes: ["btn", "large-white", "round-border"],
+        classes: ["btn", "large-white"],
         tag: "button",
         text: "Free Live Demo",
         route_to: "/free-live-Demo",
@@ -116,7 +116,7 @@ export const restaurantAppData = [
       {
         id: "04",
         contentType: "button",
-        classes: ["btn", "large-white", "round-border"],
+        classes: ["btn", "large-white"],
         tag: "button",
         text: "Free Live Demo",
         route_to: "/free-live-Demo",
@@ -199,10 +199,10 @@ export const restaurantAppData = [
       {
         id: "02",
         contentType: "button",
-        classes: ["btn", "primary-white", "round-border"],
+        classes: ["btn", "primary-white"],
         tag: "button",
         text: "Get Started",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },

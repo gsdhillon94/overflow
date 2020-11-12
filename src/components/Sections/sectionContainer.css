@@ -4,6 +4,9 @@
   min-height: 35vh;
   justify-content: space-between;
 }
+.no-height {
+  min-height: auto !important;
+}
 .container {
 }
 .home-sec_one {
@@ -29,8 +32,6 @@
 
 .content-left ul {
   line-height: 1.75rem;
-  font-size: 0.75rem;
-  color: #757575;
 }
 
 .content-left ul li {
@@ -38,6 +39,9 @@
 
 .content-right {
   max-width: 38vw;
+}
+.content-right ul {
+  line-height: 1.5rem;
 }
 
 hr {

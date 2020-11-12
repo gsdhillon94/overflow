@@ -73,6 +73,7 @@ export const sectionsData = [
         classes: ["btn", "primary-blue"],
         tag: "button",
         text: "Enquire for a Free Consultation",
+        route_to: "/contact",
       },
     ],
   },

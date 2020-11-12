@@ -29,10 +29,10 @@ export const marketingAutomationData = [
       {
         id: "04",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
 
       {
@@ -80,10 +80,10 @@ export const marketingAutomationData = [
       {
         id: "05",
         contentType: "button",
-        classes: ["btn", "large-blue", "round-border"],
+        classes: ["btn", "large-blue"],
         tag: "button",
         text: "Enquire for Free consultation",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
       {
         id: "06",

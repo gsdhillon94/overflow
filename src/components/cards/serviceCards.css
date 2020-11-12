@@ -7,8 +7,11 @@
   height: auto;
   background-color: #ffffff;
   min-height: 22vw;
+  transition: 0.2s ease;
 }
-
+.serice-card-container:hover {
+  transform: rotateY(360deg);
+}
 .serice-card-container h4 {
   margin: 0.5rem 0px;
 }

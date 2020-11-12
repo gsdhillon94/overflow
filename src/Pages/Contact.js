@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Contact() {
   const [state, setstate] = useState({
@@ -31,6 +31,10 @@ export default function Contact() {
     });
     console.log(state);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>

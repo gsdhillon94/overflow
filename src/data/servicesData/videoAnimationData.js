@@ -33,7 +33,7 @@ export const videoAnimationData = [
         classes: ["btn", "primary-white"],
         tag: "button",
         text: "Get Started",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },

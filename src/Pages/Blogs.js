@@ -46,10 +46,10 @@ class Blogs extends Component {
   render() {
     return (
       <div>
-        <TwoPartSection
+        {/* <TwoPartSection
           content={this.state.blogsSection}
           formSubmit={this.handleFormSubmit}
-        ></TwoPartSection>
+        ></TwoPartSection> */}
         {this.props.user !== "" ? (
           <div className="admin buttons">
             <Link to="/addblog">
@@ -57,6 +57,7 @@ class Blogs extends Component {
             </Link>
           </div>
         ) : null}
+        <div className="section no-height">Categories come here</div>
         {this.state.data.length < 1 ? (
           <div style={{ "text-align": "center" }}>
             <img src={require("../images/loading.gif")} />

@@ -113,7 +113,7 @@ export const mobileWebAppsData = [
         classes: ["btn", "primary-white"],
         tag: "button",
         text: "Start Generating Leads",
-        route_to: "/enquire-a-consultation",
+        route_to: "/contact",
       },
     ],
   },
