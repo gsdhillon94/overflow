@@ -8,7 +8,7 @@
   background: url("../../images/AS-02.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 10vw;
   background-color: #deeefb;
 }
 
@@ -22,7 +22,7 @@
   background: url("../../images/AS-04.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 10vw;
   background-color: #deeefb;
 }
 .appointment-setting-5 {
@@ -51,50 +51,56 @@
   background-position: left;
   background-color: #deeefb;
 }
+.data-cleaning-1 {
+  background: url("../../images/data-cleaning-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 55vw;
+}
 .data-cleaning-2 {
   background: url("../../images/data-cleaning-2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 10vw;
   background-color: #deeefb;
 }
 .data-cleaning-3 {
   background: url("../../images/data-cleaning-3.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 55vw;
 }
 .appDev-sec-01 {
   background: url("../../images/appDev-sec-01.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 55vw;
 }
 .appDev-sec-02 {
   background: url("../../images/appDev-sec-02.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 10vw;
   background-color: #deeefb;
 }
 .appDev-sec-03 {
   background: url("../../images/about-3.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 55vw;
 }
 .appDev-sec-04 {
   background: url("../../images/appDev-sec-04.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 10vw;
   background-color: #deeefb;
 }
 .appDev-sec-05 {
   background: url("../../images/appDev-sec-05.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 55vw;
 }
 .digitalLead-sec-1 {
   background: url("../../images/digitalLead-sec-1.png");
@@ -236,9 +242,9 @@
 
 .sales-training-sec-03 {
   background: url("../../images/sales-training-sec-03.png");
-  background-size: contain;
+  background-size: 40vw;
   background-repeat: no-repeat;
-  background-position: 38vw;
+  background-position: 50vw;
 }
 .marketing-automation-sec-01 {
   background: url("../../images/marketing-automation-sec-01.png");
@@ -293,7 +299,12 @@
   background-color: #deeefb;
   background-repeat: no-repeat;
 }
-
+.video-animation-sec-01 {
+  background: url("../../images/video-animation-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw center;
+}
 @media (max-width: 768px) {
   .appointment-setting-1,
   .appointment-setting-2,
@@ -331,7 +342,8 @@
   .advanced-digital-sec-03,
   .advanced-digital-sec-04,
   .advanced-digital-sec-05,
-  .advanced-digital-sec-06 {
+  .advanced-digital-sec-06,
+  .video-animation-sec-01 {
     background-size: 30vh;
     background-position-x: 100%;
     background-position-y: 0%;

@@ -23,7 +23,7 @@ export const questionsData = [
       name: "no_of_employees",
       q: "Number of Employees?",
       options: [
-        { value: "1", image: "no-business.png" },
+        { value: "1", image: "one.png" },
         { value: "2 - 10", image: "two-ten.png" },
         { value: "11 - 20", image: "11-20.png" },
         { value: "21 - 50", image: "21-50.png" },
@@ -97,7 +97,7 @@ export const questionsData = [
         { value: "Veterinary Services", image: "Veterinary-Services.png" },
         {
           value: "Web & Application Development",
-          image: "InformationsTechnology.png",
+          image: "Web-App-Dev.png",
         },
         { value: "Other", image: "Other.png" },
       ],
@@ -163,7 +163,7 @@ export const questionsData = [
       options: [
         {
           value: "Build Mobile and Web applications",
-          image: "InformationsTechnology.png",
+          image: "build-mobile-web-app.png",
         },
         { value: "Branding and Marketing", image: "Marketing-Advertising.png" },
         { value: "Increase Sales", image: "Sales.png" },

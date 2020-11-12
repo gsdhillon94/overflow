@@ -2,7 +2,7 @@ export const dataCleaningData = [
   {
     id: "datacleaning-sec",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "appointment-setting-1"],
+    sectionClasses: ["section", "data-cleaning-1"],
     data: [
       {
         id: "01",

@@ -344,6 +344,23 @@ a .blogs-card-container img {
 .social-icons i {
   margin: 0rem 1rem;
 }
+.two-part-container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form input {
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.contact-us-sec-01 {
+  background: url("./images/contact-us-sec-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50vw;
+}
+
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;

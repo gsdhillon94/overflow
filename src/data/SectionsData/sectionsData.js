@@ -32,13 +32,6 @@ export const sectionsData = [
         text: " Get Started",
         route_to: "/get-started",
       },
-      {
-        id: "8",
-        contentType: "button",
-        classes: ["btn", "primary-white"],
-        tag: "button",
-        text: "Learn More",
-      },
     ],
   },
   {

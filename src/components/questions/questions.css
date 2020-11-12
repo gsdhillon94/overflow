@@ -5,7 +5,14 @@
   width: 15%;
   text-align: center;
   height: 10vh;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+/* label.label-option:active {
+  border: 1px solid #0e2d92;
+} */
 .label-option input {
   margin: 0.5rem;
 }

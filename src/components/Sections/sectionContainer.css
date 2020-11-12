@@ -8,8 +8,10 @@
 }
 .home-sec_one {
   background: url("../../images/home-sec-one.PNG");
-  background-size: cover;
+  background-size: contain;
   padding: 6rem;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .home-sec_two {

@@ -69,7 +69,9 @@ function Header(props) {
                 </form>
               </li>
               <li>
-                <button className="button-contact"> Contact</button>
+                <Link to="/contact">
+                  <button className="button-contact"> Contact</button>
+                </Link>
               </li>
               <li>
                 <Link to="/login">

@@ -169,7 +169,7 @@ export const aboutUsData = [
         id: "01",
         contentType: "text",
         tag: "h1",
-        text: "Meet Our Team",
+        text: "Meet the CEO",
       },
     ],
   },
@@ -177,7 +177,7 @@ export const aboutUsData = [
   {
     id: "aboutUs-sec-06",
     sectionAlign: "content-center",
-    sectionClasses: ["content-center"],
+    sectionClasses: [""],
     data: [
       {
         id: "01",
@@ -187,23 +187,9 @@ export const aboutUsData = [
         cardData: [
           {
             cardID: "card_01",
-            cardImg: "girl.jpg",
-            cardHeading: "Phil Jackson",
-            cardDescription: "C.T.O.",
-            classes: ["serice-card-container", "no-card"],
-          },
-          {
-            cardID: "card_02",
-            cardImg: "Guaranteed-Results.jpg",
-            cardHeading: "Janartan",
-            cardDescription: "C.E.O",
-            classes: ["serice-card-container", "no-card"],
-          },
-          {
-            cardID: "card_03",
-            cardImg: "Turbocharge-1-1.jpg",
-            cardHeading: "Sam Smith",
-            cardDescription: "C.F.O",
+            cardImg: "CEO.png",
+            cardHeading: "Janartan T.",
+            cardDescription: "C.E.O.",
             classes: ["serice-card-container", "no-card"],
           },
         ],

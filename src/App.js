@@ -31,6 +31,7 @@ import MobileWebApps from "./Pages/services/MobileWebApps";
 import QuizResults from "./Pages/QuizResults";
 import AdvancedDigital from "./Pages/services/AdvancedDigital";
 import VideoAnimation from "./Pages/services/VideoAnimation";
+import Contact from "./Pages/Contact";
 
 class App extends React.Component {
   state = {
@@ -129,6 +130,9 @@ class App extends React.Component {
                 </Route>
                 <Route path="/videoAnimation">
                   <VideoAnimation />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
                 </Route>
               </Switch>
             </main>

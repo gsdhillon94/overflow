@@ -60,9 +60,12 @@
   text-decoration: none;
 }
 
-.toolbar_navgation-items-up a:hover,
+.toolbar_navgation-items-up li:hover {
+  border-bottom: 2px solid #0e2d92;
+}
+.toolbar_navgation-items-up li:hover a,
 .toolbar_navgation-items-up a:active {
-  color: tomato;
+  color: #0e2d92;
 }
 .services-menu:hover .toolbar_navgation-items-bottom ul {
   border: 1px solid #101010;
