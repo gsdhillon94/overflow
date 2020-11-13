@@ -50,6 +50,15 @@ class Blogs extends Component {
           content={this.state.blogsSection}
           formSubmit={this.handleFormSubmit}
         ></TwoPartSection> */}
+        <div className="section no-height">
+          <div className="content-left">
+            <h2>Overflow Digital Solutions</h2>
+            <p>
+              The lasted news, updates, information and strategies used by
+              Overflow and how they apply to your business.
+            </p>
+          </div>
+        </div>
         {this.props.user !== "" ? (
           <div className="admin buttons">
             <Link to="/addblog">
@@ -57,13 +66,15 @@ class Blogs extends Component {
             </Link>
           </div>
         ) : null}
-        <div className="section no-height">Categories come here</div>
+
         {this.state.data.length < 1 ? (
           <div style={{ "text-align": "center" }}>
             <img src={require("../images/loading.gif")} />
           </div>
         ) : (
-          <BlogList data={this.state.data} />
+          <>
+            <BlogList data={this.state.data} />
+          </>
         )}
         {console.log(this.state.data)}
       </div>

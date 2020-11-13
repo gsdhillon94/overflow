@@ -33,7 +33,7 @@ export const restaurantAppData = [
         classes: ["btn", "large-white"],
         tag: "button",
         text: "Free Live Demo",
-        route_to: "/free-live-Demo",
+        route_to: "/contact",
       },
     ],
   },
@@ -119,7 +119,7 @@ export const restaurantAppData = [
         classes: ["btn", "large-white"],
         tag: "button",
         text: "Free Live Demo",
-        route_to: "/free-live-Demo",
+        route_to: "/contact",
       },
       {
         id: "05",

@@ -14,12 +14,19 @@ function Blog(props) {
         <div className="card__image-container">
           <img src={data.bImg} alt={data.bTitle} />
         </div>
-        <h4>{data.bTitle}</h4>
-        {content.map((item, i) => {
-          if (item.inputType === "content") {
-            return <p key={item + i}>{item.value}</p>;
-          }
-        })}
+        <div className="blog-content">
+          <h4>{data.bTitle}</h4>
+          {console.log(content)}
+          {/* {content.map((item, i) => {
+            if (item.inputType === "content") {
+              return <p key={item + i}>{item.value}</p>;
+            }
+          })} */}
+          {content && content.length > 0 ? <p>{content[0].value}</p> : null}
+        </div>
+        <button className="read-more">
+          Read More <i className="fas fa-arrow-right"></i>
+        </button>
       </div>
     </Link>
   );

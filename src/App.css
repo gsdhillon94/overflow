@@ -60,6 +60,10 @@ main {
 .btn.primary-white {
   transition: 0.2s ease-in;
 }
+.btn.large-white:hover {
+  background: #0e2d92;
+  color: #ffffff;
+}
 .btn.large-blue:hover {
   color: #0e2d92;
   background: #ffffff;
@@ -151,13 +155,12 @@ button.btn.primary-blue:hover {
 }
 
 .card-container-center {
-  width: 18vw;
+  width: 25vw;
   box-shadow: 0px 0px 5px #000000;
-  overflow: hidden;
-  height: 60vh;
-  padding: 1rem;
-  text-align: center;
+  height: 66vh;
+  text-align: left;
   margin: 0.5rem;
+  position: relative;
 }
 
 a .blogs-card-container {
@@ -170,6 +173,17 @@ a .blogs-card-container img {
 }
 .author-name {
   font-size: 0.75rem;
+}
+.blog-content {
+  padding: 0 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.blog-content h4 {
+  margin: 0 inherit;
 }
 .blog-content-display {
   height: 5rem;
@@ -242,6 +256,11 @@ a .blogs-card-container img {
 }
 .card__image-container {
   height: 50%;
+  width: 100%;
+}
+.card__image-container img {
+  height: 100%;
+  width: 100%;
 }
 .height-50 {
   height: 50vh;
@@ -257,6 +276,7 @@ a .blogs-card-container img {
   color: #0e2d92;
   border: 1px solid #0e2d92;
   padding: 1rem 2.5rem;
+  transition: 0.2s ease-in;
 }
 .content-center {
   justify-content: space-evenly !important;
@@ -338,7 +358,7 @@ a .blogs-card-container img {
   width: 45%;
 }
 .result-content h2 {
-  color: #0e38aa;
+  color: #0e2d92;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -406,6 +426,34 @@ a .blogs-card-container img {
   background-position: 50vw;
 }
 
+.read-more {
+  background: #0e2d920f;
+  color: #0e2d92;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s ease-in;
+  margin: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.card-container-center:hover .read-more {
+  background: #0e2d9240;
+}
+.categories {
+  justify-content: start !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.categories button {
+  margin: 0 0.5rem;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 @media (max-width: 768px) {
   .home__section-two {
     padding: 1rem 2rem;
@@ -440,8 +488,9 @@ a .blogs-card-container img {
   }
   .card-container-center {
     width: 70vw;
-    height: 35vh;
+    height: 50vh;
   }
+
   .blog-image-container {
     height: auto;
   }
@@ -474,7 +523,7 @@ a .blogs-card-container img {
   .about-setting-2,
   .about-setting-3,
   .about-setting-4 {
-    background-size: 20vw;
+    background-position-y: 40vw;
   }
   .testimonial-content {
     min-width: 100%;

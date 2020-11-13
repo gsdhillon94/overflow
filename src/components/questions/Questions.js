@@ -15,7 +15,7 @@ export default function Questions(props) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [props]);
+  }, [props.data.question]);
 
   let question_style = null;
   const data = props.data.question;
