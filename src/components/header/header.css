@@ -39,7 +39,7 @@
 }
 
 .toolbar_navgation-items-up li {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .toolbar_navgation-items-up input {
   width: 15rem;
@@ -83,9 +83,10 @@
 .toolbar_navgation-items-bottom {
   float: left;
   position: absolute;
-  top: 10vh;
-  left: 30vw;
+  top: 12vh;
+  left: 25vw;
   flex-wrap: wrap;
+  text-align: left;
 }
 .toolbar_navgation-items-bottom ul {
   list-style: none;
@@ -97,7 +98,6 @@
 
 .toolbar_navgation-items-bottom li {
   padding: 1rem;
-  height: 5vh;
   border-bottom: 1px solid #000000;
   width: 20%;
   box-shadow: 0px 5px 4px #f3f3f3;

@@ -92,7 +92,7 @@ export default function Contact() {
                 onChange={handleInputChange}
               />
               <button type="submit" className="btn primary-blue">
-                Call to Action
+                Submit
               </button>
             </form>
           </div>
