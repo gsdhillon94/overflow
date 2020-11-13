@@ -21,7 +21,8 @@
 }
 .side-drawer ul li {
   border-bottom: 1px solid #000000;
-  padding: 1rem;
+  padding: 0.5rem;
+  color: #0e2d92;
 }
 .side-drawer ul li:hover {
   color: #ffffff;

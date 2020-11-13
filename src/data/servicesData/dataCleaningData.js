@@ -77,7 +77,7 @@ export const dataCleaningData = [
   {
     id: "dataCleaning-sec-03",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "data-cleaning-3"],
+    sectionClasses: ["section"],
     data: [
       {
         id: "01",

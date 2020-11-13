@@ -60,7 +60,7 @@ hr {
   }
   .section {
     padding: 2rem 2rem;
-    width: 80vw;
+    /* width: 80vw; */
     flex-wrap: wrap;
   }
   .small_image {
@@ -69,5 +69,17 @@ hr {
   }
   .content-right {
     max-width: 100%;
+  }
+  .home-sec_one {
+    background-size: 20rem;
+    background-position: center 7rem;
+  }
+  .home-sec_two {
+    background-image: none;
+  }
+
+  .home-sec_one ul,
+  .home-sec_two p:nth-child(2) {
+    padding-top: 14rem;
   }
 }

@@ -11,6 +11,9 @@
 .serice-card-container:hover {
   transform: rotateY(360deg);
 }
+.no-card:hover {
+  transform: none !important;
+}
 .serice-card-container h4 {
   margin: 0.5rem 0px;
 }

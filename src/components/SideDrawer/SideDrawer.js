@@ -72,6 +72,12 @@ const SideDrawer = (props) => {
         <li>
           <Link to="/marketingAutomation">Marketing Automation</Link>
         </li>
+        <li>
+          <Link to="/advancedDigital">Advanced Digital Solutions</Link>
+        </li>
+        <li>
+          <Link to="/videoAnimation">Video and Animation</Link>
+        </li>
       </ul>
     </nav>
   );

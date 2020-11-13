@@ -83,6 +83,7 @@ img {
     padding: 0rem 0px;
     text-align: center;
     width: 100%;
+    height: auto;
   }
   .footer__content-wrapper {
     padding: 1rem;

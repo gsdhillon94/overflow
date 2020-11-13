@@ -188,8 +188,9 @@ export const aboutUsData = [
           {
             cardID: "card_01",
             cardImg: "CEO.png",
-            cardHeading: "Janartan T.",
-            cardDescription: "C.E.O.",
+            cardHeading: "Janartan T - C.E.O.",
+            cardDescription:
+              '"Always look to continuously improve customer-focused and overflow in value. Grow together and Profit Together."',
             classes: ["serice-card-container", "no-card"],
           },
         ],

@@ -84,7 +84,7 @@
   background-color: #deeefb;
 }
 .appDev-sec-03 {
-  background: url("../../images/about-3.png");
+  background: url("../../images/appDev-sec-03.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 55vw;
@@ -110,7 +110,7 @@
 }
 .digitalLead-sec-2 {
   background: url("../../images/Quality-control.jpg");
-  background-size: contain;
+  background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: left;
   background-color: #deeefb;
@@ -315,37 +315,102 @@
   .appointment-setting-7,
   .appointment-setting-8,
   .appDev-sec-01,
-  .appDev-sec-02,
   .appDev-sec-03,
-  .appDev-sec-04,
   .appDev-sec-05,
   .digitalLead-sec-1,
   .digitalLead-sec-2,
   .digitalLead-sec-3,
   .digitalLead-sec-4,
-  .digitalLead-sec-5,
   .digitalLead-sec-6,
   .digitalLead-sec-7,
   .digitalLead-sec-8,
   .digitalLead-sec-9,
   .restaurant-app-sec-01,
   .restaurant-app-sec-02,
-  .restaurant-app-sec-03,
-  .restaurant-app-sec-04,
   .restaurant-app-sec-05,
   .restaurant-app-sec-06,
   .sales-training-sec-01,
   .sales-training-sec-02,
-  .sales-training-sec-03,
   .advanced-digital-sec-01,
   .advanced-digital-sec-02,
   .advanced-digital-sec-03,
   .advanced-digital-sec-04,
   .advanced-digital-sec-05,
   .advanced-digital-sec-06,
-  .video-animation-sec-01 {
-    background-size: 30vh;
-    background-position-x: 100%;
-    background-position-y: 0%;
+  .video-animation-sec-01,
+  .tele-marketing-sec-1,
+  .tele-marketing-sec-2,
+  .data-cleaning-1,
+  .data-cleaning-2,
+  .data-cleaning-3,
+  .business-event-sec-1,
+  .business-event-sec-2,
+  .marketing-automation-sec-01,
+  .marketing-automation-sec-02 {
+    background-position: 0 5rem;
+  }
+  .appointment-setting-1 p:nth-child(2),
+  .appointment-setting-2 p:nth-child(2),
+  .appointment-setting-3 p:nth-child(2),
+  .appointment-setting-4 p:nth-child(2),
+  .appointment-setting-5 p:nth-child(2),
+  .appointment-setting-6 p:nth-child(2),
+  .appointment-setting-7 p:nth-child(2),
+  .appointment-setting-8 p:nth-child(2),
+  .appDev-sec-01 h4,
+  .appDev-sec-02 p:nth-child(2),
+  .appDev-sec-03 p:nth-child(2),
+  .appDev-sec-04 p:nth-child(2),
+  .appDev-sec-05 p:nth-child(2),
+  .digitalLead-sec-1 p:nth-child(3),
+  .digitalLead-sec-3 p:nth-child(2),
+  .digitalLead-sec-4 h4,
+  .digitalLead-sec-5 h4,
+  .digitalLead-sec-6 p:nth-child(2),
+  .digitalLead-sec-7 p:nth-child(2),
+  .digitalLead-sec-9 p:nth-child(2),
+  .restaurant-app-sec-01 p:nth-child(3),
+  .restaurant-app-sec-03 p:nth-child(2),
+  .restaurant-app-sec-04 p:nth-child(2),
+  .restaurant-app-sec-05 p:nth-child(2),
+  .restaurant-app-sec-06 p:nth-child(2),
+  .sales-training-sec-01 p:nth-child(3),
+  .sales-training-sec-02 p:nth-child(2),
+  .advanced-digital-sec-01 p:nth-child(2),
+  .advanced-digital-sec-02 p:nth-child(2),
+  .advanced-digital-sec-03 p:nth-child(2),
+  .advanced-digital-sec-04 p:nth-child(2),
+  .advanced-digital-sec-05 p:nth-child(2),
+  .advanced-digital-sec-06 p:nth-child(2),
+  .video-animation-sec-01 p:nth-child(2),
+  .tele-marketing-sec-1 p:nth-child(3),
+  .tele-marketing-sec-2 p:nth-child(2),
+  .data-cleaning-1 p:nth-child(3),
+  .data-cleaning-2 p:nth-child(2),
+  .data-cleaning-3 p:nth-child(2),
+  .business-event-sec-1 h4,
+  .business-event-sec-2 ul,
+  .marketing-automation-sec-01 p:nth-child(3),
+  .marketing-automation-sec-02 p:nth-child(2) {
+    padding-top: 16rem;
+  }
+  .sales-training-sec-03,
+  .digitalLead-sec-2 {
+    background-image: none;
+  }
+  .restaurant-app-sec-03,
+  .digitalLead-sec-5 {
+    background-position: 0 0rem;
+  }
+  .digitalLead-sec-8 h2:nth-child(2) {
+    padding-top: 20rem;
+  }
+  .restaurant-app-sec-04,
+  .appDev-sec-04,
+  .appDev-sec-02 {
+    background-position: center 7rem;
+  }
+  .restaurant-app-sec-02 ul {
+    padding-top: 20rem;
   }
 }
