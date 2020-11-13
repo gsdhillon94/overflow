@@ -3,10 +3,9 @@
   box-shadow: 1px 1px 10px 0px #808080;
   margin: 0.5rem 0.5rem;
   padding: 1rem 1rem;
-  width: 22vw;
-  height: auto;
+  width: 21vw;
   background-color: #ffffff;
-  min-height: 22vw;
+  height: 20rem;
   transition: 0.2s ease;
 }
 .serice-card-container:hover {

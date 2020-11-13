@@ -1,3 +1,6 @@
+button:focus {
+  outline: none;
+}
 h2 {
   font-weight: 800;
 }
@@ -157,7 +160,7 @@ button.btn.primary-blue:hover {
 .card-container-center {
   width: 25vw;
   box-shadow: 0px 0px 5px #000000;
-  height: 66vh;
+  height: 75vh;
   text-align: left;
   margin: 0.5rem;
   position: relative;
@@ -449,6 +452,19 @@ a .blogs-card-container img {
 }
 .categories button {
   margin: 0 0.5rem;
+  background: #ffffff;
+  border: none;
+  color: #0e2d92;
+  padding: 0.5rem 1.5rem;
+  transition: 0.2s ease-in;
+  border-radius: 50px;
+}
+.categories button:hover {
+  box-shadow: 1px 1px 5px;
+}
+button.cat-active {
+  background: #0e2d92;
+  color: #ffffff;
 }
 .space-evenly {
   justify-content: space-evenly;
@@ -488,7 +504,7 @@ a .blogs-card-container img {
   }
   .card-container-center {
     width: 70vw;
-    height: 50vh;
+    /* height: 50vh; */
   }
 
   .blog-image-container {
