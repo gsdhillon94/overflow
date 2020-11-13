@@ -28,6 +28,7 @@ export default function Contact() {
       phoneNumber: "",
       company: "",
       country: "",
+      message: "",
     });
     console.log(state);
   };
@@ -91,6 +92,11 @@ export default function Contact() {
                 placeholder="Country"
                 onChange={handleInputChange}
               />
+              <textarea
+                name="message"
+                placeholder="Tell us about the services you are interested in..."
+                onChange={handleInputChange}
+              />
               <button type="submit" className="btn primary-blue">
                 Submit
               </button>
@@ -117,6 +123,7 @@ export default function Contact() {
               <br />
               VIC 3008
             </p>
+            <p>Phone: 1800 505 929</p>
           </div>
         </div>
       </div>

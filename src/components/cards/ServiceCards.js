@@ -15,6 +15,7 @@ export default function ServiceCards(props) {
         <img src={imgSrc} alt={data.cardHeading}></img>
         <h4>{data.cardHeading}</h4>
         <p>{data.cardDescription}</p>
+        <button className="btn primary-blue">Learn More</button>
       </div>
     </Link>
   );

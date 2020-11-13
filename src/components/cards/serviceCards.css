@@ -7,6 +7,7 @@
   background-color: #ffffff;
   height: 20rem;
   transition: 0.2s ease;
+  position: relative;
 }
 .serice-card-container:hover {
   transform: rotateY(360deg);
@@ -24,7 +25,17 @@
 .serice-card-container img {
   height: 20vh;
 }
-
+.serice-card-container > button.btn {
+  font-size: 0.55rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  transition: 0.2s ease-in;
+}
+.serice-card-container:hover > button.btn {
+  display: block;
+}
 @media (max-width: 768px) {
   .serice-card-container {
     border: 0px solid #000000;
