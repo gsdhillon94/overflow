@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { init } from "emailjs-com";
+import emailjs from "emailjs-com";
+import { EmailJsData } from "../data/websiteConsts";
 
 export default function Contact() {
   const [state, setstate] = useState({
@@ -30,6 +33,19 @@ export default function Contact() {
       country: "",
       message: "",
     });
+    emailjs
+      .sendForm(
+        EmailJsData.serviceId,
+        EmailJsData.templateId,
+        e.target,
+        EmailJsData.userId
+      )
+      .then(
+        (result) => {
+          alert("message sent");
+        },
+        (error) => {}
+      );
     console.log(state);
   };
 

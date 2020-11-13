@@ -36,3 +36,10 @@ export const BLOG_CATEGORIES = [
   "DIGITAL LEAD SERVICES",
   "APP DEVELOPMENT",
 ];
+
+export const EmailJsData = {
+  userId: "user_u3r9AMX0Oe3CSIxzRF7rc",
+  token: "2e1f5f1a77cc8bc1c3ab255e2dbeea90",
+  serviceId: "service_xo04kdg",
+  templateId: "template_kfyev3c",
+};
