@@ -4,19 +4,24 @@
   padding: 3rem 2rem;
   width: 15rem;
   text-align: center;
-  height: 10vh;
+  height: 15vh;
   flex-direction: row;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1rem;
   font-weight: 800;
+  border: 1px solid #ffffff;
 }
 /* label.label-option:active {
   border: 1px solid #0e2d92;
 } */
+.label-option.radSelected {
+  border: 1px solid #0e38aa;
+}
 .label-option input {
   margin: 0.5rem;
+  display: none;
 }
 .label-option img {
   height: 100%;

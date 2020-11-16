@@ -3,15 +3,14 @@ import "./questions.css";
 
 export default function Questions(props) {
   const [nextDisable, setnextDisable] = useState(true);
-  let resp = {
+  const [resp, setresp] = useState({
     value: "",
     index: "",
-  };
-
-  const setResp = (val, i) => {
-    resp.value = val;
-    resp.index = i;
-  };
+  });
+  // let resp = {
+  //   value: "",
+  //   index: "",
+  // };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,14 +22,18 @@ export default function Questions(props) {
   let isLast = false;
 
   let options = dataOptions.map((option, index) => {
+    let optClass = "label-option";
+    if (resp.value == option.value) {
+      optClass = "label-option radSelected";
+    }
     return (
-      <label key={index + "op" + data.id} className="label-option">
+      <label key={index + "op" + data.id} className={optClass}>
         <input
           type="radio"
           value={option.value}
           name={data.name}
           onClick={(event) => {
-            setResp(event.target.value, data.index);
+            setresp({ value: event.target.value, index: data.index });
             props.click(event, resp);
           }}
         />
