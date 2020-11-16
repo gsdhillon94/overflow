@@ -43,7 +43,7 @@ function Header(props) {
                 <Link to="/overflow">Home</Link>
               </li>
               <li>
-                <Link to="/about">About US</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li onMouseEnter={() => toggleMenu(false)}>
                 <Link to="/blogs">Blogs</Link>

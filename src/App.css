@@ -418,10 +418,14 @@ a .blogs-card-container img {
   justify-content: space-between;
 }
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
   width: 100%;
   margin: 0.5rem 0;
   padding: 0.25rem;
+}
+.contact-form select {
+  width: 103% !important;
 }
 .contact-us-sec-01 {
   background: url("./images/contact-us-sec-01.png");
@@ -469,6 +473,13 @@ button.cat-active {
 }
 .space-evenly {
   justify-content: space-evenly;
+}
+.video-animation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-animation .content-right iframe {
 }
 
 @media (max-width: 768px) {

@@ -80,7 +80,7 @@ export const questionsData = [
       id: "q04",
       type: "radio",
       name: "Professional Services",
-      q: "What prefessional services do you work in??",
+      q: "What prefessional services do you work in?",
       options: [
         { value: "Finance and Accounting", image: "Finance-Accounting.png" },
         { value: "Architecture", image: "Architecture.png" },
@@ -112,7 +112,7 @@ export const questionsData = [
       id: "q05",
       type: "radio",
       name: "Informations and Technology",
-      q: "What IT services do you work in??",
+      q: "What IT services do you work in?",
       options: [
         { value: "Online Marketing", image: "Online-Marketing.png" },
         { value: "Software Publishing", image: "Software-Publishing.png" },
@@ -134,7 +134,7 @@ export const questionsData = [
       id: "q06",
       type: "radio",
       name: "Retail Trade",
-      q: "What Retail services do you work in??",
+      q: "What Retail services do you work in?",
       options: [
         { value: "Clothing", image: "Clothing.png" },
         {
@@ -142,9 +142,9 @@ export const questionsData = [
           image: "InformationsTechnology.png",
         },
         { value: "Food and Beverage", image: "Accomodation-Food.png" },
-        { value: "General Merchendise", image: "Finance-Accounting.png" },
+        { value: "General Merchendise", image: "general-merchandise.png" },
         { value: "Motor vehicles", image: "Motor-vehicles.png" },
-        { value: "E-Commerce", image: "retailTrade.png" },
+        { value: "E-Commerce", image: "e-commerce.png" },
         { value: "Wholesale", image: "Wholesale.png" },
         { value: "Other", image: "Other.png" },
       ],
@@ -159,7 +159,7 @@ export const questionsData = [
       id: "q07",
       type: "radio",
       name: "our_services",
-      q: "What services do youneed int he next 12 months??",
+      q: "What services do youneed int he next 12 months?",
       options: [
         {
           value: "Build Mobile and Web applications",

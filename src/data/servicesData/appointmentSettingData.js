@@ -38,7 +38,7 @@ export const appointmentSettingData = [
         size: "14px",
         tag: "p",
         text:
-          "Overflow focus's on increasing qualified leads and sales for your business. If your sales team needs help calling prospects, further qualifying prospects, and booking appointments with decision-makers that are interested in your product and services.",
+          "Overflow focuses on increasing qualified leads and sales for your business. If your sales team needs help calling prospects, further qualifying prospects and booking appointments with decision-makers that are interested in your product and services.",
       },
     ],
   },
@@ -60,7 +60,7 @@ export const appointmentSettingData = [
         size: "14px",
         tag: "p",
         text:
-          "We help companies by, creating valuable content and an optimal online presence for maximum lead generation.",
+          "We help companies by creating valuable content and an optimal online presence for maximum lead generation.",
       },
       {
         id: "03",
@@ -68,7 +68,7 @@ export const appointmentSettingData = [
         size: "14px",
         tag: "p",
         text:
-          "If you own a business and wanted to grow we are he is to help you measurably improve your marketing performance and get more leads and sales.",
+          "If you own a business and wanted to grow. We are here to help you measurably improve your marketing performance and get more leads and sales.",
       },
       {
         id: "05",
@@ -118,7 +118,7 @@ export const appointmentSettingData = [
         size: "14px",
         tag: "p",
         text:
-          "The first step of lead generation is identifying your target audience and implement methods that will engage customers within your target market.",
+          "The first step of lead generation is identifying your target audience and implement methods that will engage customers within your targeted market.",
       },
 
       {

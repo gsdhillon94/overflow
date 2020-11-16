@@ -7,14 +7,8 @@
   background-color: #ffffff;
   height: 20rem;
   transition: 0.2s ease;
-  position: relative;
 }
-.serice-card-container:hover {
-  transform: rotateY(360deg);
-}
-.no-card:hover {
-  transform: none !important;
-}
+
 .serice-card-container h4 {
   margin: 0.5rem 0px;
 }
@@ -27,15 +21,66 @@
 }
 .serice-card-container > button.btn {
   font-size: 0.55rem;
+  transition: 0.2s ease-in;
+  margin: 2rem;
+}
+
+/* ----------------------------------------------- */
+.flip-container {
+  perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container.no-card:hover .flipper {
+  transform: none !important;
+}
+
+.flip-container,
+.front,
+.back {
+  width: 320px;
+  height: 400px !important;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.flipper:hover .back.no-card {
+  transition: none;
+}
+
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
-  transition: 0.2s ease-in;
 }
-.serice-card-container:hover > button.btn {
-  display: block;
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
 }
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+/* ----------------------------------------------- */
 @media (max-width: 768px) {
   .serice-card-container {
     border: 0px solid #000000;

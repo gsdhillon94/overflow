@@ -2,6 +2,8 @@ import React from "react";
 import "./footer.css";
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.ScrollLink;
 
 function Footer() {
   return (
@@ -89,9 +91,13 @@ function Footer() {
             <Link to="/applicationDevelopment">
               <li>Web Development</li>
             </Link>
-            <Link to="/applicationDevelopment">
-              <li>Add Development</li>
-            </Link>
+
+            <li>
+              <Link to="/applicationDevelopment">App Development</Link>
+            </li>
+            {/* <Link to="/applicationDevelopment">
+              
+            </Link> */}
             <Link to="/restaurantApp">
               <li>Restaurant App Development </li>
             </Link>

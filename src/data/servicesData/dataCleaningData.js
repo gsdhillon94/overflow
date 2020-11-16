@@ -24,7 +24,7 @@ export const dataCleaningData = [
         size: "14px",
         tag: "p",
         text:
-          "We will ensure that your data is correct, consistent, and useable by identifying any errors or corruptions in the data, correcting/fixing or deleting them, or manually processing them as needed to prevent the error from happening again.",
+          "We will ensure that your data is correct, consistent and useable by identifying any errors or corruptions in the data, correcting/fixing or deleting them, or manually processing them as needed to prevent the error from happening again.",
       },
       {
         id: "04",
@@ -107,7 +107,7 @@ export const dataCleaningData = [
         size: "14px",
         tag: "p",
         text:
-          "Our database management process is formulating management techniques for quality data collection and data storage to ensure adequacy, accuracy, and legitimacy of data.",
+          "Our database management process is formulating management techniques for quality data collection and data storage to ensure adequacy, accuracy and legitimacy of data.",
       },
     ],
   },

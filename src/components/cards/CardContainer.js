@@ -8,7 +8,7 @@ export default function CardContainer() {
       id: "crd-cont-01",
       heading: "What is Lead Generation?",
       content:
-        "The first step of lead generation is identifying your target audience and implement methods that will engage customers within your target market.",
+        "The first step of lead generation is identifying your target audience and implement methods that will engage customers within your targeted market.",
       image: "lead-generation.png",
       link_to: "/digitalLead",
     },

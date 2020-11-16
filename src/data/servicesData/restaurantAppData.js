@@ -68,7 +68,7 @@ export const restaurantAppData = [
   {
     id: "restaurant-app-sec-03",
     sectionAlign: "content-left",
-    sectionClasses: ["section", "restaurant-app-sec-03"],
+    sectionClasses: ["section", "restaurant-app-sec-03", "no-height"],
     data: [
       {
         id: "01",
@@ -115,19 +115,19 @@ export const restaurantAppData = [
       },
       {
         id: "04",
-        contentType: "button",
-        classes: ["btn", "large-white"],
-        tag: "button",
-        text: "Free Live Demo",
-        route_to: "/contact",
-      },
-      {
-        id: "05",
         contentType: "text",
         size: "14px",
         tag: "p",
         text:
           "Get the best Food Ordering App for your Restaurant with highly designed and features.",
+      },
+      {
+        id: "05",
+        contentType: "button",
+        classes: ["btn", "large-white"],
+        tag: "button",
+        text: "Free Live Demo",
+        route_to: "/contact",
       },
     ],
   },

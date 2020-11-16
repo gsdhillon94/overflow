@@ -52,7 +52,7 @@ export default class Home extends Component {
           <hr className="testimonial-hr" />
           <div className="testimonials">
             <div className="testimonial-content">
-              Overflow Did an excellent job handling the design of our web site.
+              Overflow did an excellent job handling the design of our website.
               I would highly recommend Overflow if you are in need of web
               design.
               <div className="cust-review">

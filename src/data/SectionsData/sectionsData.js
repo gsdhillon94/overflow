@@ -18,7 +18,7 @@ export const sectionsData = [
         tag: "ul",
         list_style_image: "",
         list: [
-          "Advanced IT solutions",
+          "Advanced digital solutions",
           "High Quality digital, social, email, and B2B campaigns",
           "Help you understand implement and manage technology",
         ],
@@ -44,7 +44,7 @@ export const sectionsData = [
         contentType: "text",
         size: "14px",
         tag: "p",
-        text: "Global IT Services and Solutions Leader ",
+        text: "Global Digital Services and Solutions Leader ",
       },
       {
         id: "s3_02",
@@ -65,7 +65,7 @@ export const sectionsData = [
         contentType: "text",
         tag: "p",
         text:
-          "With the changing landscape in business, we bring our expertise in information technology. We seek to understand our clients’ business objectives and processes and strive to find great technology tools to help their business. We will help you identify, implement and manage technology.",
+          "With the changing landscape in business, we bring our expertise in information technology. We seek to understand our clients’ business, objectives, and processes and strive to find great technology tools to help their business. We will help you identify, implement and manage technology.",
       },
       {
         id: "s3_09",

@@ -11,6 +11,7 @@ export default function Contact() {
     phoneNumber: "",
     company: "",
     country: "",
+    service: "",
   });
 
   const handleInputChange = (event) => {
@@ -59,11 +60,10 @@ export default function Contact() {
         <div className="content-left">
           <h2>Contact Us</h2>
           <p>
-            For a confidential discussion of how Overflow Digital Solutions can
-            assist your business, please provide us with some information on
-            areas of interest. We service a range of business lead generation
-            outsourcing and consultancy requirements across Australia.
+            Overflow Digital Solutions can help your business, please provide us
+            with some information on areas of how we can assist.
           </p>
+          <p>We service small to medium businesses anywhere.</p>
         </div>
       </div>
       <div className="section">
@@ -108,6 +108,27 @@ export default function Contact() {
                 placeholder="Country"
                 onChange={handleInputChange}
               />
+              <select name="service">
+                <option value="Appointment Setting" defaultValue="true">
+                  Appointment Setting
+                </option>
+                <option value="Telemarketing">Telemarketing</option>
+                <option value="Data Cleaning">Data Cleaning</option>
+                <option value="Digital Lead Services">
+                  Digital Lead Services
+                </option>
+                <option value="Mobile & Web Apps">Mobile & Web Apps</option>
+                <option value="Restaurant App">Restaurant App</option>
+                <option value="Business Events">Business Events</option>
+                <option value="Sales Training">Sales Training</option>
+                <option value="Marketing Automation">
+                  Marketing Automation
+                </option>
+                <option value="Advanced Digital Solutions">
+                  Advanced Digital Solutions
+                </option>
+                <option value="Video and Animation">Video and Animation</option>
+              </select>
               <textarea
                 name="message"
                 placeholder="Tell us about the services you are interested in..."
@@ -119,7 +140,7 @@ export default function Contact() {
             </form>
           </div>
           <div className="content-right justify-right">
-            <h2>100% Lead Guarantee</h2>
+            <h2>Grow Together Profit Together</h2>
             <p>
               At Overflow Digital Solutions, everything we do is guaranteed for
               quality and is tied to mutually agreed KPIs.{" "}
@@ -139,7 +160,21 @@ export default function Contact() {
               <br />
               VIC 3008
             </p>
-            <p>Phone: 1800 505 929</p>
+            <p>
+              <b>Toll Free</b>: 1800 505 929
+            </p>
+            <p>
+              <b>Melbourne</b>: (03) 9112 5955
+            </p>
+            <p>
+              <b>Sydney</b>: (02) 8317 5028
+            </p>
+            <p>
+              <b>Brisbane</b>: (07) 3073 1565
+            </p>
+            <p>
+              <b>Adelaide</b>: (08) 8317 1313
+            </p>
           </div>
         </div>
       </div>

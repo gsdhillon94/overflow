@@ -11,11 +11,30 @@ export default function ServiceCards(props) {
   //
   return (
     <Link to={data.link_to}>
-      <div className={classes}>
-        <img src={imgSrc} alt={data.cardHeading}></img>
-        <h4>{data.cardHeading}</h4>
-        <p>{data.cardDescription}</p>
-        <button className="btn primary-blue">Learn More</button>
+      <div
+        className={
+          classes.includes("no-card")
+            ? "flip-container no-card "
+            : "flip-container"
+        }
+        ontouchstart="this.classList.toggle('hover');"
+      >
+        <div className="flipper">
+          <div className="front">
+            <div className={classes}>
+              <img src={imgSrc} alt={data.cardHeading}></img>
+              <h4>{data.cardHeading}</h4>
+              <p>{data.cardDescription}</p>
+            </div>
+          </div>
+          <div className="back">
+            <div className={classes}>
+              <img src={imgSrc} alt={data.cardHeading}></img>
+              <h4>{data.cardHeading}</h4>
+              <button className="btn primary-blue">Learn More</button>
+            </div>
+          </div>
+        </div>
       </div>
     </Link>
   );

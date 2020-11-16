@@ -4,7 +4,7 @@ export const serviceCardsData = [
     cardImg: "IT.jpg",
     cardHeading: "IT Support",
     cardDescription:
-      "We want you and your staff to completely rely on us for any issue. Our professional touch on IT combined with our years of technical experience allows us to serve you high-quality services",
+      "We want you and your staff to completely rely on us for any issue. Our professional touch on IT combined with our years of technical experience allows us to serve you high-quality services.",
     link_to: "/applicationDevelopment",
   },
   {
@@ -28,7 +28,7 @@ export const serviceCardsData = [
     cardImg: "Appointment.jpg",
     cardHeading: "Appointment Setting",
     cardDescription:
-      "We will ensure that your data is correct, consistent, and useable by identifying any errors or corruptions in the data, correcting/fixing or deleting them, or manually processing them as needed to prevent the error from happening again.",
+      "We will ensure that your data is correct, consistent and useable by identifying any errors or corruptions in the data, correcting/fixing or deleting them, or manually processing them as needed to prevent the error from happening again.",
     link_to: "/appointmentSetting",
   },
   {
@@ -36,7 +36,7 @@ export const serviceCardsData = [
     cardImg: "WebsiteDesign.jpg",
     cardHeading: "Data Cleansing",
     cardDescription:
-      "We build the best customer experience in business, e-commerce, and personal websites. Our web design skills focused on responsiveness, attractive content, and conversion. We don't just create a website for nothing, our aim is to make a website that sells.",
+      "We build the best customer experience in business, e-commerce and personal websites. Our web design skills focused on responsiveness, attractive content and conversion. We don't just create a website for nothing, our aim is to make a website that sells.",
     link_to: "/datacleaning",
   },
   {

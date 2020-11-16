@@ -6,6 +6,7 @@ import AccordionCard from "../cards/AccordionCard";
 import { Link } from "react-router-dom";
 import { sectionsData } from "../../data/SectionsData/sectionsData";
 import ServiceCards from "../cards/ServiceCards";
+import { Element } from "react-scroll";
 
 function SectionContainer(props) {
   const data = props.sectionsData.data;
@@ -29,12 +30,14 @@ function SectionContainer(props) {
         );
       case TAGS.H2:
         return (
-          <h2
-            className={item.class !== null ? item.class : ""}
-            key={item.id + index}
-          >
-            {item.text}
-          </h2>
+          <Element id={item.id}>
+            <h2
+              className={item.class !== null ? item.class : ""}
+              key={item.id + index}
+            >
+              {item.text}
+            </h2>
+          </Element>
         );
       case TAGS.H1:
         return (

@@ -12,6 +12,7 @@ export const TAGS = {
   INPUT: "input",
   FORM: "form",
   SERVICE_CARDS: "ServiceCards",
+  IFRAME: "iframe",
 };
 
 export const BLOGS = {

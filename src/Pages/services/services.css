@@ -109,8 +109,8 @@
   background-position: right;
 }
 .digitalLead-sec-2 {
-  background: url("../../images/Quality-control.jpg");
-  background-size: 60% 100%;
+  background: url("../../images/digitalLead-sec-2.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
   background-color: #deeefb;
@@ -201,7 +201,7 @@
 }
 
 .restaurant-app-sec-03 {
-  background: url("../../images/restaurant-app-sec-03.png");
+  /* background: url("../../images/restaurant-app-sec-03.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50vw center;
@@ -256,7 +256,6 @@
   background: url("../../images/marketing-automation-sec-02.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 5vw;
   background-color: #deeefb;
 }
 .advanced-digital-sec-01 {

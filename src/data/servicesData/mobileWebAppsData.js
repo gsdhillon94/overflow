@@ -81,7 +81,7 @@ export const mobileWebAppsData = [
         size: "14px",
         tag: "p",
         text:
-          "You can get unique enhance the appearance to unimaginable levels. We are a leading web development company that ensures to give you high-quality websites.",
+          "You can get unique enhance, the appearance to unimaginable levels. We are a leading web development company that ensures to give you high-quality websites.",
       },
     ],
   },
@@ -104,7 +104,7 @@ export const mobileWebAppsData = [
         size: "14px",
         tag: "p",
         text:
-          "With our expertise and knowledge, we are able to build high-quality WordPress websites that drive guaranteed results to help grow your business. ",
+          "With our expertise and knowledge, we are able to build high-quality WordPress websites that drive guaranteed results to help grow your business.",
       },
 
       {
@@ -124,7 +124,7 @@ export const mobileWebAppsData = [
     sectionBackground: "quality_control.png",
     data: [
       {
-        id: "01",
+        id: "customAppDevelopment",
         contentType: "text",
         tag: "h2",
         text: "Custom Mobile Apps Development ",

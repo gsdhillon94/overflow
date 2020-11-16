@@ -24,7 +24,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Result-driven Digital Marketing Services tailored to your unique business needs. Improve ROI with stronger digital footprint, more traffic, and better quality leads. Stand out from the competition with a tailored strategy that fits your business.",
+          "Result-driven Digital Marketing Services tailored to your unique business needs. Improve ROI with stronger digital footprint, more traffic and better quality leads. Stand out from the competition with a tailored strategy that fits your business.",
       },
       {
         id: "04",
@@ -34,7 +34,7 @@ export const digitalLeadServicesData = [
         list_style_image: "",
         list: [
           "Reasonable Pricing",
-          "Guranteed Results",
+          "Guaranteed Results",
           "Effective Strategies",
           "Creative Graphic Designs",
         ],
@@ -58,7 +58,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Empower Your SEO Strategies & Significantly Improve Search Rankings. Website Audit. Looking For Best SEO Services ? Certified Partner with years of experience.",
+          "Empower Your SEO Strategies & Significantly Improve Search Rankings. Website Audit. Looking For Best SEO Services? Certified Partner with years of experience.",
       },
       {
         id: "03",
@@ -116,7 +116,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "We have impressive Pay Per Click Advertising experience and proud Google Certified with Analytics, Search and Display Ads Certification for Google Ads Management. We managed multiple Ads campaigns in both Google, Bing, Facebook and Media Buy Ads. Helping clients reach their target audience in real-time and generate quality traffic and help them improve their leads, conversion and sales.",
+          "We have impressive Pay Per Click Advertising experience and proud Google Certified with Analytics, Search and Display Ads Certification for Google Ads Management. We managed multiple Ads campaigns in Google, Bing, Facebook and Media Buy Ads. Helping clients reach their target audience in real-time and generate quality traffic and help them improve their leads, conversion and sales.",
       },
       {
         id: "03",
@@ -124,7 +124,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Get more traffic and conversions with our premium PPC campaign management services. Our PPC agency gets results, and we can prove it to you.",
+          "Get more traffic and conversions with our premium PPC campaign management services. Our PPC agency gets results and we can prove it to you.",
       },
       {
         id: "04",
@@ -132,7 +132,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "We can help! we have the tools, skills, experience and proud Google and Facebook certified to manage and handle pay per click advertising across all platforms.",
+          "We can help! We have the tools, skills, experience and proud Google and Facebook certified to manage and handle pay per click advertising across all platforms.",
       },
       {
         id: "05",
@@ -169,7 +169,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Over the past few years, social media channels like Facebook, Twitter, and Instagram have become standard components of an effective digital marketing strategy.",
+          "Over the past few years, social media channels like Facebook, Twitter and Instagram have become standard components of an effective digital marketing strategy.",
       },
       {
         id: "04",
@@ -177,7 +177,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Getting the results you want can be challenging, but the resources on this page can help you accomplish your social media marketing goals.",
+          "Getting the results, your wants can be challenging, but the resources on this page can help you accomplish your social media marketing goals.",
       },
       {
         id: "05",
@@ -185,7 +185,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "We provide new account setups, account management, posting services, and paid advertising options that will help spread online presence and drive engagement.",
+          "We provide new account setups, account management, posting services and paid advertising options that will help spread online presence and drive engagement.",
       },
       {
         id: "06",
@@ -193,7 +193,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "These efforts will develop a following of social media users who are interested in your product and services or what you can offer them.",
+          "These efforts will develop following of social media users who are interested in your product and services or what you can offer them.",
       },
     ],
   },
@@ -221,7 +221,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "We will manage your campaigns, and ensure that your email content is top-level and that it encourages users to visit your site and purchase your products and services that you offer.",
+          "We will manage your campaigns and ensure that your email content is top-level and that it encourages users to visit your site and purchase your products and services that you offer.",
       },
       {
         id: "04",
@@ -229,7 +229,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Our email marketing management services include responsive design email, content creation, and personalization, and we will help you choose the campaign that matches your business needs.",
+          "Our email marketing management services include responsive design email, content creation and personalization, and we will help you choose the campaign that matches your business needs.",
       },
     ],
   },
@@ -259,7 +259,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "Content marketing is much more than creating, distributing and sharing content in order to engage audiences, generate leads, improve branding, and other marketing goals you can serve with content marketing.",
+          "Content marketing is much more than creating, distributing and sharing content in order to engage audiences, generate leads, improve branding and other marketing goals you can serve with content marketing.",
       },
 
       {
@@ -351,8 +351,7 @@ export const digitalLeadServicesData = [
         contentType: "text",
         size: "14px",
         tag: "p",
-        text:
-          "Competition analysis – Why are your competitors outranking you? ",
+        text: "Competition analysis – Why are your competitors outranking you?",
       },
       {
         id: "06",
@@ -382,7 +381,7 @@ export const digitalLeadServicesData = [
         size: "14px",
         tag: "p",
         text:
-          "We offer innovative and cost-effective Online Lead Generation services to all businesses and industries online. We used the power of Search Engine Marketing, Social Media Marketing, and Sponsored Advertising through Google Ads and Facebook Ads.",
+          "We offer innovative and cost-effective Online Lead Generation services to all businesses and industries online. We used the power of Search Engine Marketing, Social Media Marketing and Sponsored Advertising through Google Ads and Facebook Ads.",
       },
       {
         id: "03",

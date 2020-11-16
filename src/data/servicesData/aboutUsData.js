@@ -84,7 +84,7 @@ export const aboutUsData = [
         size: "14px",
         tag: "p",
         text:
-          "Overflow has completed hundreds of campaigns for clients big and small. We know how to get results. We have implemented a unique lead generation process that we put guarantee will deliver on the mutually agreed KPI's that we put in place before the commencement of any campaign.",
+          "Overflow has completed hundreds of campaigns for big and small clients. We know how to get results. We have implemented a unique lead generation process that will deliver on the mutually agreed KPI's that we put in place before the commencement of any campaign.",
       },
       {
         id: "05",
@@ -127,7 +127,7 @@ export const aboutUsData = [
         size: "14px",
         tag: "p",
         text:
-          "To provide solutions to small to large businesses to have a high-quality team to look after their leads, sales, information technologies needs and digital marketing and all the way through business solutions. So, they can overflow their business as we can solve their problems through our best team and to provide the best customer results possible through our services.",
+          "To provide solutions to small and large businesses to have a high-quality team to look after their leads, sales, information technologies needs and digital marketing and all the way through business solutions. So, they can overflow their business as we can solve their problems through our best team and to provide the best customer results possible through our services.",
       },
     ],
   },
