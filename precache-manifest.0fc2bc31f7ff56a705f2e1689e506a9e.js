@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14124a72c6617159b7c60c883a36f672",
+    "revision": "8e91bc66ac07de3f69a24a06e4604308",
     "url": "/overflow/index.html"
   },
   {
-    "revision": "bc2e3508962a9ba86ae2",
-    "url": "/overflow/static/css/main.45d7ae00.chunk.css"
+    "revision": "c8bfb09f89dda9a9aaf7",
+    "url": "/overflow/static/css/main.1bc26c8d.chunk.css"
   },
   {
-    "revision": "1abf90e6cf71544855e2",
-    "url": "/overflow/static/js/2.9140b91f.chunk.js"
+    "revision": "4a9161a46c065a8d8ba0",
+    "url": "/overflow/static/js/2.eab5395b.chunk.js"
   },
   {
     "revision": "f9e7e68e90600aabdd7d1f759413461d",
-    "url": "/overflow/static/js/2.9140b91f.chunk.js.LICENSE.txt"
+    "url": "/overflow/static/js/2.eab5395b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc2e3508962a9ba86ae2",
-    "url": "/overflow/static/js/main.1a1371d3.chunk.js"
+    "revision": "c8bfb09f89dda9a9aaf7",
+    "url": "/overflow/static/js/main.508155e7.chunk.js"
   },
   {
     "revision": "d890951c157360c3a4c2",
@@ -80,16 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/CRM-1.06a25cd8.jpg"
   },
   {
+    "revision": "25a1c1c063216f1eff9c9d6d0eba796c",
+    "url": "/overflow/static/media/Clothing.25a1c1c0.png"
+  },
+  {
     "revision": "89a118827991f205273b48265e9fee80",
     "url": "/overflow/static/media/Consulting.89a11882.png"
   },
   {
     "revision": "a34ee8d14e00b06f835d412f60fd50eb",
     "url": "/overflow/static/media/Cover.a34ee8d1.png"
-  },
-  {
-    "revision": "a4a6d45cebf9569aa0c1b8f1dfecfb72",
-    "url": "/overflow/static/media/Cyber-Security.a4a6d45c.png"
   },
   {
     "revision": "421e3969d9283b662869d8cd106538ef",
@@ -136,16 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/Marketing-Advertising.e48b8629.png"
   },
   {
-    "revision": "54c56ec86ec7450a34ab12cd2f5754ec",
-    "url": "/overflow/static/media/Motor-vehicles.54c56ec8.png"
+    "revision": "0c7f1b030a820c86067cbff0b2452bbe",
+    "url": "/overflow/static/media/Motor-vehicles.0c7f1b03.png"
   },
   {
     "revision": "df7330254513d2fa2f4c1e9ee98cc6c6",
     "url": "/overflow/static/media/Muli.df733025.ttf"
-  },
-  {
-    "revision": "ff78344509af1971e10ace3e5dda86fa",
-    "url": "/overflow/static/media/Online-Marketing.ff783445.png"
   },
   {
     "revision": "f54e2439519253649cdac0c742252188",
@@ -176,10 +172,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/Software-Publishing.7f4b5c9c.png"
   },
   {
-    "revision": "c116217877e1609666bf0478c745c3fe",
-    "url": "/overflow/static/media/Tele-communication.c1162178.png"
-  },
-  {
     "revision": "fe160284158c6560bd18114db483db25",
     "url": "/overflow/static/media/Turbocharge-1-1.fe160284.jpg"
   },
@@ -204,8 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/WebsiteDesign.5373fd7d.jpg"
   },
   {
-    "revision": "460d9c05b2b36614961ab2a7f6423b93",
-    "url": "/overflow/static/media/Wholesale.460d9c05.png"
+    "revision": "9cd18eff3ae3b5c0d9df8bd165a099be",
+    "url": "/overflow/static/media/Wholesale.9cd18eff.png"
   },
   {
     "revision": "4fe9f433c7fad7bb979f63fb177a9b80",
@@ -324,12 +316,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/digitalLead-sec-1.89e5a37a.png"
   },
   {
+    "revision": "d8e1817f0e8982cc3cb4265c64806f8a",
+    "url": "/overflow/static/media/digitalLead-sec-2.d8e1817f.png"
+  },
+  {
     "revision": "23251fc97d303c23d8915d493a822164",
     "url": "/overflow/static/media/digitalLead-sec-3.23251fc9.png"
   },
   {
-    "revision": "d5447bb73bb3b468d366c31dd343f452",
-    "url": "/overflow/static/media/digitalLead-sec-4.d5447bb7.png"
+    "revision": "99a41bdc283ffc90b9d79747a0e95c83",
+    "url": "/overflow/static/media/digitalLead-sec-4.99a41bdc.png"
   },
   {
     "revision": "167d1c62b3fa17fcfd44184fa03da709",
@@ -342,6 +338,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d799a495dd626fc765ed2dda17efc75b",
     "url": "/overflow/static/media/digitalLead-sec-8.d799a495.png"
+  },
+  {
+    "revision": "1ce73a0681e3fed00006df867ea8aa74",
+    "url": "/overflow/static/media/e-commerce.1ce73a06.png"
+  },
+  {
+    "revision": "50d3eca51b2c9e8f3872e82e568dd8ec",
+    "url": "/overflow/static/media/general-merchandise.50d3eca5.png"
   },
   {
     "revision": "d51b043bb4eee329254320f130b969de",
@@ -392,8 +396,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/marketing-automation-sec-01.32fd94b6.png"
   },
   {
-    "revision": "b240a236530569c8cbd116f32ad9673b",
-    "url": "/overflow/static/media/marketing-automation-sec-02.b240a236.png"
+    "revision": "89a209e84714075ad0488ac36741961f",
+    "url": "/overflow/static/media/marketing-automation-sec-02.89a209e8.png"
   },
   {
     "revision": "8cc983e581b09de301ea9a3693f81f68",
@@ -428,12 +432,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/restaurant-app-sec-01.f21e0b20.png"
   },
   {
-    "revision": "3dad220b1aabe5452c1eb5acafb9daf2",
-    "url": "/overflow/static/media/restaurant-app-sec-02.3dad220b.png"
-  },
-  {
-    "revision": "ce176d7722b45011dc7fcc317fb9c59d",
-    "url": "/overflow/static/media/restaurant-app-sec-03.ce176d77.png"
+    "revision": "571951eb02892382813bc2590784504f",
+    "url": "/overflow/static/media/restaurant-app-sec-02.571951eb.png"
   },
   {
     "revision": "8f76b40fbc2bda0c7994e437a5eb04e0",
@@ -444,8 +444,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/overflow/static/media/restaurant-app-sec-05.3dad220b.png"
   },
   {
-    "revision": "1429408f66ae1ea58598d93c621d5e6c",
-    "url": "/overflow/static/media/restaurant-app-sec-06.1429408f.png"
+    "revision": "f21e0b2041315d9a0c182ffbc1c8fcb7",
+    "url": "/overflow/static/media/restaurant-app-sec-06.f21e0b20.png"
   },
   {
     "revision": "42230f8c190d16926441a442ad31315c",
