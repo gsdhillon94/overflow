@@ -71,7 +71,7 @@ class App extends React.Component {
             {backDrop}
             <main>
               <Switch>
-                <Route exact path="/overflow">
+                <Route exact path="/">
                   <Home sectionsData={this.state.sectionsData}></Home>
                 </Route>
                 <Route path="/blogs/:title">

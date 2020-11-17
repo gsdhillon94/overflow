@@ -80,7 +80,7 @@ export const questionsData = [
       id: "q04",
       type: "radio",
       name: "Professional Services",
-      q: "What prefessional services do you work in?",
+      q: "What professional services do you work in?",
       options: [
         { value: "Finance and Accounting", image: "Finance-Accounting.png" },
         { value: "Architecture", image: "Architecture.png" },
@@ -159,7 +159,7 @@ export const questionsData = [
       id: "q07",
       type: "radio",
       name: "our_services",
-      q: "What services do youneed int he next 12 months?",
+      q: "What services do you need in the next 12 months?",
       options: [
         {
           value: "Build Mobile and Web applications",

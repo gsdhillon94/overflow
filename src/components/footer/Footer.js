@@ -46,7 +46,7 @@ function Footer() {
         <div className="fd-1rem">
           <p>Company</p>
           <ul>
-            <Link to="/overflow">
+            <Link to="/">
               <li>Home</li>
             </Link>
             <Link to="/about">

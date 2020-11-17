@@ -37,7 +37,7 @@ const SideDrawer = (props) => {
         </li>
 
         <li>
-          <Link to="/overflow">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">About US</Link>

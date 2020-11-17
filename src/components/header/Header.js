@@ -31,7 +31,7 @@ function Header(props) {
           <DrawerToggleButton click={props.drawerClickHandeler} />
         </div>
         <div className="toolbar__logo">
-          <Link to="/overflow">
+          <Link to="/">
             <img src={logo} alt={logo} />
           </Link>
         </div>
@@ -40,7 +40,7 @@ function Header(props) {
           <div className="toolbar_navgation-items-up">
             <ul>
               <li>
-                <Link to="/overflow">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="/about">About Us</Link>
