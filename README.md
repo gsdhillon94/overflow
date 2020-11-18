@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Created for Overflow Digital Solutions
 
 ## Available Scripts
 
@@ -7,17 +7,12 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000/overflow](http://localhost:3000/overflow) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### `npm run-scripts build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -37,32 +32,134 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `Home Page`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The home page is located at src > Pages > Home.js. The data for the Home page comes from three files:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- sectionsData.js - for the first two sections
+- serviceCardsData.js - for the data in the service cards displayed on the home page
+- Home.js - for the data in testimonials
 
-### Code Splitting
+### `Header`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The data for header comes from the src > components > Header.js file.
+The data for the side navigation on the mobile screen comes from the src > components > SideDrawer > SideDrawer.js file.
 
-### Analyzing the Bundle Size
+### `Footer`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+The data for the Footer is available in the file src > components > Footer.js
 
-### Making a Progressive Web App
+### `About Us`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+The data for About Us page comes from the file src > data > servicesData > aboutUsData.js
 
-### Advanced Configuration
+### `Blogs`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+The data for Blogs page comes from the firebase cloud storage.
 
-### Deployment
+### `Appointment Setting`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+The data for Appointment Setting page comes from the file src > data > servicesData > appointmentSettingData.js
 
-### `npm run build` fails to minify
+### `Tele Marketing`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The data for Tele Marketing page comes from the file src > data > servicesData > teleMarketingData.js
+
+### `Data Cleaning`
+
+The data for Data Cleaning page comes from the file src > data > servicesData > dataCleaningData.js
+
+### `Digital Lead`
+
+The data for Digital Lead page comes from the file src > data > servicesData > digitalLeadServicesData.js
+
+### `Appointment Setting`
+
+The data for Appointment Setting page comes from the file src > data > servicesData > appointmentSettingData.js
+
+### `Mobile & web Apps`
+
+The data for Mobile & web Apps page comes from the file src > data > servicesData > mobileWebAppsData.js
+
+### `Restaurant-App`
+
+The data for Restaurant-App page comes from the file src > data > servicesData > restaurantAppData.js
+
+### `Business Events`
+
+The data for Business Events page comes from the file src > data > servicesData > businessEventsData.js
+
+### `Sales Training`
+
+The data for Sales Training page comes from the file src > data > servicesData > salesTrainingData.js
+
+### `Marketing Automation`
+
+The data for Marketing Automation page comes from the file src > data > servicesData > marketingAutomation.js
+
+### `Advanced Digital Solutions`
+
+The data for Advanced Digital Solutions page comes from the file src > data > servicesData > advanecdDigitalData.js
+
+### `Video and Animation`
+
+The data for Video and Animation page comes from the file src > data > servicesData > videoAnimationData.js
+
+### `COntact`
+
+The data for COntact page comes from the file src > Pages > Contact.js.
+
+### `Edit Content`
+
+To Edit the content for a page you need to go to the file containing the data. The files for data contain a JSON object which is read and rendered by the application and generates a web page. The JSON object has following features :
+
+- {
+  id: "aboutUs-sec",
+  sectionAlign: "content-left",
+  sectionClasses: ["section", "about-setting-1"],
+  data: [
+  {
+  id: "01",
+  contentType: "text",
+  tag: "h2",
+  text: "Let us overflow your business.",
+  },
+  {
+  id: "02",
+  contentType: "horizontal Line",
+  width: "25%",
+  tag: "hr",
+  margin: "0",
+  border: "2px solid #0e38aa",
+  },
+  {
+  id: "03",
+  contentType: "text",
+  size: "14px",
+  tag: "p",
+  text:
+  "Overflow Digital Solutions takes great pride in having the ability of problem-solving mindset.",
+  },
+
+The `contentType` attribute shows what type of data is rendered.
+The `text` attribute contains the data to be displayed. This is where you can edit the content.
+
+### `Adding New Content`
+
+To add a `New Section` you need to add the following type of JSON object to the data file of the page you want to edit.
+{
+id: "aboutUs-sec", `<- Section ID needs to be in sequence`
+sectionAlign: "content-left", `<- for sections in which the content is displayed in the left and image is displayed in the right`
+sectionClasses: ["section", "about-setting-1"],
+data: [] `<- This array contains the list of objects you want to display`
+}
+
+To `add heading` to the new section add the following object to the data[] array:
+{
+id: "01", `<- this is the ID for the element`
+contentType: "text", `<- type of to be displayed`
+tag: "h2", `<- Tag of the heading`
+text: "Let us overflow your business.", `<- content of the heading`
+},
+
+To add `horizontal line` use the below JSON object inside the data[] array.
