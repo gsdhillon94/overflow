@@ -105,7 +105,7 @@ The data for Advanced Digital Solutions page comes from the file src > data > se
 
 The data for Video and Animation page comes from the file src > data > servicesData > videoAnimationData.js
 
-### `COntact`
+### `Contact`
 
 The data for COntact page comes from the file src > Pages > Contact.js.
 
