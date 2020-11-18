@@ -162,3 +162,30 @@ text: "Let us overflow your business.", `<- content of the heading`
 },
 
 To add `horizontal line` use the below JSON object inside the data[] array.
+{
+id: "02",
+contentType: "horizontal Line",
+width: "25%", `<- denotes the width of the line`
+tag: "hr",
+margin: "0",
+border: "2px solid #0e38aa", `<- the #0e38aa denotes the color of the line`
+},
+
+To `Add a text` use the below JSON object inside the data[] array.
+{
+id: "03",
+contentType: "text",
+size: "14px",
+tag: "p",
+text:
+"Overflow Digital Solutions takes great pride in having the ability of problem-mindset.", `<- content for the text`
+},
+
+### `Change Images`
+
+To `Change Image` simply find the image name from src > images folder and replace the image with the exactly same name and extension.
+
+### `Update changes`
+
+After making the required changes to deploy your changes open command prompt. go to the folder location where the src folder resides. In the command promt /terminal execute the code `npm run-script build`. This will create a folder names `build` in the same location wheer src folder resides. The all contents of this folder are to be copied to the public_html folder in C-panel. Folders can not be uploaded in C-panel. to overcome this, you need to go inside the specific folder and copy its contents.
+Once all the files in the build folder have been copied to c-panel, Refresh the website URL `https://www.overflowdigitalsolutions.com/` and the changes should be visible.
