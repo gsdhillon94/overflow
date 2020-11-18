@@ -112,34 +112,33 @@ The data for COntact page comes from the file src > Pages > Contact.js.
 ### `Edit Content`
 
 To Edit the content for a page you need to go to the file containing the data. The files for data contain a JSON object which is read and rendered by the application and generates a web page. The JSON object has following features :
-
-- {
-  id: "aboutUs-sec",
-  sectionAlign: "content-left",
-  sectionClasses: ["section", "about-setting-1"],
-  data: [
-  {
-  id: "01",
-  contentType: "text",
-  tag: "h2",
-  text: "Let us overflow your business.",
-  },
-  {
-  id: "02",
-  contentType: "horizontal Line",
-  width: "25%",
-  tag: "hr",
-  margin: "0",
-  border: "2px solid #0e38aa",
-  },
-  {
-  id: "03",
-  contentType: "text",
-  size: "14px",
-  tag: "p",
-  text:
-  "Overflow Digital Solutions takes great pride in having the ability of problem-solving mindset.",
-  },
+{
+id: "aboutUs-sec",
+sectionAlign: "content-left",
+sectionClasses: ["section", "about-setting-1"],
+data: [
+{
+id: "01",
+contentType: "text",
+tag: "h2",
+text: "Let us overflow your business.",
+},
+{
+id: "02",
+contentType: "horizontal Line",
+width: "25%",
+tag: "hr",
+margin: "0",
+border: "2px solid #0e38aa",
+},
+{
+id: "03",
+contentType: "text",
+size: "14px",
+tag: "p",
+text:
+"Overflow Digital Solutions takes great pride in having the ability of problem-mindset.",
+},
 
 The `contentType` attribute shows what type of data is rendered.
 The `text` attribute contains the data to be displayed. This is where you can edit the content.
